@@ -27,6 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-The Foundations of Reasoning in Language Models Workshop will take place at NeurIPS 2025, in San Diego, California. 
+The Foundations of Reasoning in Language Models Workshop will take place at NeurIPS 2025, in San Diego, California. Our goal is to advance the foundations of reasoning and highlight core challenges that limit current capabilities, with a focus on: 
+
+- The development of formal frameworks for modeling reasoning;
+- The pursuit of deeper conceptual understanding through theoretical analysis and scientific experimentation;
+- The creation of well-defined, interpretable testbeds for evaluating reasoning behavior;
+- The design of principled algorithmic interventions.
 
 We invite 4-8 page submissions to a single non-archival track. See our Call for Papers for more information. The submission deadline is TBD.
