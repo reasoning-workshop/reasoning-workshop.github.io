@@ -1,0 +1,2 @@
+**William Merrill** is a PhD student at New York University advised by Tal Linzen. He is also an incoming Assistant Professor at the Toyota Technical Institute at Chicago, following a short-term postdoc at the Allen Institute for AI. His work focuses on characterizing the computational power and limitations of language modeling architectures using formal languages and complexity theory, with an eye towards understanding
+how large language models can solve hard reasoning problems.
