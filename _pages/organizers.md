@@ -4,7 +4,7 @@ permalink: /organizers/
 title: Organizers
 description: 
 nav: true
-nav_order: 3
+nav_order: 5
 
 profiles:
   - align: right
@@ -12,7 +12,7 @@ profiles:
     content: audrey.md
     image_circular: true # crops the image to make it circular
     more_info:
-  - align: right
+  - align: left
     image: adam.jpg
     content: adam.md
     image_circular: true # crops the image to make it circular
@@ -22,7 +22,7 @@ profiles:
     content: sadhika.md
     image_circular: true # crops the image to make it circular
     more_info:
-  - align: right
+  - align: left
     image: will.jpg
     content: will.md
     image_circular: true # crops the image to make it circular
@@ -37,12 +37,12 @@ profiles:
     content: dylan.md
     image_circular: true # crops the image to make it circular
     more_info:
-  - align: left
+  - align: right
     image: akshay.jpg
     content: akshay.md
     image_circular: true # crops the image to make it circular
     more_info:
-  - align: right
+  - align: left
     image: tatsu.jpg
     content: tatsu.md
     image_circular: true # crops the image to make it circular
