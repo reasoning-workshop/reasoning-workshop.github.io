@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: NeurIPS 2025 Workshop
+subtitle: FoRLM @ NeurIPS 2025
 
 profile:
   align: right
@@ -30,7 +30,7 @@ Our workshop is centered on developing *foundational understanding* (theoretical
 
 We aim to foster dialogue between communities with complementary strengths---those building theoretical models of reasoning phenomena;
 those designing experiments that reveal its emergence or failure in practice;
-and those proposing algorithmic developments that advance reasoning---around three primary questions:
+and those proposing algorithmic developments that advance reasoning---around *three primary questions*:
 
 1.  How are LMs able to solve complex tasks, and why do they often struggle with seemingly simple ones?
 2.  What fundamental challenges stand in the way of advancing reasoning capabilities?
