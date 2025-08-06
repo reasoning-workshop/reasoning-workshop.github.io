@@ -16,12 +16,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cfp/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
+        },{id: "nav-organizers",
+          title: "Organizers",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/organizers/";
+          },
+        },{id: "nav-speakers",
+          title: "Speakers",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/speakers/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -399,8 +406,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-announcement-3",
+          title: 'announcement 3',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
