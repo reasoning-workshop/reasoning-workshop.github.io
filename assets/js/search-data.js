@@ -16,12 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cfp/";
           },
-        },{id: "nav-organizers",
-          title: "Organizers",
-          description: "",
+        },{id: "nav-schedule",
+          title: "Schedule",
+          description: "The session will cover invited talks, contributed talks and posters. The tentative schedule in Central European Summer Time (GMT+2) can be found below.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/organizers/";
+            window.location.href = "/icml2024/schedule/";
           },
         },{id: "nav-speakers",
           title: "Speakers",
@@ -29,6 +29,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/speakers/";
+          },
+        },{id: "nav-organizers",
+          title: "Organizers",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/organizers/";
           },
         },{id: "post-a-post-with-plotly-js",
         
