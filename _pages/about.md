@@ -27,11 +27,18 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-The Foundations of Reasoning in Language Models Workshop will take place at NeurIPS 2025, in San Diego, California. Our goal is to advance the foundations of reasoning and highlight core challenges that limit current capabilities, with a focus on: 
+The workshop on Foundations of Reasoning in Language Models (FoRLM) will take place on **Saturday, December 6 at NeurIPS 2025** in San Diego, California.
 
-- The development of formal frameworks for modeling reasoning;
-- The pursuit of deeper conceptual understanding through theoretical analysis and scientific experimentation;
-- The creation of well-defined, interpretable testbeds for evaluating reasoning behavior;
-- The design of principled algorithmic interventions.
+Our workshop is centered on developing *foundational understanding* (theoretical analyses and controlled empirical studies that illuminate how reasoning emerges, where it fails, and how it can be systematically improved), *principled interventions*, and *rigorous scientific evaluations* for reasoning in language models.
 
-We invite 4-8 page submissions to a single non-archival track. See our Call for Papers for more information. The submission deadline is TBD.
+We aim to foster dialogue between communities with complementary strengths---those building theoretical models of reasoning phenomena;
+those designing experiments that reveal its emergence or failure in practice;
+and those proposing algorithmic developments that advance reasoning---around three primary questions:
+
+1.  How are LMs able to solve complex tasks, and why do they often struggle with seemingly simple ones?
+2.  What fundamental challenges stand in the way of advancing reasoning capabilities?
+3.  What algorithmic developments can overcome these obstacles?
+
+### Submit
+We invite paper submissions to a single, non-archival track.
+Details can be found in our <a href="https://reasoning-workshop.github.io/cfp/">Call for Papers</a>. **The deadline is Wednesday, September 3, 2025**. 
