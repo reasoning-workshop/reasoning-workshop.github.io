@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /cfp/
-title: Call for Papers
-description: Author instructions for FoRLM 2025
+title: Call for papers
+description: FoRLM 2025 submission guidances
 nav: true
 nav_order: 2
 ---
@@ -13,16 +13,18 @@ nav_order: 2
 - Creating well-defined, interpretable testbeds for evaluating reasoning behavior
 - Designing principled algorithmic interventions, and evaluating them rigorously
 
-<span style="color:red">**Submission deadline:** Wednesday, September 3, 2025</span>
-
 **Submission instructions (TLDR):** Submissions may have at most 9 content pages (within that range, all lengths are welcome), excluding references and supplementary material.
 Papers will be submitted to <a href="https://openreview.net/">(TBD) this OpenReview portal</a>.
 Works that have been published at archival venues, including NeurIPS 2025, will be removed from consideration.
+The submission deadline is <span style="color:red">Wednesday, September 3, 2025.</span>
 
+<span style="color:red">**Submission deadline:** Wednesday, September 3, 2025</span>
 
-#### Topics of Interest
+<br>
 
-Topics (each with a short list of examples) include, but are not limited to:
+#### Topics and Scope
+
+Topics include, but are not limited to:
 
 1. **Models of Reasoning**
 <br>
@@ -63,12 +65,15 @@ Topics (each with a short list of examples) include, but are not limited to:
   - Curriculum and continual learning 
   - Self-improvement and self-verification
 
-#### Important dates
+<br>
+
+#### Important Dates
 
 - **Submission deadline:** Wednesday, September 3, 2025, AoE
 - **Author notification:** Monday, September 22, 2025, AoE
 - **Workshop date:** Saturday, December 6, 2025
 
+<br>
 
 #### Submission Instructions
 
@@ -81,6 +86,8 @@ Previously published papers, including those at NeurIPS 2025, will not be permit
 **Submitting your paper:** Please upload your submission as a single PDF to <a href="https://openreview.net/">(TBD) this OpenReview portal</a>. 
 
 **Anonymization:** Reviews will be double-blind. Please ensure that submissions do not contain author names (should be handled automatically by the NeurIPS style files) or other identifying information.
+
+<br>
 
 #### Dual Submission Policy
 
