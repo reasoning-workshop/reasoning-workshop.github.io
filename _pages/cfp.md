@@ -7,37 +7,53 @@ nav: true
 nav_order: 2
 ---
 
-**Submission deadline:** Wednesday, September 3, 2025
-
 **We welcome contributions that advance the scientific foundations of reasoning in language models**, such as by:
-- Deeper conceptual understanding through scientific experimentation and theoretical analysis
+- Deeper conceptual understanding through scientific experimentation and theoretical analysis (including negative results)
 - Developing formal frameworks that model reasoning
 - Creating well-defined, interpretable testbeds for evaluating reasoning behavior
 - Designing principled algorithmic interventions, and evaluating them rigorously
 
-**Submission instructions TLDR:** Submissions may have at most 9 content pages (within that range, all lengths are welcome), excluding references and supplementary material.
+<span style="color:red">**Submission deadline:** Wednesday, September 3, 2025</span>
+
+**TLDR Submission instructions:** Submissions may have at most 9 content pages (within that range, all lengths are welcome), excluding references and supplementary material.
 Papers will be submitted to <a href="https://openreview.net/">(TBD) this OpenReview portal</a>.
 Works that have been published at archival venues, including NeurIPS 2025, will be removed from consideration.
 
 
 #### Topics of Interest
 
-These include, but are not limited to:
+Topics (each with a short list of examples) include, but are not limited to:
 
-1. **Models for Reasoning**
-    - Formal or conceptual frameworks that characterize reasoning phenomena
+1. **Models of Reasoning:** Theories, frameworks, hypotheses for reasoning problems and phenomena that are scientifically analyzed
+  - Formalizing and examining novel generalization paradigms (e.g., length or compositional generalization, diversity, task shift)
+  - Investigating behaviors such as backtracking, "aha moments," increasing length of reasoning trace---how they influence capabilities and how they can be modulated to improve reasoning
+  - Tackling core reasoning challenges via abstractions, e.g., casting formal theorem proving as graph problems
+  - Identifying and characterizing effective inductive biases (e.g., pivotal tokens) that support understanding or inspire innovations
 
-2. **Principled Algorithmic Interventions**
-    - Design of algorithms grounded in theoretical and empirical insights
+2. **Principled Algorithmic Interventions:** Design of algorithms grounded in theoretical and empirical insights
+  - Pre-training and post-training interventions targeting the challenges of multi-step reasoning problems
+  - What can we do with process reward models at train or test time?
+  - Exploration for reasoning
+  - The collection or curation of data and/or supervision, such as reasoning traces; or, learning how to generate them
 
-3. **Diagnostics and Evaluations**
-    - Dedicated benchmarks, metrics, and scientific methods that isolate and probe reasoning behaviors
+3. **Diagnostics and Evaluations:** Dedicated benchmarks, metrics, and scientific methods that isolate and probe reasoning behaviors
+  - Tasks, metrics, and datasets, especially interpretable ones, that target behaviors or challenges in reasoning
+  - Tasks that simulate components of language model development "at scale," such as pre-training
+  - Scientific evaluation of reasoning models and algorithms
+  - Mechanistic interpreatbility and understanding
 
-4. **Representational and Architectual Challenges**
-    - How model architectures, internal representations, and generation methods enable or limit reasoning abilities
+4. **Representational and Architectural Questions in Reasoning:** How model architectures, internal representations, and generation methods enable or limit reasoning abilities
+  - Representation learning, feature acquisition, compositional generalization in reasoning
+  - The effect of depth, dimension, and chain-of-thought on transformer capabilities for reasoning problems (e.g., search in proof trees)
+  - Alternative architectures like state-space models, text diffusion models, deep equilibrium models
 
-5. **Training Paradigms and the Emergence of Reasoning**
-    - How pre-training, supervised finetuning, reinforcement learning, and test-time methods interact to elicit reasoning capabilities
+
+5. **Training Paradigms and the Emergence of Reasoning** How parts of the LM development pipeline---pre-training, supervised finetuning, reinforcement learning, test-time methods, even data---interact to elicit reasoning capabilities.
+  - The relationship between pre-training and post-training
+  - Examining the effect of different posttraining methods (e.g., expert iteration, RL, SFT) on improving or distorting reasoning behaviors during finetuning
+  - How to integrate test-time methods (or which to integrate) in order to best support post-trained models
+  - Curriculum and continual learning
+  - Self-improvement and self-verification
 
 #### Important dates
 
