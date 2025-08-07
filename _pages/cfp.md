@@ -69,12 +69,13 @@ Topics include, but are not limited to:
 
 
 #### Submission Instructions
+---
 
 **Format:** Submitted papers may have at most 9 content pages, excluding references and supplementary material.
 Within those constraints, all page lengths are welcome.
 Previously published papers, including those at NeurIPS 2025, will not be permitted (see "Dual Submission Policy" below).
 
-**Style files:** Submissions must use the <a href="https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip"> NeurIPS 2025 style files </a>.
+**Style files:** Submissions must use the <a href="https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip"> NeurIPS 2025 style files</a>.
 
 **Submitting your paper:** Please upload your submission as a single PDF to <a href="https://openreview.net/">(TBD) this OpenReview portal</a>. 
 
@@ -85,7 +86,7 @@ Previously published papers, including those at NeurIPS 2025, will not be permit
 #### Dual Submission Policy
 
 We do not permit submissions that have been published at archival venues, including NeurIPS 2025.
-This ensures that ForLM 2025 best facilitates the presentation and discussion of fresh contributions best suited to the workshop's format.
+This ensures that FoRLM 2025 best facilitates the presentation and discussion of fresh contributions best suited to the workshop's format.
 
 This policy is in accordance with the
 <a href="https://neurips.cc/Conferences/2025/CallForWorkshopsGuidance">NeurIPS 2025 workshop guidances</a>, which state that "workshops are not a venue for work that has been previously published in other conferences on machine learning or related fields. Work that is presented at the main NeurIPS conference should not appear in a workshop, including as part of an invited talk."
