@@ -76,8 +76,9 @@ Previously published papers, including those at NeurIPS 2025, will not be permit
 
 #### Dual Submission Policy
 
-Per the <a href="https://neurips.cc/Conferences/2025/CallForWorkshopsGuidance">NeurIPS 2025 workshop guidances</a>,
+We do not permit submissions that have been published at archival venues, including NeurIPS 2025.
+This ensures that ForLM 2025 best facilitates the presentation and discussion of fresh contributions best suited to the workshop's format.
 
-> "workshops are not a venue for work that has been previously published in other conferences on machine learning or related fields. Work that is presented at the main NeurIPS conference should not appear in a workshop, including as part of an invited talk."
+This policy is in accordance with the
+<a href="https://neurips.cc/Conferences/2025/CallForWorkshopsGuidance">NeurIPS 2025 workshop guidances</a>, which state that "workshops are not a venue for work that has been previously published in other conferences on machine learning or related fields. Work that is presented at the main NeurIPS conference should not appear in a workshop, including as part of an invited talk."
 
-In accordance, any submission that will be presented at the main NeurIPS conference will be removed from consideration, ensuring that FoRLM 2025 best facilitates fresh contributions best suited to the workshop's format.
