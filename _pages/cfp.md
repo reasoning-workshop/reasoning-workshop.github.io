@@ -35,30 +35,32 @@ Topics (each with a short list of examples) include, but are not limited to:
 2. **Principled Algorithmic Interventions**
 <br>
 *Methods targeting core reasoning challenges, grounded in theoretical and empirical insights*
-  - Innovations in pre-training, post-training, reinforcement learning algorithms
-  - Incorporating or learning different forms of feedback --- verifiers, rewards, process rewards
-  - Exploration
-  - (Automated) Design and collection of demonstrations and reasoning traces
+  - Algorithmic innovations in pre-training, post-training, RL, test-time methods
+  - Learning or incorporating feedback models (verifiers, rewards, process rewards)
+  - Exploration strategies
+  - (Automated) collection or design of demonstrations and reasoning traces 
 
-3. **Diagnostics and Evaluations:**
+3. **Diagnostics and Evaluations**
 <br>
-*Dedicated benchmarks, metrics, and scientific methods that isolate and probe reasoning behaviors*
-  - Tasks, metrics, and datasets, especially interpretable ones, that target behaviors or challenges in reasoning
-  - Tasks that simulate components of language model development "at scale," such as pre-training
-  - Scientific evaluation of reasoning models and algorithms
-  - Mechanistic interpreatbility and understanding
+*Dedicated tasks, metrics, and evaluation methods that probe reasoning behaviors*
+  - Interpretable benchmarks targeting reasoning challenges
+  - Tasks simulating aspects of large-scale LM development (e.g., pre-training)
+  - Rigorous scientific evaluation of reasoning models and algorithms
+  - Mechanistic interpretability studies
 
-4. **Representational and Architectural Questions in Reasoning:** How model architectures, internal representations, and generation methods enable or limit reasoning abilities
-  - Representation learning, feature acquisition, compositional generalization in reasoning
-  - The effect of depth, dimension, and chain-of-thought on transformer capabilities for reasoning problems (e.g., search in proof trees)
+4. **Representational and Architectural Questions in Reasoning**
+<br>
+*How model architectures, learned representations, and generation methods enable or limit capabilities*
+  - Representation learning, feature acquisition, compositional reasoning
+  - Impacts of depth, dimension, chain-of-thought, decoding methods
   - Alternative architectures like state-space models, text diffusion models, deep equilibrium models
 
-
-5. **Training Paradigms and the Emergence of Reasoning** How parts of the LM development pipeline---pre-training, supervised finetuning, reinforcement learning, test-time methods, even data---interact to elicit reasoning capabilities.
-  - The relationship between pre-training and post-training
-  - Examining the effect of different posttraining methods (e.g., expert iteration, RL, SFT) on improving or distorting reasoning behaviors during finetuning
-  - How to integrate test-time methods (or which to integrate) in order to best support post-trained models
-  - Curriculum and continual learning
+5. **Training Paradigms and the Emergence of Reasoning**
+<br>
+*How reasoning abilities arise and evolve across pre-training, post-training, and inference*
+  - Interplay between pre-training and post-training methods (SFT, expert iteration, RL)
+  - Test-time strategies that best support reasoning for an LM
+  - Curriculum and continual learning 
   - Self-improvement and self-verification
 
 #### Important dates
