@@ -7,11 +7,10 @@ nav: true
 nav_order: 2
 ---
 
-**We welcome contributions that advance the scientific foundations of reasoning in language models**, such as by:
-- Deeper conceptual understanding through scientific experimentation and theoretical analysis (including negative results)
-- Developing formal frameworks that model reasoning
-- Creating well-defined, interpretable testbeds for evaluating reasoning behavior
-- Designing principled algorithmic interventions, and evaluating them rigorously
+**We welcome contributions that advance the scientific foundations of reasoning in language models**, via
+- Deeper understanding through rigorous experimentation and analysis (including negative results)
+- Well-tested frameworks and interpretable testbeds that capture core challenges and capabilities
+- Principled algorithmic interventions supported by systematic evaluation
 
 **Submission instructions (TLDR):** Submissions may have at most 9 content pages (within that range, all lengths are welcome), excluding references and supplementary material.
 Papers will be submitted to <a href="https://openreview.net/">(TBD) this OpenReview portal</a>.
