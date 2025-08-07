@@ -17,27 +17,22 @@ Papers will be submitted to <a href="https://openreview.net/">(TBD) this OpenRev
 Works that have been published at archival venues, including NeurIPS 2025, will be removed from consideration.
 The submission deadline is <span style="color:red">Wednesday, September 3, 2025.</span>
 
-<span style="color:red">**Submission deadline:** Wednesday, September 3, 2025</span>
 
-<br>
+#### Topics and scope
 
-#### Topics and Scope
-
-Topics include, but are not limited to:
+Topicsinclude, but are not limited to:
 
 1. **Models of Reasoning**
 <br>
-*Frameworks, theories, and analysis of reasoning phenomena, problems, and solution methods*
-<small>
-  - Novel paradigms for generalization (e.g., compositional, length, diversity, multi-task)
+*Frameworks, theories, analysis of reasoning phenomena*
+  - Novel paradigms for generalization (ex: compositional, length, diversity, multi-task)
   - Behaviors such as backtracking, "aha moments," increasing length of reasoning trace
   - Abstractions of reasoning problems, e.g., formal theorem proving as graph problems
-  - Characterizing effective inductive biases (e.g., pivotal tokens)
-</small>
+  - Characterizing effective inductive biases (ex: pivotal tokens)
 
 2. **Principled Algorithmic Interventions**
 <br>
-*Methods targeting core reasoning challenges, grounded in theoretical and empirical insights*
+*Innovations targeting core reasoning challenges, grounded in theoretical and empirical insights*
 <small>
   - Algorithmic innovations in pre-training, post-training, RL, test-time methods
   - Learning or incorporating feedback models (verifiers, rewards, process rewards)
