@@ -10,8 +10,8 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-call-for-papers",
-          title: "Call for papers",
-          description: "",
+          title: "Call for Papers",
+          description: "Submission instructions for FoRLM 2025",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cfp/";
@@ -405,16 +405,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-announcement-3",
-          title: 'announcement 3',
+            },},{id: "news-last-day-to-submit-by-eod-see-call-for-papers-for-submission-guidelines",
+          title: 'Last day to submit (by EOD). See Call for Papers for submission guidelines....',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
