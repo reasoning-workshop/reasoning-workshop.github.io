@@ -7,8 +7,8 @@ nav: true
 nav_order: 2
 ---
 
-**We welcome contributions that advance the scientific foundations of reasoning in language models**, via
-- Deeper understanding through rigorous experimentation and analysis (including negative results)
+**We welcome contributions that advance the scientific foundations of reasoning in language models** via
+- Rich insights driven by rigorous experimentation and analyses (including negative results)
 - Well-tested frameworks and interpretable testbeds that capture core challenges and capabilities
 - Principled algorithmic interventions supported by systematic evaluation
 
@@ -17,14 +17,13 @@ Papers will be submitted to <a href="https://openreview.net/">(TBD) this OpenRev
 Works that have been published at archival venues, including NeurIPS 2025, will be removed from consideration.
 The submission deadline is <span style="color:red">Wednesday, September 3, 2025.</span>
 
-
 #### Topics and scope
 
-Topicsinclude, but are not limited to:
+Topics include, but are not limited to:
 
 1. **Models of Reasoning**
 <br>
-*Frameworks, theories, analysis of reasoning phenomena*
+  &nbsp;*Frameworks, theories, analysis of reasoning phenomena*
   - Novel paradigms for generalization (ex: compositional, length, diversity, multi-task)
   - Behaviors such as backtracking, "aha moments," increasing length of reasoning trace
   - Abstractions of reasoning problems, e.g., formal theorem proving as graph problems
@@ -33,43 +32,34 @@ Topicsinclude, but are not limited to:
 2. **Principled Algorithmic Interventions**
 <br>
 *Innovations targeting core reasoning challenges, grounded in theoretical and empirical insights*
-<small>
   - Algorithmic innovations in pre-training, post-training, RL, test-time methods
   - Learning or incorporating feedback models (verifiers, rewards, process rewards)
   - Exploration strategies
   - (Automated) collection or design of demonstrations and reasoning traces 
-</small>
 
 3. **Diagnostics and Evaluations**
 <br>
 *Dedicated tasks, metrics, and evaluation methods that probe reasoning behaviors*
-<small>
   - Interpretable benchmarks targeting reasoning challenges
   - Tasks simulating aspects of large-scale LM development (e.g., pre-training)
   - Rigorous scientific evaluation of reasoning models and algorithms
   - Mechanistic interpretability studies
-</small>
 
 4. **Representational and Architectural Questions in Reasoning**
 <br>
 *How model architectures, learned representations, and generation methods enable or limit capabilities*
-<small>
   - Representation learning, feature acquisition, compositional reasoning
   - Impacts of depth, dimension, chain-of-thought, decoding methods
   - Alternative architectures like state-space models, text diffusion models, deep equilibrium models
-</small>
 
 5. **Training Paradigms and the Emergence of Reasoning**
 <br>
 *How reasoning abilities arise and evolve across pre-training, post-training, and inference*
-<small>
   - Interplay between pre-training and post-training methods (SFT, expert iteration, RL)
   - Test-time strategies that best support reasoning for an LM
   - Curriculum and continual learning 
   - Self-improvement and self-verification
-</small>
 
-<br>
 
 #### Important Dates
 
@@ -77,7 +67,6 @@ Topicsinclude, but are not limited to:
 - **Author notification:** Monday, September 22, 2025, AoE
 - **Workshop date:** Saturday, December 6, 2025
 
-<br>
 
 #### Submission Instructions
 
