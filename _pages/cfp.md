@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-**We welcome contributions that advance the scientific foundations of reasoning in language models** via
+We welcome contributions that advance the *scientific foundations of reasoning in language models*, exemplified by
 - Rich insights driven by rigorous experimentation and analyses (including negative results)
 - Well-tested frameworks and interpretable testbeds that capture core challenges and capabilities
 - Principled algorithmic interventions supported by systematic evaluation
@@ -15,7 +15,7 @@ nav_order: 2
 **Submission instructions (TLDR):** Submissions may have at most 9 content pages (within that range, all lengths are welcome), excluding references and supplementary material.
 Papers will be submitted to <a href="https://openreview.net/">(TBD) this OpenReview portal</a>.
 Works that have been published at archival venues, including NeurIPS 2025, will be removed from consideration.
-The submission deadline is <span style="color:red">Wednesday, September 3, 2025.</span>
+<span style="color:red">The submission deadline is Wednesday, September 3, 2025.</span>
 
 #### Topics and scope
 
