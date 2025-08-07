@@ -10,8 +10,8 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-call-for-papers",
-          title: "Call for Papers",
-          description: "Author instructions for FoRLM 2025",
+          title: "Call for papers",
+          description: "FoRLM 2025 submission guidances",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cfp/";
