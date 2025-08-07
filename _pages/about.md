@@ -36,10 +36,6 @@ and those proposing algorithmic developments that advance reasoning---around *th
 2.  What fundamental challenges stand in the way of advancing reasoning capabilities?
 3.  What algorithmic developments can overcome these obstacles?
 
-
-
-<br>
-
 #### Submit
 We invite paper submissions to a single, non-archival track.
 Details can be found in our <a href="https://reasoning-workshop.github.io/cfp/">Call for Papers</a>. **The deadline is Wednesday, September 3, 2025**. 
