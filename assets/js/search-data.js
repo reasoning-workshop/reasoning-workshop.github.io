@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-call-for-papers",
           title: "Call for Papers",
-          description: "Submission instructions for FoRLM 2025",
+          description: "Author instructions for FoRLM 2025",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cfp/";
