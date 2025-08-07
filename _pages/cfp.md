@@ -29,41 +29,51 @@ Topics include, but are not limited to:
 1. **Models of Reasoning**
 <br>
 *Frameworks, theories, and analysis of reasoning phenomena, problems, and solution methods*
+<small>
   - Novel paradigms for generalization (e.g., compositional, length, diversity, multi-task)
   - Behaviors such as backtracking, "aha moments," increasing length of reasoning trace
   - Abstractions of reasoning problems, e.g., formal theorem proving as graph problems
   - Characterizing effective inductive biases (e.g., pivotal tokens)
+</small>
 
 2. **Principled Algorithmic Interventions**
 <br>
 *Methods targeting core reasoning challenges, grounded in theoretical and empirical insights*
+<small>
   - Algorithmic innovations in pre-training, post-training, RL, test-time methods
   - Learning or incorporating feedback models (verifiers, rewards, process rewards)
   - Exploration strategies
   - (Automated) collection or design of demonstrations and reasoning traces 
+</small>
 
 3. **Diagnostics and Evaluations**
 <br>
 *Dedicated tasks, metrics, and evaluation methods that probe reasoning behaviors*
+<small>
   - Interpretable benchmarks targeting reasoning challenges
   - Tasks simulating aspects of large-scale LM development (e.g., pre-training)
   - Rigorous scientific evaluation of reasoning models and algorithms
   - Mechanistic interpretability studies
+</small>
 
 4. **Representational and Architectural Questions in Reasoning**
 <br>
 *How model architectures, learned representations, and generation methods enable or limit capabilities*
+<small>
   - Representation learning, feature acquisition, compositional reasoning
   - Impacts of depth, dimension, chain-of-thought, decoding methods
   - Alternative architectures like state-space models, text diffusion models, deep equilibrium models
+</small>
 
 5. **Training Paradigms and the Emergence of Reasoning**
 <br>
 *How reasoning abilities arise and evolve across pre-training, post-training, and inference*
+<small>
   - Interplay between pre-training and post-training methods (SFT, expert iteration, RL)
   - Test-time strategies that best support reasoning for an LM
   - Curriculum and continual learning 
   - Self-improvement and self-verification
+</small>
 
 <br>
 
