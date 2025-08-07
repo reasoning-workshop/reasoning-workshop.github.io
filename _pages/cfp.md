@@ -41,7 +41,7 @@ Topics include, but are not limited to:
 <br>
 *Dedicated tasks, metrics, and evaluation methods that probe reasoning behaviors*
   - Interpretable benchmarks targeting reasoning challenges
-  - Tasks simulating aspects of large-scale LM development (e.g., pre-training)
+  - Tasks simulating aspects of large-scale LM development (ex: pre-training)
   - Rigorous scientific evaluation of reasoning models and algorithms
   - Mechanistic interpretability studies
 
@@ -69,7 +69,6 @@ Topics include, but are not limited to:
 
 
 #### Submission Instructions
----
 
 **Format:** Submitted papers may have at most 9 content pages, excluding references and supplementary material.
 Within those constraints, all page lengths are welcome.
@@ -81,7 +80,6 @@ Previously published papers, including those at NeurIPS 2025, will not be permit
 
 **Anonymization:** Reviews will be double-blind. Please ensure that submissions do not contain author names (should be handled automatically by the NeurIPS style files) or other identifying information.
 
-<br>
 
 #### Dual Submission Policy
 
