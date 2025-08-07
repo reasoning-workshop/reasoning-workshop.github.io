@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-12-06 
+date: 2025-09-22 
 inline: true
 related_posts: false
 ---
 
-Workshop takes place @ NeurIPS 2025
+Accept/reject notification
