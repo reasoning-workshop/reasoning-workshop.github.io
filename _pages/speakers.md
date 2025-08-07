@@ -12,7 +12,7 @@ profiles:
     content: alekh.md
     image_circular: true # crops the image to make it circular
     more_info:
-  - align: right
+  - align: left
     image: yejin.jpg
     content: yejin.md
     image_circular: true # crops the image to make it circular
@@ -22,7 +22,7 @@ profiles:
     content: michael.md
     image_circular: true # crops the image to make it circular
     more_info:
-  - align: right
+  - align: left
     image: nathan.jpg
     content: nathan.md
     image_circular: true # crops the image to make it circular
