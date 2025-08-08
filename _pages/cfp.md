@@ -13,7 +13,7 @@ We welcome contributions that **advance the scientific foundations of reasoning 
 - Principled algorithmic interventions supported by systematic evaluation
 
 **Submission instructions (TLDR):** Submissions may have at most 9 content pages (within that range, all lengths are welcome), excluding references and supplementary material.
-Papers will be submitted to <a href="https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/FoRLM">this OpenReview portal</a>.
+Papers will be submitted to <a href="https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/FoRLM">[this OpenReview portal]</a>.
 Works that have been published at archival venues, including NeurIPS 2025, will not be considered.
 <span style="color:red">The submission deadline is Wednesday, September 3, 2025.</span>
 
@@ -74,9 +74,9 @@ Topics include, but are not limited to:
 Within those constraints, all page lengths are welcome.
 Previously published papers, including those at NeurIPS 2025, will not be permitted (see "Dual Submission Policy" below).
 
-**Style files:** Submissions must use the <a href="https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip"> NeurIPS 2025 style files</a>.
+**Style files:** Submissions must use the <a href="https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip">[NeurIPS 2025 style files]</a>.
 
-**Submitting your paper:** Please upload your submission as a single PDF to <a href="https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/FoRLM">this OpenReview portal</a>. 
+**Submitting your paper:** Please upload your submission as a single PDF to <a href="https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/FoRLM">[this OpenReview portal]</a>. 
 
 **Anonymization:** Reviews will be single-blind, therefore submissions need not be anonymized.
 
@@ -86,6 +86,6 @@ Previously published papers, including those at NeurIPS 2025, will not be permit
 We do not permit submissions that have been published at archival venues, including those accepted to NeurIPS 2025.
 
 This policy is in accordance with the
-<a href="https://neurips.cc/Conferences/2025/CallForWorkshopsGuidance">NeurIPS 2025 workshop guidances</a>, which state that "workshops are not a venue for work that has been previously published in other conferences on machine learning or related fields. Work that is presented at the main NeurIPS conference should not appear in a workshop, including as part of an invited talk."
+<a href="https://neurips.cc/Conferences/2025/CallForWorkshopsGuidance">[NeurIPS 2025 workshop guidances]</a>, which state that "workshops are not a venue for work that has been previously published in other conferences on machine learning or related fields. Work that is presented at the main NeurIPS conference should not appear in a workshop, including as part of an invited talk."
 It ensures that FoRLM 2025 best facilitates the presentation and discussion of fresh contributions best suited to the workshop's format.
 
