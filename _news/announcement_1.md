@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-09-03 
+date: 2025-12-06 
 inline: true
 related_posts: false
 ---
 
-Last day to submit (by EOD). See <a href="https://reasoning-workshop.github.io/cfp/">Call for Papers</a> for submission guidelines.
+Workshop takes place @ NeurIPS 2025 on either Saturday Dec. 6 or Sunday Dec. 7 (TBD).
