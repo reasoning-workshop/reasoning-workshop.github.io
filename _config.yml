@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Foundations of Reasoning in Language Models # the website title (if blank, full name will be used instead)
-first_name: Foundations of Reasoning in Language Models
+title: FoRLM @ NeurIPS'25 # the website title (if blank, full name will be used instead)
+first_name: 
 middle_name:
-last_name:
+last_name: First Workshop on the Foundations of Reasoning in Language Models
 contact_note: >
 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"

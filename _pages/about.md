@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: FoRLM @ NeurIPS 2025
+subtitle: A <a href='https://neurips.cc/'>NeurIPS 2025</a> workshop<br> December 6th or 7th, 2025 in San Diego, California
 
 profile:
   align: right
