@@ -26,13 +26,13 @@ latest_posts:
 
 The workshop on Foundations of Reasoning in Language Models (FoRLM) will take place on **Saturday, December 6 at NeurIPS 2025** in San Diego, California.
 
-Our workshop's goal is to <a href="#">advance foundational understanding, principled innovations, and rigorous scientific evaluations for reasoning in language models<a>.
+Our workshop's goal is to <span style="color: #ac0da2;">**advance foundational understanding, principled innovations, and rigorous scientific evaluations for reasoning in language models**</span>.
 These advancements are built upon theoretical analyses and controlled empirical studies that illuminate how reasoning emerges, where it fails, and how it can be systematically improved.
 
 We want to foster dialogue between communities with complementary strengths---those
 building theoretical models of reasoning phenomena,
 those designing experiments that reveal its emergence or failure in practice,
-and those proposing algorithmic developments that advance reasoning---around <a href="#">**three primary questions**<a>:
+and those proposing algorithmic developments that advance reasoning---around <span style="color: #ac0da2;">**three primary questions**</span>:
 
 1.  How are language models able to solve complex tasks, and what do they still struggle with?
 2.  What fundamental challenges stand in the way of advancing reasoning capabilities?
