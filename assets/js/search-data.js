@@ -399,7 +399,7 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
             },},{id: "news-last-day-to-submit-by-eod-see-call-for-papers-for-submission-guidelines",
-          title: 'Last day to submit (by EOD). See Call for Papers for submission guidelines....',
+          title: 'Last day to submit (by EOD). See [Call for papers] for submission guidelines....',
           description: "",
           section: "News",},{id: "news-accept-reject-notification",
           title: 'Accept/reject notification',
