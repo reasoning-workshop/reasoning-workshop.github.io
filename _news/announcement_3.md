@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Last day to submit (by EOD). See <a href="https://reasoning-workshop.github.io/cfp/">Call for Papers</a> for submission guidelines.
+Last day to submit (by EOD). See <a href="https://reasoning-workshop.github.io/cfp/">[Call for papers]</a> for submission guidelines.
