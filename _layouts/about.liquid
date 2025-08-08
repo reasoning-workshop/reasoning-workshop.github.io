@@ -35,9 +35,6 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
     
-    <img src="/assets/img/speakers.png" alt="Full width" style="width:100%; height:auto; display:block; margin: 2em 0;">
-
-
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h4>
@@ -45,6 +42,8 @@ layout: default
       </h4>
       {% include news.liquid limit=true %}
     {% endif %}
+    
+    <img src="/assets/img/speakers.png" alt="Full width" style="width:100%; height:auto; display:block; margin: 2em 0;">
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
