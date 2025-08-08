@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Last day to submit. See <a href="https://reasoning-workshop.github.io/cfp/">Call for papers</a> for submission guidelines.
+<strong>Submission deadline</strong>. See <a href="https://reasoning-workshop.github.io/cfp/">Call for papers</a> for submission guidelines.
