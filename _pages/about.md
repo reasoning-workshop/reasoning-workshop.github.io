@@ -39,7 +39,7 @@ and those proposing algorithmic developments that advance reasoning---around <sp
 3.  What algorithmic innovations can overcome these obstacles?
 
 **Submit:**
-Please see our <a href="https://reasoning-workshop.github.io/cfp/">Call for papers</a> for details and author instructions. The deadline is on <span style="color: var(--global-theme-color);"><strong>Wednesday, September 3, 2025</span></strong>.
+Please see our <a href="https://reasoning-workshop.github.io/cfp/">Call for papers</a> for details and author instructions. The deadline is on <span style="color: var(--global-theme-color);"><strong>Wednesday, September 3, 2025</strong></span>.
 <!-- We are inviting paper submissions to a single, non-archival track, with <span style="color: #ac0da2;">*deadline Wednesday, September 3, 2025*</span>. See <a href="https://reasoning-workshop.github.io/cfp/">Call for papers</a> for details. -->
 
 <!-- <img src="/assets/img/speakers.png" alt="Full width" style="width:100%; height:auto; display:block; margin: 2em 0;"> -->
