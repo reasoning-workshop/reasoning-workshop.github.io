@@ -15,7 +15,7 @@ We welcome contributions that **advance the scientific foundations of reasoning 
 **Submission instructions (TLDR):** Submissions may have at most 9 content pages (within that range, all lengths are welcome), excluding references and supplementary material.
 Papers will be submitted to <a href="https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/FoRLM">this OpenReview portal</a>.
 Works that have been published at archival venues, including NeurIPS 2025, will not be considered.
-<span style="color:red">The submission deadline is Wednesday, September 3, 2025.</span>
+<span style="color: var(--global-theme-color);"><strong>The submission deadline is Wednesday, September 3, 2025.</strong></span>
 
 #### Topics and Scope
 
