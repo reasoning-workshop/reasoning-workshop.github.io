@@ -23,7 +23,7 @@ Topics include, but are not limited to:
 
 1. **Models of Reasoning**
 <br>
-  &nbsp;*Frameworks, theories, analysis of reasoning phenomena*
+*Frameworks, theories, analysis of reasoning phenomena*
   - Novel paradigms for generalization (ex: compositional, length, diversity, multi-task)
   - Behaviors such as backtracking, "aha moments," increasing length of reasoning trace
   - Abstractions of reasoning problems, e.g., formal theorem proving as graph problems
