@@ -12,7 +12,7 @@ We welcome contributions that **advance the scientific foundations of reasoning 
 - Well-tested frameworks, interpretable testbeds, and theory capturing core challenges and capabilities
 - Principled algorithmic interventions supported by systematic evaluation
 
-**Submission instructions (TLDR):** Submissions may have at most 9 content pages (within that range, all lengths are welcome), excluding references and supplementary material.
+**Submission instructions (TLDR):** Our workshop has a single, non-archival track. Submissions may have at most 9 content pages (within that range, all lengths are welcome), excluding references and supplementary material.
 Papers will be submitted to <a href="https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/FoRLM">this OpenReview portal</a>.
 Works that have been published at archival venues, including NeurIPS 2025, will not be considered.
 <span style="color: var(--global-theme-color);"><strong>The submission deadline is Wednesday, September 3, 2025.</strong></span>
@@ -72,7 +72,7 @@ Topics include, but are not limited to:
 
 **Format:** Submitted papers may have at most 9 content pages, excluding references and supplementary material.
 Within those constraints, all page lengths are welcome.
-Previously published papers, including those at NeurIPS 2025, will not be permitted (see "Dual Submission Policy" below).
+Authors are welcome to submit papers that were submitted to NeurIPS 2025, but previously published papers, including those published at NeurIPS 2025, will not be accepted (see "Dual Submission Policy" below).
 
 **Style files:** Submissions must use the <a href="https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip">NeurIPS 2025 style files</a>.
 
@@ -83,7 +83,8 @@ Previously published papers, including those at NeurIPS 2025, will not be permit
 
 #### Dual Submission Policy
 
-We do not permit submissions that have been published at archival venues, including those accepted to NeurIPS 2025.
+We will not accept submissions that have been published at archival venues, including those accepted to NeurIPS 2025.
+However, authors are welcome to submit papers that were also submitted to NeurIPS 2025.
 
 This policy is in accordance with the
 <a href="https://neurips.cc/Conferences/2025/CallForWorkshopsGuidance">NeurIPS 2025 workshop guidances</a>, which state that "workshops are not a venue for work that has been previously published in other conferences on machine learning or related fields. Work that is presented at the main NeurIPS conference should not appear in a workshop, including as part of an invited talk."
