@@ -16,7 +16,7 @@ We welcome contributions that **advance the scientific foundations of reasoning 
 Papers will be submitted to <a href="https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/FoRLM">this OpenReview portal</a>.
 Works that have been published at archival venues, including NeurIPS 2025, will not be considered.
 ~~The submission deadline is Wednesday, September 3, 2025.~~
-The submission deadline has been extended to Monday, September 8, 2025 AoE.
+The submission deadline has been extended to <strong>Monday, September 8, 2025 AoE</strong>.
 
 #### Topics and Scope
 
