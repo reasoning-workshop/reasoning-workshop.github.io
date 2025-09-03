@@ -39,7 +39,7 @@ We want to bring together researchers with complementary strengths---those build
 
 **Submit:**
 Please see our <a href="https://reasoning-workshop.github.io/cfp/">Call for papers</a> for details and author instructions. ~~The deadline is on Wednesday, September 3, 2025.~~
-We have extended the deadline to Monday, September 8, 2025 AoE, which is also reflected in the OpenReview portal.
+<strong>We have extended the deadline to Monday, September 8, 2025 AoE</strong>, which is also reflected in the OpenReview portal.
 <!-- We are inviting paper submissions to a single, non-archival track, with <span style="color: #ac0da2;">*deadline Wednesday, September 3, 2025*</span>. See <a href="https://reasoning-workshop.github.io/cfp/">Call for papers</a> for details. -->
 
 <!-- <img src="/assets/img/speakers.png" alt="Full width" style="width:100%; height:auto; display:block; margin: 2em 0;"> -->
