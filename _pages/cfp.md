@@ -15,7 +15,8 @@ We welcome contributions that **advance the scientific foundations of reasoning 
 **Submission instructions (TLDR):** Our workshop has a single, non-archival track. Submissions may have at most 9 content pages (within that range, all lengths are welcome), excluding references and supplementary material.
 Papers will be submitted to <a href="https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/FoRLM">this OpenReview portal</a>.
 Works that have been published at archival venues, including NeurIPS 2025, will not be considered.
-<span style="color: var(--global-theme-color);"><strong>The submission deadline is Wednesday, September 3, 2025.</strong></span>
+~~The submission deadline is Wednesday, September 3, 2025.~~
+The submission deadline has been extended to Monday, September 8, 2025 AoE.
 
 #### Topics and Scope
 
@@ -63,7 +64,7 @@ Topics include, but are not limited to:
 
 #### Important Dates
 
-- **Submission deadline:** Wednesday, September 3, 2025, AoE
+- **Submission deadline:** Monday, September 8, 2025, AoE
 - **Author notification:** Monday, September 22, 2025, AoE
 - **Workshop date:** (TBD) Weekend of December 6-7, 2025
 
@@ -74,7 +75,7 @@ Topics include, but are not limited to:
 Within those constraints, all page lengths are welcome.
 Authors are welcome to submit papers that were submitted to NeurIPS 2025, but previously published papers, including those published at NeurIPS 2025, will not be accepted (see "Dual Submission Policy" below).
 
-**Style files:** Submissions must use the <a href="https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip">NeurIPS 2025 style files</a>.
+**Style files:** Submissions must use the <a href="https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip">NeurIPS 2025 style files</a>. The checklist need not be included, or can be left blank.
 
 **Submitting your paper:** Please upload your submission as a single PDF to <a href="https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/FoRLM">this OpenReview portal</a>. 
 
