@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-call-for-papers",
-          title: "Call for papers",
-          description: "FoRLM 2025 submission guidances",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cfp/";
-          },
-        },{id: "nav-speakers",
+  },{id: "nav-speakers",
           title: "Speakers",
           description: "",
           section: "Navigation",
@@ -29,6 +22,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/organizers/";
+          },
+        },{id: "nav-call-for-papers",
+          title: "Call for papers",
+          description: "FoRLM 2025 submission guidances",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cfp/";
           },
         },{id: "post-a-post-with-plotly-js",
         
