@@ -4,7 +4,7 @@ permalink: /organizers/
 title: Organizers
 description: 
 nav: true
-nav_order: 5
+nav_order: 6
 
 profiles:
   - align: right
