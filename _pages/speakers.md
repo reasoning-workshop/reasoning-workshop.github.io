@@ -4,7 +4,7 @@ permalink: /speakers/
 title: Speakers
 description: 
 nav: true
-nav_order: 2
+nav_order: 3
 
 profiles:
   - align: right
