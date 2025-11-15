@@ -398,13 +398,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-submission-deadline-see-call-for-papers-for-submission-guidelines",
-          title: 'Submission deadline. See Call for papers for submission guidelines.',
-          description: "",
-          section: "News",},{id: "news-accept-reject-notification",
-          title: 'Accept/reject notification',
-          description: "",
-          section: "News",},{id: "news-workshop-takes-place-neurips-2025-on-sunday-dec-7-in-the-upper-level-room-33abc",
+            },},{id: "news-workshop-takes-place-neurips-2025-on-sunday-dec-7-in-the-upper-level-room-33abc",
           title: 'Workshop takes place @ NeurIPS 2025 on Sunday Dec. 7, in the Upper...',
           description: "",
           section: "News",},{id: "projects-project-1",
