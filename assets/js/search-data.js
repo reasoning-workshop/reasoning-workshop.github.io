@@ -398,8 +398,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-workshop-takes-place-neurips-2025-on-sunday-dec-7-in-the-upper-level-room-33abc",
-          title: 'Workshop takes place @ NeurIPS 2025 on Sunday Dec. 7, in the Upper...',
+            },},{id: "news-workshop-takes-place-at-neurips-2025-on-sunday-dec-7-upper-level-room-33abc-san-diego-convention-center",
+          title: 'Workshop takes place at NeurIPS 2025 on Sunday Dec. 7 @ Upper Level...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
