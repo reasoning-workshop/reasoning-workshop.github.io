@@ -4,7 +4,7 @@ permalink: /cfp/
 title: Call for papers
 description: FoRLM 2025 submission guidances
 nav: true
-nav_order: 2
+nav_order: 5
 ---
 
 We welcome contributions that **advance the scientific foundations of reasoning in language models**, exemplified by
