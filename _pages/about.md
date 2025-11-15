@@ -36,10 +36,10 @@ We want to bring together researchers with complementary strengths---those build
 1.  How are language models able to solve complex tasks, and what do they still struggle with?
 2.  What fundamental challenges stand in the way of advancing reasoning capabilities?
 3.  What algorithmic innovations can overcome these obstacles?
-
+<!-- 
 **Submit:**
 Please see our <a href="https://reasoning-workshop.github.io/cfp/">Call for papers</a> for details and author instructions. ~~The deadline is on Wednesday, September 3, 2025.~~
-<strong>We have extended the deadline to Monday, September 8, 2025 AoE</strong>, which is also reflected in <a href="https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/FoRLM">the OpenReview portal</a>.
+<strong>We have extended the deadline to Monday, September 8, 2025 AoE</strong>, which is also reflected in <a href="https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/FoRLM">the OpenReview portal</a>. -->
 <!-- We are inviting paper submissions to a single, non-archival track, with <span style="color: #ac0da2;">*deadline Wednesday, September 3, 2025*</span>. See <a href="https://reasoning-workshop.github.io/cfp/">Call for papers</a> for details. -->
 
 <!-- <img src="/assets/img/speakers.png" alt="Full width" style="width:100%; height:auto; display:block; margin: 2em 0;"> -->
