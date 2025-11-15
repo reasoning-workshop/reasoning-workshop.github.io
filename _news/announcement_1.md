@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Workshop takes place @ NeurIPS 2025 on Sunday Dec. 7, in the *Upper Level Room 33ABC*.
+Workshop takes place at NeurIPS 2025 on Sunday Dec. 7 @ *Upper Level Room 33ABC*, San Diego Convention Center.

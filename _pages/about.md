@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: A <a href='https://neurips.cc/'>NeurIPS 2025</a> workshop in San Diego, California<br> Sunday, December 7th, 2025 in *Upper Level Room 33ABC*
+subtitle: A <a href='https://neurips.cc/'>NeurIPS 2025</a> workshop in San Diego, California<br> Sunday, December 7th, 2025 @ Upper Level Room 33ABC
 
 profile:
   align: right
@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-The workshop on Foundations of Reasoning in Language Models (FoRLM) will take place on <span style="color: var(--global-theme-color);"><strong>Sunday, December 7 at NeurIPS 2025</strong></span> in *Upper Level Room 33ABC* at the San Diego Convention Center.
+The workshop on Foundations of Reasoning in Language Models (FoRLM) will take place on <span style="color: var(--global-theme-color);"><strong>Sunday, December 7 at NeurIPS 2025 @ Upper Level Room 33ABC</strong></span>, in the San Diego Convention Center.
 
 Our workshop's goal is to <span style="color: var(--global-theme-color);"><strong>advance foundational understanding of reasoning in language models</strong></span>.
 Through theoretical analyses and rigorous empirical studies, we aim to illuminate how reasoning emerges, where it fails, and how it can be systematically improved. 
