@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: A <a href='https://neurips.cc/'>NeurIPS 2025</a> workshop in San Diego, California<br> Sunday, December 7th, 2025 in Upper Level Room 33ABC
+subtitle: A <a href='https://neurips.cc/'>NeurIPS 2025</a> workshop in San Diego, California<br> Sunday, December 7th, 2025 in *Upper Level Room 33ABC*
 
 profile:
   align: right
