@@ -8,13 +8,13 @@ nav_order: 2
 
 profiles:
   - align: right
-    image: alekh.jpg
-    content: alekh.md
+    image: aviral.jpg
+    content: aviral.md
     image_circular: true # crops the image to make it circular
     more_info:
   - align: left
-    image: yejin.jpg
-    content: yejin.md
+    image: azalia.jpg
+    content: azalia.md
     image_circular: true # crops the image to make it circular
     more_info:
   - align: right
