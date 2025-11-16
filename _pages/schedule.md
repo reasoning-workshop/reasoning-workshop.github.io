@@ -201,8 +201,6 @@ nav_order: 2
         <td></td>
         <td><b>Poster Session 1</b></td>
   </tr>
-  </td>
-  </tr> -->
 
   <tr class="header" style="cursor: pointer">
     <td>16:15 - 17:00</td>
@@ -221,9 +219,6 @@ nav_order: 2
             In this talk I start by presenting examples of our recent work which have been enabled by this revolution, spanning multi-agent RL, meta-learning, and environment discovery. I will end the talk by outlining failure modes of relying on GPU accelerated environments and possible paradigms for the community to collectively address them, ranging from promising research directions to novel evaluation protocols. -->
     </td>
   </tr>
-      
-  </td>
-  </tr> -->
 
 
 
