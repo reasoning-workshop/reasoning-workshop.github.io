@@ -48,7 +48,7 @@ nav_order: 2
     <td>
             <!-- <i>The Rise of Reinforcement Learning: from One to Many</i>
             <br> -->
-            <b>Nathan Lambert</b> (Allen Institute for AI)
+            <b>Azalia Mirhoseini</b> (Stanford University)
             <!-- <br><br>
             Reinforcement learning (RL), combined with deep neural networks, is key to the boom of recent AI breakthroughs from game mastery to control automation.  However, their successes are overly reliant on brute-force computing power and engineering tricks, leaving wide gaps between practice and theory.  The lack of theoretical foundations is even more pronounced as we shift from single-agent to many-agent RL, in addressing complex dynamic systems and decision making such as resource allocation, traffic management, and social interaction.  The challenges inherent in learning many-agent systems stem not only from the increased computational and strategic complexities but also from practical limitations in coordination and exploration.    In this talk, I will shed light on promising principles that break the curses of many-agent RL, focusing on mean-field approximation theory, statistical complexity, and independent learning. This will further pave the way for scalable and principled solutions to unlock the full potential of RL for next-generation AI. -->
     </td>
@@ -114,7 +114,7 @@ nav_order: 2
     <td>
             <!-- <i>Reinforcement Learning at the Hyperscale</i>
             <br> -->
-            <b>Michael Hahn</b> (Saarland University)
+            <b>Aviral Kumar</b> (Carnegie Mellon University)
             <!-- <br><br>
             Deep reinforcement learning is currently undergoing a revolution of scale, fuelled by jointly running the environment, data collection, and training loop on the GPU, which has resulted in orders of magnitude of speed-up for many tasks.
 <br>
@@ -146,7 +146,7 @@ nav_order: 2
     <td>
             <!-- <i>Reinforcement Learning at the Hyperscale</i>
             <br> -->
-            <b>Azalia Mirhoseini</b> (Stanford University)
+            <b>Nathan Lambert</b> (Allen Institute for AI)
             <!-- <br><br>
             Deep reinforcement learning is currently undergoing a revolution of scale, fuelled by jointly running the environment, data collection, and training loop on the GPU, which has resulted in orders of magnitude of speed-up for many tasks.
 <br>
@@ -212,7 +212,7 @@ nav_order: 2
     <td>
             <!-- <i>Reinforcement Learning at the Hyperscale</i>
             <br> -->
-            <b>Aviral Kumar</b> (Carnegie Mellon University)
+            <b>Michael Hahn</b> (Saarland University)
             <!-- <br><br>
             Deep reinforcement learning is currently undergoing a revolution of scale, fuelled by jointly running the environment, data collection, and training loop on the GPU, which has resulted in orders of magnitude of speed-up for many tasks.
 <br>
