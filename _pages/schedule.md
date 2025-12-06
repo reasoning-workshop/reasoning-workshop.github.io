@@ -15,10 +15,9 @@ nav_order: 2
         <th style="border-top-left-radius: 10px; width: 15%">Time</th>
         <!-- <th>Virtual link</th> -->
         <th style="width: 15%">Type</th>
-        <th style="width: 70% border-top-right-radius: 10px;">Title & Speakers</th>
+        <th style="width: 70%; border-top-right-radius: 10px;">Title & Speakers</th>
         <!-- <th style="width: 25% border-top-right-radius: 10px;">Speakers (Affiliations)</th> -->
       </tr>
-      <tr>
   <tr class="header" style="cursor: pointer">
     <td>8:50 - 9:00</td>
     <td>
