@@ -46,11 +46,11 @@ nav_order: 2
     [<a>slides</a>] [<a href="https://slideslive.com/39022177">video</a>] -->
     </td>
     <td>
-            <!-- <i>The Rise of Reinforcement Learning: from One to Many</i>
-            <br> -->
+            <i>Test-Time Scaling, A Foundation for AI Self-Improvement</i>
+            <br>
             <b>Azalia Mirhoseini</b> (Stanford University)
-            <!-- <br><br>
-            Reinforcement learning (RL), combined with deep neural networks, is key to the boom of recent AI breakthroughs from game mastery to control automation.  However, their successes are overly reliant on brute-force computing power and engineering tricks, leaving wide gaps between practice and theory.  The lack of theoretical foundations is even more pronounced as we shift from single-agent to many-agent RL, in addressing complex dynamic systems and decision making such as resource allocation, traffic management, and social interaction.  The challenges inherent in learning many-agent systems stem not only from the increased computational and strategic complexities but also from practical limitations in coordination and exploration.    In this talk, I will shed light on promising principles that break the curses of many-agent RL, focusing on mean-field approximation theory, statistical complexity, and independent learning. This will further pave the way for scalable and principled solutions to unlock the full potential of RL for next-generation AI. -->
+            <br><br>
+            Pre-training scaling laws have driven much of the progress in AI over the past few years. In this talk, we present test-time compute as a new frontier for AI scaling and self-improvement. We have entered an era where models themselves are powerful sources of intelligence that can indefinitely synthesize new experiences and strategies through thinking, reasoning, and interacting with external environments and tools. Two important enablers of model self-improvement are test-time compute scaling and training on experiences generated at test time. Building on these, we will discuss our recent work on AI self-improvement, including KernelBench, Weaver, SWiRL, and Cartridges, demonstrating why test-time scaling for reasoning represents a significant and largely untapped frontier for general artificial intelligence.
     </td>
   </tr>
 
@@ -112,13 +112,11 @@ nav_order: 2
     [<a>slides</a>] [<a href="https://slideslive.com/39022179">video</a>] -->
     </td>
     <td>
-            <!-- <i>Reinforcement Learning at the Hyperscale</i>
-            <br> -->
+            <i>Exploration, Extrapolation and Chains of Thought</i>
+            <br>
             <b>Aviral Kumar</b> (Carnegie Mellon University)
-            <!-- <br><br>
-            Deep reinforcement learning is currently undergoing a revolution of scale, fuelled by jointly running the environment, data collection, and training loop on the GPU, which has resulted in orders of magnitude of speed-up for many tasks.
-<br>
-            In this talk I start by presenting examples of our recent work which have been enabled by this revolution, spanning multi-agent RL, meta-learning, and environment discovery. I will end the talk by outlining failure modes of relying on GPU accelerated environments and possible paradigms for the community to collectively address them, ranging from promising research directions to novel evaluation protocols. -->
+            <br><br>
+            In this talk, I will talk about the central question of exploration in LLM reasoning. I will talk about two notions of exploration: at train time, and at test time. Train time exploration enables us to solve challenging questions where sampling from the base exploration itself is not enough by steering chains of thought towards useful parts of the search space. On the other hand, test-time exploration enables us to implement useful algorithmic strategies in chain-of-thoughts that improve extrapolation and scaling of compute at test time. Taken together, these two axes help us make better use of computation for scaling LLM reasoning.
     </td>
   </tr>
   <!-- <tr>
@@ -144,13 +142,11 @@ nav_order: 2
     [<a>slides</a>] [<a href="https://slideslive.com/39022179">video</a>] -->
     </td>
     <td>
-            <!-- <i>Reinforcement Learning at the Hyperscale</i>
-            <br> -->
+            <i>Olmo 3 Think: Training a Fully Open Reasoning Model</i>
+            <br>
             <b>Nathan Lambert</b> (Allen Institute for AI)
-            <!-- <br><br>
-            Deep reinforcement learning is currently undergoing a revolution of scale, fuelled by jointly running the environment, data collection, and training loop on the GPU, which has resulted in orders of magnitude of speed-up for many tasks.
-<br>
-            In this talk I start by presenting examples of our recent work which have been enabled by this revolution, spanning multi-agent RL, meta-learning, and environment discovery. I will end the talk by outlining failure modes of relying on GPU accelerated environments and possible paradigms for the community to collectively address them, ranging from promising research directions to novel evaluation protocols. -->
+            <br><br>
+            This talk covers the crucial details it takes to train 7B to 32B parameter, fully open reasoning models, Olmo-3-Think, to rival Qwen 3, highlighting fresh results, trade-offs, and methods across midtraining, distillation with high-quality thinking SFT data, and reinforcement learning with verifiable rewards. This talk focuses on aspects of the training process, such as model architecture decisions, data sourcing, and training code design that is often not shared by leading models and can enable a resurgence of research with advancements in reinforcement learning, tool-use, and inference-time scaling. The goal of these models, such as through our release of various case-studies in RL-Zero checkpoints, is to seed trusted and innovative reasoning and tool-use research.
     </td>
   </tr>
   <!-- <tr>
@@ -210,13 +206,11 @@ nav_order: 2
     [<a>slides</a>] [<a href="https://slideslive.com/39022179">video</a>] -->
     </td>
     <td>
-            <!-- <i>Reinforcement Learning at the Hyperscale</i>
-            <br> -->
+            <i>Understanding Architectural Constraints on LLM Reasoning Abilities</i>
+            <br>
             <b>Michael Hahn</b> (Saarland University)
-            <!-- <br><br>
-            Deep reinforcement learning is currently undergoing a revolution of scale, fuelled by jointly running the environment, data collection, and training loop on the GPU, which has resulted in orders of magnitude of speed-up for many tasks.
-<br>
-            In this talk I start by presenting examples of our recent work which have been enabled by this revolution, spanning multi-agent RL, meta-learning, and environment discovery. I will end the talk by outlining failure modes of relying on GPU accelerated environments and possible paradigms for the community to collectively address them, ranging from promising research directions to novel evaluation protocols. -->
+            <br><br>
+            The reasoning capabilities of LLMs have seen enormous progress, but it remains hard to predict when they fail, and how many reasoning tokens they need to solve different problems. I will present two lines of research aiming to make reasoning abilities more predictable via theoretical bounds on the abilities of the underlying architecture — the Transformer. First, I will present our recent work aiming to predict on which algorithmic tasks transformers can generalize to longer inputs, and compare to LLM performance. Second, I will describe our recent work bounding the reasoning cost needed to solve various algorithmic problems with transformers. I will close by discussing problems for further research.
     </td>
   </tr>
 
