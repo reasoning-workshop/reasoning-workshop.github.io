@@ -194,7 +194,7 @@ nav_order: 2
   <tr>
         <td>15:00 - 16:15</td>
         <td></td>
-        <td><b>Poster Session 1</b></td>
+        <td><b>Poster Session 2</b></td>
   </tr>
 
   <tr style="cursor: pointer">
