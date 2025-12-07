@@ -43,7 +43,7 @@ nav_order: 2
   <tr style="cursor: pointer">
     <td>9:00 - 9:45</td>
     <td>
-    Invited Talk
+    <b>Invited Talk</b>
     <!-- <br>
     [<a>slides</a>] [<a href="https://slideslive.com/39022177">video</a>] -->
     </td>
@@ -108,7 +108,7 @@ nav_order: 2
   <tr style="cursor: pointer">
     <td>11:30 - 12:15</td>
     <td>
-    Invited Talk
+    <b>Invited Talk</b>
     <!-- <br>
     [<a>slides</a>] [<a href="https://slideslive.com/39022179">video</a>] -->
     </td>
@@ -137,7 +137,7 @@ nav_order: 2
   <tr style="cursor: pointer">
     <td>13:45 - 14:30</td>
     <td>
-    Invited Talk
+    <b>Invited Talk</b>
     <!-- <br>
     [<a>slides</a>] [<a href="https://slideslive.com/39022179">video</a>] -->
     </td>
@@ -200,7 +200,7 @@ nav_order: 2
   <tr style="cursor: pointer">
     <td>16:15 - 17:00</td>
     <td>
-    Invited Talk
+    <b>Invited Talk</b>
     <!-- <br>
     [<a>slides</a>] [<a href="https://slideslive.com/39022179">video</a>] -->
     </td>
