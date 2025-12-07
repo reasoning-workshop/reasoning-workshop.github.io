@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contributed/";
           },
+        },{id: "nav-accepted-papers",
+          title: "Accepted papers",
+          description: "Accepted papers for the ICML 2025 Workshop on Reasoning.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/accepted/";
+          },
         },{id: "nav-organizers",
           title: "Organizers",
           description: "",
