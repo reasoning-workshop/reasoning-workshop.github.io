@@ -10,7 +10,8 @@ nav_order: 2
 <br>
 
 <div>
-<table class="table" id="standings" style="border-collapse:collapse">
+<table class="table table-hover" id="standings" style="border-collapse:collapse">
+<thead>
 <tr class="header" style="background-color:rgb(215, 215, 215); border-top: 1pt solid white; border-bottom: 1pt solid black;">
         <th style="border-top-left-radius: 10px; width: 15%">Time</th>
         <!-- <th>Virtual link</th> -->
@@ -18,7 +19,9 @@ nav_order: 2
         <th style="width: 70%; border-top-right-radius: 10px;">Title & Speakers</th>
         <!-- <th style="width: 25% border-top-right-radius: 10px;">Speakers (Affiliations)</th> -->
       </tr>
-  <tr class="header" style="cursor: pointer">
+</thead>
+<tbody>
+  <tr style="cursor: pointer">
     <td>8:50 - 9:00</td>
     <td>
     Opening Remarks
@@ -37,7 +40,7 @@ nav_order: 2
     </td>
   </tr> -->
               
-  <tr class="header" style="cursor: pointer">
+  <tr style="cursor: pointer">
     <td>9:00 - 9:45</td>
     <td>
     Invited Talk
@@ -53,7 +56,7 @@ nav_order: 2
     </td>
   </tr>
 
-  <tr class="header" style="cursor: pointer">
+  <tr style="cursor: pointer">
     <td>9:45 - 10:00</td>
     <td>
     Contributed Talk 1
@@ -71,7 +74,7 @@ nav_order: 2
     </td>
   </tr>
 
-  <tr class="header" style="cursor: pointer">
+  <tr style="cursor: pointer">
     <td>10:00 - 10:15</td>
     <td>
     Contributed Talk 2
@@ -96,14 +99,13 @@ nav_order: 2
   </td>
   </tr> -->
 
-  <tr class="header">
-      <!-- <tr> -->
+  <tr>
         <td>10:15 - 11:30</td>
         <td></td>
         <td><b>Poster Session 1</b></td>
   </tr>
 
-  <tr class="header" style="cursor: pointer">
+  <tr style="cursor: pointer">
     <td>11:30 - 12:15</td>
     <td>
     Invited Talk
@@ -126,14 +128,13 @@ nav_order: 2
   </td>
   </tr> -->
 
-  <tr class="header">
-      <!-- <tr> -->
+  <tr>
         <td>12:15 - 13:45</td>
         <td></td>
         <td>Lunch break</td>
   </tr>
 
-  <tr class="header" style="cursor: pointer">
+  <tr style="cursor: pointer">
     <td>13:45 - 14:30</td>
     <td>
     Invited Talk
@@ -156,7 +157,7 @@ nav_order: 2
   </td>
   </tr> -->
 
-  <tr class="header" style="cursor: pointer">
+  <tr style="cursor: pointer">
     <td>14:30 - 14:45</td>
     <td>
     Contributed Talk 3
@@ -170,7 +171,7 @@ nav_order: 2
     </td>
   </tr>
 
-  <tr class="header" style="cursor: pointer">
+  <tr style="cursor: pointer">
     <td>14:45 - 15:00</td>
     <td>
     Contributed Talk 4
@@ -190,14 +191,13 @@ nav_order: 2
   </td>
   </tr> -->
 
-  <tr class="header">
-      <!-- <tr> -->
+  <tr>
         <td>15:00 - 16:15</td>
         <td></td>
         <td><b>Poster Session 1</b></td>
   </tr>
 
-  <tr class="header" style="cursor: pointer">
+  <tr style="cursor: pointer">
     <td>16:15 - 17:00</td>
     <td>
     Invited Talk
@@ -216,14 +216,11 @@ nav_order: 2
 
 
 
-  <tr class="header">
-      <!-- <tr> -->
+  <tr>
         <td>17:00 - 17:15</td>
         <td></td>
         <td>Closing Remarks</td>
   </tr>
-
-
-
-<!-- </table> -->
-<!-- </div> -->
+</tbody>
+</table>
+</div>
