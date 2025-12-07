@@ -6,7 +6,8 @@
   author = {Dongkyu Cho and Amy B.Z. Zhang and Bilel Fehri and Sheng Wang and Rumi Chunara and Rui Song and Hengrui Cai},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=W38lNOeYDC},
-  pdf = {https://openreview.net/pdf?id=W38lNOeYDC}
+  pdf = {https://openreview.net/pdf?id=W38lNOeYDC},
+  abstract = {Chain-of-thought (CoT) reasoning exposes the intermediate thinking process of large language models (LLMs), yet verifying those traces at scale remains unsolved. In response, we introduce the idea of decision pivots---minimal, verifiable checkpoints that any correct reasoning path must visit. We hypothesize that correct reasoning, though stylistically diverse, converge on the same pivot set; incorrect ones violate at least one pivot. Leveraging this property, we propose a self-training pipeline that (i) samples diverse reasoning paths and mines shared decision pivots, (ii) compresses each trace into pivot-focused short-path reasoning using an auxiliary verifier, and (iii) post-trains the model using its self-generated outputs. The proposed method aligns reasoning without ground truth reasoning data or external metrics. Experiments on standard benchmarks such as LogiQA, MedQA, and MATH500 show the effectiveness of our method.}
 }
 
 @article{Kilov_4_Discerning,
@@ -14,7 +15,8 @@
   author = {Daniel Kilov and Caroline Hendy and Secil Yanik Guyot and Aaron J Snoswell and Seth Lazar},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=bMLO2xmICR},
-  pdf = {https://openreview.net/pdf?id=bMLO2xmICR}
+  pdf = {https://openreview.net/pdf?id=bMLO2xmICR},
+  abstract = {Moral competence is the ability to act in accordance with moral principles. As large language models (LLMs) are increasingly deployed in situations demanding moral competence, there is increasing interest in evaluating this ability empirically. We review existing literature and identify three significant shortcoming: (i) Over-reliance on pre-packaged moral scenarios with explicitly highlighted moral features; (ii) Focus on verdict prediction rather than moral reasoning; and (iii) Inadequate testing of models' (in)ability to recognize when additional information is needed. Grounded in philosophical research on moral skills, we then introduce a novel methodology for assessing moral competence in LLMs that addresses these shortcomings. Our approach moves beyond simple verdict comparisons to evaluate five distinct dimensions of moral competence: identifying morally relevant features, weighting their importance, assigning moral reasons to these features, synthesizing coherent moral judgments, and recognizing information gaps. We conduct two experiments comparing six leading LLMs against both non-expert humans and professional philosophers. In our first experiment using ethical vignettes standard to existing work, LLMs generally outperformed non-expert humans across multiple dimensions of moral reasoning. However, our second experiment, featuring novel scenarios specifically designed to test moral sensitivity by embedding relevant features among irrelevant details, revealed a striking reversal: several LLMs performed significantly worse than humans at identifying morally salient features. Our findings suggest that current evaluations may substantially overestimate LLMs' moral reasoning capabilities by eliminating the crucial task of discerning moral relevance from noisy information, which we take to be a prerequisite for genuine moral skill. This work provides a more nuanced framework for assessing AI moral competence and highlights important directions for improving (assessment of) ethical reasoning capabilities in advanced AI systems.}
 }
 
 @article{Lampinen_10_generalization,
@@ -22,7 +24,8 @@
   author = {Andrew Kyle Lampinen and Arslan Chaudhry and Stephanie C.Y. Chan and Cody Wild and Diane Wan and Alexander Ku and Jörg Bornschein and Razvan Pascanu and Murray Shanahan and James Lloyd McClelland},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=nbENxsEmxn},
-  pdf = {https://openreview.net/pdf?id=nbENxsEmxn}
+  pdf = {https://openreview.net/pdf?id=nbENxsEmxn},
+  abstract = {Large language models exhibit exciting capabilities, yet can show surprisingly narrow generalization from finetuning. E.g. they can fail to generalize to simple reversals of relations they are trained on, or fail to make simple logical deductions based on trained information. These failures to generalize factual information from fine-tuning can significantly hinder the reasoning capabilities of these models. On the other hand, language models’ in-context learning shows different inductive biases and deductive reasoning capabilities. Here, we explore these differences in generalization and deductive reasoning between in-context- and fine-tuning-based learning. To do so, we constructed several novel datasets to evaluate and improve models' abilities to make generalizations over factual information from novel data. These datasets are designed to create clean tests of generalization, by isolating the knowledge in the dataset from that in pretraining. We expose pretrained large models to controlled subsets of the information in these datasets --- either in context, or through fine-tuning --- and evaluate their performance on test sets that require various types of generalization. We find overall that in data-matched settings, in-context learning can generalize several types of inferences more flexibly than fine-tuning (though we also find some qualifications of prior findings, such as cases when fine-tuning can generalize to reversals embedded in a larger structure of knowledge). We build on these findings to propose a method to enable improved generalization from fine-tuning: adding in-context reasoning traces to finetuning data. We show that this method improves generalization and deductive reasoning across various splits of our datasets and other benchmarks. Our results have implications for understanding the different forms of reasoning afforded by different modes of learning in language models, and practically improving their performance.}
 }
 
 @article{Wang_17_Observer,
@@ -30,7 +33,8 @@
   author = {Jerry Wang and Ting Yu Liu},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=GYi2Voim9O},
-  pdf = {https://openreview.net/pdf?id=GYi2Voim9O}
+  pdf = {https://openreview.net/pdf?id=GYi2Voim9O},
+  abstract = {Wepresent an interactive framework for evaluating whether large language models (LLMs) exhibit genuine “understanding” in a simple yet strategic environment. As a running example, we focus on Rock--Paper--Scissors (RPS), which, despite its apparent simplicity, requires sequential reasoning, adaptation, and strategy recogni tion. Our system positions the LLM as an Observer whose task is to identify which strategies are being played and to articulate the reasoning behind this judgment. The purpose is not to test knowledge of Rock--Paper--Scissors itself, but to probe whether the model can exhibit mind-like reasoning about sequential behavior. To support systematic evaluation, we provide a benchmark consisting of both static strategies and lightweight dynamic strategies specified by well-prompted rules. Wequantify alignment between the Observer’s predictions and the ground-truth distributions induced by actual strategy pairs using three complementary signals: Cross-Entropy, Brier score, and Expected Value (EV) discrepancy. These metrics are further integrated into a unified score, the Union Loss, which balances cali bration, sensitivity, and payoff alignment. Together with a Strategy Identification Rate (SIR) metric, our framework captures not only predictive accuracy but also whether the model can stably identify the latent strategies in play. Our framework emphasizes transparency and reproducibility. It is designed to allow real-time adjustment of LLM distributions, dynamic visualization of evolving losses, and direct inspection of reasoning traces to diagnose where and why failures occur. In this way, the framework serves as a practical and interpretable proxy for mind like inference in sequential games, offering insights into both the strengths and limitations of current LLM reasoning.}
 }
 
 @article{Pramanik_23_Hessian,
@@ -38,7 +42,8 @@
   author = {Vishal Pramanik and Maisha Maliha and Sumit Kumar Jha},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=RzbciCo1ZI},
-  pdf = {https://openreview.net/pdf?id=RzbciCo1ZI}
+  pdf = {https://openreview.net/pdf?id=RzbciCo1ZI},
+  abstract = {Attribution methods seek to explain language model predictions by quantifying the contribution of input tokens to generated outputs. However, most existing techniques are designed for encoder-based architectures and rely on linear approximations that fail to capture the causal and semantic complexities of autoregressive generation in decoder-only models. To address these limitations, we propose Hessian-Enhanced Token Attribution (HETA), a novel attribution framework tailored for decoder-only language models. HETA combines three complementary components: a semantic transition vector that captures token-to-token influence across layers, Hessian-based sensitivity scores that model second-order effects, and KL divergence to measure information loss when tokens are masked. This unified design produces context-aware, causally faithful, and semantically grounded attributions. Additionally, we introduce a curated benchmark dataset for systematically evaluating attribution quality in generative settings. Empirical evaluations across multiple models and datasets demonstrate that HETA consistently outperforms existing methods in attribution faithfulness and alignment with human annotations, establishing a new standard for interpretability in autoregressive language models.}
 }
 
 @article{Yin_24_Investigating,
@@ -46,7 +51,8 @@
   author = {Congchi Yin and Tianyi Wu and Yankai Shu and Alex Gu and Yun Han Wang and Jun Shao and xun jiang and Piji Li},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=h8q694mExC},
-  pdf = {https://openreview.net/pdf?id=h8q694mExC}
+  pdf = {https://openreview.net/pdf?id=h8q694mExC},
+  abstract = {Existing tasks fall short in evaluating reasoning ability of Large Language Models (LLMs) in an interactive, unknown environment. This deficiency leads to the isolated assessment of deductive, inductive, and abductive reasoning, neglecting the integrated reasoning process that is indispensable for humans discovery of real world. We introduce a novel evaluation paradigm, black-box interaction, to tackle this challenge. A black-box is defined by a hidden function that maps a specific set of inputs to outputs. LLMs are required to unravel the hidden function behind the black-box by interacting with it in given exploration turns, and reasoning over observed input-output pairs. Leveraging this idea, we build the Oracle benchmark which comprises 6 types of black-box task and 96 black-boxes. 19 modern LLMs are benchmarked. o3 ranks first in 5 of the 6 tasks, achieving over 70\% accuracy on most easy black-boxes. But it still struggles with some hard black-box tasks, where its average performance drops below 40\%. Further analysis indicates a universal difficulty among LLMs: They lack the high-level planning capability to develop efficient and adaptive exploration strategies for hypothesis refinement.}
 }
 
 @article{Li_27_Instruction,
@@ -54,7 +60,8 @@
   author = {Ming Li and Yanhong Li and Ziyue Li and Tianyi Zhou},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=3gid5RPvCS},
-  pdf = {https://openreview.net/pdf?id=3gid5RPvCS}
+  pdf = {https://openreview.net/pdf?id=3gid5RPvCS},
+  abstract = {As the post-training of large language models (LLMs) advances from instruction-following to complex reasoning tasks, understanding how different data affect finetuning dynamics remains largely unexplored. In this paper, we present a spectral analysis of layer-wise gradients induced by low/high-quality instruction and reasoning data for LLM post-training. Our analysis reveals that widely-studied metrics for data evaluation, e.g., IFD, InsTag, Difficulty, and Reward, can be explained and unified by spectral properties computed from gradients' singular value decomposition (SVD). Specifically, higher-quality data are usually associated with lower nuclear norms and higher effective ranks. Notably, effective rank exhibits better robustness and resolution than nuclear norm in capturing subtle quality differences. For example, reasoning data achieves substantially higher effective ranks than instruction data, implying richer gradient structures on more complex tasks. Our experiments also highlight that models within the same family share similar gradient patterns regardless of their sizes, whereas different model families diverge significantly. These findings illuminate the interplay between data quality and training stability, shedding novel insights into developing better data exploration strategies for post-training.}
 }
 
 @article{Dionisopoulos_31_Reasoning,
@@ -62,7 +69,8 @@
   author = {Lucas Dionisopoulos and Prithviraj Ammanabrolu and Nicklas Majamaki},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=eaHxaTmKIp},
-  pdf = {https://openreview.net/pdf?id=eaHxaTmKIp}
+  pdf = {https://openreview.net/pdf?id=eaHxaTmKIp},
+  abstract = {How can you get a language model to reason in a task it natively struggles with? We study how reasoning evolves in a language model -- from supervised fine-tuning (SFT) to reinforcement learning (RL) -- by analyzing how a set of theoretically-inspired datasets impacts language model performance in chess. We find that fine-tuning a model to directly predict the best move leads to effective RL and the strongest downstream performance -- however, the RL step elicits unfaithful reasoning (reasoning inconsistent with the chosen move). Alternatively, training on multi-move trajectories yields comparable downstream performance with faithful reasoning and more stable RL. We show that RL induces a substantial positive shift in the distribution of move quality and reduces hallucination rates as a side effect. Finally, we find several SFT-checkpoint metrics -- metrics spanning evaluation performance, hallucination rates, and reasoning quality -- to be predictive of post-RL model performance. We release checkpoints and final models as well as training data, evaluations, and code which allowed us to surpass leading open-source reasoning models in chess with a 7B-parameter model.}
 }
 
 @article{Liu_32_CaRT,
@@ -70,7 +78,8 @@
   author = {Grace Liu and Yuxiao Qu and Jeff Schneider and Aarti Singh and Aviral Kumar},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=iv6FE90wGo},
-  pdf = {https://openreview.net/pdf?id=iv6FE90wGo}
+  pdf = {https://openreview.net/pdf?id=iv6FE90wGo},
+  abstract = {Many tasks require learned models to strategically gather relevant information over multiple rounds of interaction before actually acting on a task. Strategic information gathering requires models to know not only how to effectively acquire information, but also when to stop gathering information and make a decision, in order to avoid overthinking or getting derailed when acting. In this paper, we formalize this problem and introduce Counterfactuals and Reasoning for Termination (CaRT), an approach for teaching LLMs when to stop seeking information. To appropriately learn when to terminate, CaRT fine-tunes LLMs using counterfactual pairs of trajectories, one where termination is appropriate and a minimally modified version of the same trajectory where it is not. It trains the LLM to explain the rationale for the termination decision in either case via verbal reasoning, and imbues this capability into the base LLM via fine-tuning. We instantiate CaRT in two domains: interactive medical diagnosis and math problem solving. In both domains, we find that CaRT improves the efficiency of information gathering and task success rate compared to other fine-tuning methods.}
 }
 
 @article{Goyal_36_Scratchpad,
@@ -78,7 +87,8 @@
   author = {Sayam Goyal and Brad Peters and María Emilia Granda and Akshath Vijayakumar Narmadha and Dharunish Yugeswardeenoo and Callum Stuart McDougall and Sean O'Brien and Ashwinee Panda and Kevin Zhu and Cole Blondin},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=35mYE0TBVv},
-  pdf = {https://openreview.net/pdf?id=35mYE0TBVv}
+  pdf = {https://openreview.net/pdf?id=35mYE0TBVv},
+  abstract = {Latent reasoning language models aim to improve reasoning efficiency by computing in continuous hidden space rather than explicit text, but the opacity of these internal processes poses major challenges for interpretability and trust. We present a mechanistic case study of CODI (Continuous Chain-of-Thought via Self-Distillation), a latent reasoning model that solves problems by chaining "latent thoughts." Using attention analysis, SAE based probing, activation patching, and causal interventions, we uncover a structured "scratchpad computation" cycle: even numbered steps serve as scratchpads for storing numerical information, while odd numbered steps perform the corresponding operations. Our experiments show that interventions on numerical features disrupt performance most strongly at scratchpad steps, while forcing early answers produces accuracy jumps after computation steps. Together, these results provide a mechanistic account of latent reasoning as an alternating algorithm, demonstrating that non linguistic thought in LLMs can follow systematic, interpretable patterns. By revealing structure in an otherwise opaque process, this work lays the groundwork for auditing latent reasoning models and integrating them more safely into critical applications. All code, data, and other artifacts will be publicly released upon acceptance.}
 }
 
 @article{Ziems_37_Multi,
@@ -86,7 +96,8 @@
   author = {Noah Ziems and Dilara Soylu and Lakshya A Agrawal and Isaac Miller and Liheng Lai and Chen Qian and Kaiqiang Song and Meng Jiang and Dan Klein and Matei Zaharia and Karel D'Oosterlinck and Christopher Potts and Omar Khattab},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=F8Pi37GVFd},
-  pdf = {https://openreview.net/pdf?id=F8Pi37GVFd}
+  pdf = {https://openreview.net/pdf?id=F8Pi37GVFd},
+  abstract = {Group Relative Policy Optimization (GRPO) has proven to be an effective tool for post-training language models (LMs). However, AI systems are increasingly expressed as modular programs that mix together multiple LM calls with distinct prompt templates and other tools, and it is not clear how best to leverage GRPO to improve these systems. We begin to address this challenge by defining mmGRPO, a simple multi-module generalization of GRPO that groups LM calls by module across rollouts and handles variable-length and interrupted trajectories. We find that mmGRPO, composed with automatic prompt optimization via the BetterTogether method of Soylu et al. (2024), improves accuracy by 11\% on average across classification, many-hop search, and privacy-preserving delegation tasks against the post-trained LM---and by 5\% against prompt optimization on its own. is released as an open-source optimizer for compound-AI systems. We open-source mmGRPO as the dspy.GRPO optimizer in the DSPy library at dspy.ai.}
 }
 
 @article{Liao_38_Lost,
@@ -94,7 +105,8 @@
   author = {Baohao Liao and Xinyi Chen and Sara Rajaee and Yuhui Xu and Christian Herold and Anders Søgaard and Maarten de Rijke and Christof Monz},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=7WeJ9oEm2y},
-  pdf = {https://openreview.net/pdf?id=7WeJ9oEm2y}
+  pdf = {https://openreview.net/pdf?id=7WeJ9oEm2y},
+  abstract = {Recent advancements in large language models (LLMs) have significantly advanced complex reasoning capabilities, particularly through extended chain-of-thought (CoT) reasoning. Despite these developments, the self-correction abilities of LLMs during long CoT reasoning remain underexplored. And recent findings on overthinking suggest that such models often engage in unnecessarily redundant reasoning. In this work, we empirically show that the first reasoning step exerts a disproportionately large influence on the final prediction---errors introduced at this stage can substantially degrade subsequent reasoning quality. This phenomenon is consistently observed across various state-of-the-art open- and closed-source reasoning models. Leveraging this insight, we propose an efficient sampling strategy that leverages a reward model to identify and retain high-quality first reasoning steps while discarding suboptimal ones, achieving up to a 70\% reduction in inference cost without sacrificing any accuracy. Our work highlights the central role of the first reasoning step in generating a high-quality reasoning trajectory, and thus enabling significantly efficient sampling.}
 }
 
 @article{Java_43_Characterizing,
@@ -102,7 +114,8 @@
   author = {Abhinav Java and Ashmit Khandelwal and Sukruta Prakash Midigeshi and Aaron Halfaker and Amit Deshpande and Navin Goyal and Ankur Gupta and Nagarajan Natarajan and Amit Sharma},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=2BaSWE5kRo},
-  pdf = {https://openreview.net/pdf?id=2BaSWE5kRo}
+  pdf = {https://openreview.net/pdf?id=2BaSWE5kRo},
+  abstract = {Information tasks such as writing surveys or analytical reports require complex search and reasoning, and have recently been grouped under the umbrella of $deep research$ --- a term also adopted by recent models targeting these capabilities. Despite growing interest, the scope of the deep research task remains underdefined and its distinction from other reasoning-intensive problems is poorly understood. In this paper, we propose a formal characterization of the deep research (DR) task and introduce a benchmark to evaluate the performance of DR systems. We argue that the core defining feature of deep research is not the production of lengthy report-style outputs, but rather the high fan-out over concepts required during the search process, i.e., broad and reasoning-intensive exploration. To enable objective evaluation, we define DR using an intermediate output representation that encodes key claims uncovered during search---separating the reasoning challenge from surface-level report generation. Based on this formulation, we propose a diverse, challenging benchmark LiveDRBench with 100 challenging tasks over scientific topics (e.g., datasets, materials discovery, prior art search) and public interest events (e.g., flight incidents, movie awards). Across state-of-the-art DR systems, F1 score ranges between 0.02 and 0.72 for any sub-category. OpenAI's model performs the best with an overall F1 score of 0.55. Analysis of reasoning traces reveals the distribution over the number of referenced sources, branching, and backtracking events executed by current DR systems, motivating future directions for improving their search mechanisms and grounding capabilities.}
 }
 
 @article{Yin_46_Learning,
@@ -110,7 +123,8 @@
   author = {Fangcong Yin and Zeyu Leo Liu and Liu Leqi and Xi Ye and Greg Durrett},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=TD8Q2ep1IH},
-  pdf = {https://openreview.net/pdf?id=TD8Q2ep1IH}
+  pdf = {https://openreview.net/pdf?id=TD8Q2ep1IH},
+  abstract = {A common approach for teaching large language models (LLMs) to reason is to train on chain-of-thought (CoT) traces of in-distribution reasoning problems, but such annotated data is costly to obtain for every problem of interest. We want reasoning models to generalize beyond their training distribution, and ideally to generalize compositionally: combine atomic reasoning skills to solve harder, unseen reasoning tasks. We take a step towards compositional generalization of reasoning skills when addressing a target compositional task that has no labeled CoT data. We find that simply training models on CoT data of atomic tasks leads to limited generalization, but minimally modifying CoT formats of constituent atomic tasks to be composable can lead to improvements. We can train "atomic CoT" models on the atomic tasks with Composable CoT data and combine them with multitask learning or model merging for better zero-shot performance on the target compositional task. Such a combined model can be further bootstrapped on a small amount of compositional data using rejection sampling fine-tuning (RFT). Results on string operations and natural language skill compositions show that training LLMs on Composable CoT outperforms multitask learning and continued fine-tuning baselines within a given training data budget.}
 }
 
 @article{Samineni_47_RL,
@@ -118,7 +132,8 @@
   author = {Soumya Rani Samineni and Durgesh Kalwar and Karthik Valmeekam and Kaya Stechly and Subbarao Kambhampati},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=4vNW1MvX2m},
-  pdf = {https://openreview.net/pdf?id=4vNW1MvX2m}
+  pdf = {https://openreview.net/pdf?id=4vNW1MvX2m},
+  abstract = {Reinforcement learning based post-training of large language models (LLMs) has recently gained attention, particularly following the release of DeepSeek R1 , which applied GRPO for fine-tuning. Amid the growing hype around improved reasoning abilities attributed to RL post-training, we critically examine the formulation and assumptions underlying these methods. We start by highlighting popular structural assumptions made in modeling LLM training as an MDP, and show how they lead to a degenerate MDP that doesn’t quite need the RL/GRPO apparatus. The two critical structural assumptions include (1) making the MDP states be just a concatenation of the actions with states becoming the context window and the actions becoming the tokens in LLMs and (2) splitting the reward of a state-action trajectory uniformly across the trajectory. Our comprehensive analysis demonstrates that, due to these simplifying assumptions, the standard approach is effectively equivalent to outcome-driven supervised learning. Our experiments on benchmarks including GSM8K and Countdown using Qwen-2.5 base models and Llama-3.2 instruct models show that Filtered Iterative SFT, incorporating both positive and negative samples, achieves performance comparable to GRPO-based training. We also show that these structural assumptions indirectly incentivize RL to generate longer sequences of intermediate tokens which in turn feeds into the narrative of “RL incentivizing thinking because it generates longer thinking traces.” We continue to believe that RL writ large can be a great tool for post-training LLMs, and hope that our analysis of the limiting assumptions in the currently popular RL framework encourages work that goes beyond patching the symptoms of faulty assumptions and towards improving the underlying formulation.}
 }
 
 @article{Zhu_49_OIBench,
@@ -126,7 +141,8 @@
   author = {Yaoming Zhu and Junxin Wang and Yiyang Li and Xin Ding and Lin Qiu and ZongYu Wang and Jun Xu and Xuezhi Cao and Yuhuai Wei and Mingshi Wang and Xunliang Cai and Rong Ma},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=z54OmzD0mS},
-  pdf = {https://openreview.net/pdf?id=z54OmzD0mS}
+  pdf = {https://openreview.net/pdf?id=z54OmzD0mS},
+  abstract = {As models become increasingly sophisticated, conventional algorithm benchmarks are increasingly saturated, underscoring the need for more challenging benchmarks to guide future improvements in algorithmic reasoning. In this paper, we introduce OIBench, a high-quality, private, and challenging olympiad-level informatics dataset comprising 250 carefully curated original problems. We detail the construction methodology of the benchmark, ensuring a comprehensive assessment across various programming paradigms and complexities, and we demonstrate its contamination-resistant properties via experiments. We propose Time/Space Completion Curves for finer-grained efficiency analysis and enable direct human-model comparisons through high-level participant evaluations. Our experiments reveal that while open-source models lag behind closed-source counterparts, current SOTA models already outperform most human participants in both correctness and efficiency, while still suboptimal compared to the canonical solutions. By releasing OIBench as a fully open-source resource, we hope it can help to improve future LLMs in code reasoning.}
 }
 
 @article{Singh_52_Agentic,
@@ -134,7 +150,8 @@
   author = {Joykirat Singh and Yash Pandya and Pranav Vajreshwari and Raghav Magazine and Akshay Nambi},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=0BgYVrmz0F},
-  pdf = {https://openreview.net/pdf?id=0BgYVrmz0F}
+  pdf = {https://openreview.net/pdf?id=0BgYVrmz0F},
+  abstract = {Large language models (LLMs) have achieved remarkable progress in complex reasoning tasks, yet they remain fundamentally limited by their reliance on static internal knowledge and text-only reasoning. Real-world problem solving often demands dynamic, multi-step reasoning, adaptive decision making, and the ability to interact with external tools and environments. In this work, we introduce ARTIST (Agentic Reasoning and Tool Integration in Self-improving Transformers), a unified framework that tightly couples agentic reasoning, reinforcement learning, and tool integration for LLMs. ARTIST enables models to autonomously decide when, how, and which tools to invoke within multi-turn reasoning chains, leveraging outcome-based RL to learn robust strategies for tool use and environment interaction without requiring step-level supervision. Extensive experiments on mathematical reasoning and multi-turn function calling benchmarks show that ARTIST consistently outperforms state-of-the-art baselines, with up to 20\% absolute improvement over base models and strong gains on the most challenging tasks. Detailed studies and metric analyses reveal that agentic RL training leads to deeper reasoning, more effective tool use, and higher-quality solutions. Our results establish agentic RL with tool integration as a powerful new frontier for robust, interpretable, and generalizable problem-solving in LLMs.}
 }
 
 @article{Stechly_54_Beyond,
@@ -142,7 +159,8 @@
   author = {Kaya Stechly and Karthik Valmeekam and Vardhan Palod and Atharva Gundawar and Subbarao Kambhampati},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=lphc8Ssful},
-  pdf = {https://openreview.net/pdf?id=lphc8Ssful}
+  pdf = {https://openreview.net/pdf?id=lphc8Ssful},
+  abstract = {Recent impressive results from large reasoning models have been interpreted as a triumph of Chain of Thought (CoT), and especially of the process of training on CoTs sampled from base LLMs in order to help find new reasoning patterns. In this paper, we critically examine that interpretation by investigating how the semantics of intermediate tokens---often anthropomorphized as “thoughts” or reasoning traces and which are claimed to display behaviors like backtracking, self-verification, and meta-cognition---actually influence model performance. We train transformer models on formally verifiable reasoning traces and solutions, constraining both intermediate steps and final outputs to align with those of a formal solver. By constructing a formal interpreter of the semantics of our problems and intended algorithm, we systematically evaluate not only solution accuracy but also the correctness of intermediate traces, thus allowing us to evaluate whether the latter causally influences the former. Our experiments involve training transformer models on traces and solutions generated by A* search. We notice that, despite significant improvements on the solution-only baseline, models trained on entirely correct traces still produce invalid reasoning traces when arriving at correct solutions. To further show that trace accuracy is only loosely connected to solution accuracy, we then train models on noisy, corrupted traces which have no relation to the specific problem each is paired with, and find that not only does performance remain largely consistent with models trained on correct data, but in some cases can improve upon it and generalize more robustly on out-of-distribution tasks. These results challenge the assumption that intermediate tokens or ``Chains of Thought'' reflect or induce predictable reasoning behaviors and caution against anthropomorphizing such outputs or over-interpreting them (despite their mostly correct forms) as evidence of human-like or algorithmic behaviors in language models.}
 }
 
 @article{Sasso_55_Exploration,
@@ -150,7 +168,8 @@
   author = {Remo Sasso and Michelangelo Conserva and Dominik Jeurissen and Paulo Rauber},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=nChuQJ0dDP},
-  pdf = {https://openreview.net/pdf?id=nChuQJ0dDP}
+  pdf = {https://openreview.net/pdf?id=nChuQJ0dDP},
+  abstract = {Exploration in reinforcement learning (RL) remains challenging, particularly in sparse-reward settings. While foundation models possess strong semantic priors, their capabilities as zero-shot exploration agents in classic RL benchmarks are not well understood.We benchmark LLMs and VLMs on multi-armed bandits, Gridworlds, and sparse-reward Atari to test zero-shot exploration. Our investigation reveals a key limitation: while VLMs can infer high-level objectives from visual input, they consistently fail at precise low-level control---the “knowing--doing gap”. To analyze a potential bridge for this gap, we investigate a simple on-policy hybrid framework in a controlled, best-case scenario. Our results in this idealized setting show that VLM guidance can significantly improve early-stage sample efficiency, providing a clear analysis of the potential and constraints of using foundation models to guide exploration rather than for end-to-end control.}
 }
 
 @article{Zhao_56_Chain,
@@ -158,7 +177,8 @@
   author = {Chengshuai Zhao and Zhen Tan and Pingchuan Ma and Dawei Li and Bohan Jiang and Yancheng Wang and Yingzhen Yang and huan liu},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=o2AoLPIjle},
-  pdf = {https://openreview.net/pdf?id=o2AoLPIjle}
+  pdf = {https://openreview.net/pdf?id=o2AoLPIjle},
+  abstract = {Chain-of-Thought (CoT) prompting has been shown to improve Large Language Model (LLM) performance on various tasks. With this approach, LLMs appear to produce human-like reasoning steps before providing answers (a.k.a., CoT reasoning), which often leads to the perception that they engage in deliberate inferential processes. However, some initial findings suggest that CoT reasoning may be more superficial than it appears, motivating us to explore further. In this paper, we study CoT reasoning via a data distribution lens and investigate if CoT reasoning reflects a structured inductive bias learned from in-distribution data, allowing the model to conditionally generate reasoning paths that approximate those seen during training. Thus, its effectiveness is fundamentally bounded by the degree of distribution discrepancy between the training data and the test queries. With this lens, we dissect CoT reasoning via three dimensions: task, length, and format. To investigate each dimension, we design DataAlchemy, an isolated and controlled environment to train LLMs from scratch and systematically probe them under various distribution conditions. Our results reveal that CoT reasoning is a brittle mirage that vanishes when it is pushed beyond training distributions. This work offers a deeper understanding of why and when CoT reasoning fails, emphasizing the ongoing challenge of achieving genuine and generalizable reasoning. Our code is available at GitHub: https://github.com/ChengshuaiZhao0/DataAlchemy.}
 }
 
 @article{Jin_57_RL,
@@ -166,7 +186,8 @@
   author = {Hangzhan Jin and Sitao Luan and Sicheng Lyu and Guillaume Rabusseau and Doina Precup and Mohammad Hamdaqa},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=SN1PCQ0ApV},
-  pdf = {https://openreview.net/pdf?id=SN1PCQ0ApV}
+  pdf = {https://openreview.net/pdf?id=SN1PCQ0ApV},
+  abstract = {The two-stage fine-tuning paradigm of Supervised Fine-Tuning (SFT) followed by Reinforcement Learning (RL) has empirically shown better performance than one-stage SFT for the post-training of Large Language Models (LLMs). However, the evolution and mechanism behind the synergy of SFT and RL are still under-explored and inconclusive. To figure out this issue, we dissect the Out-Of-Distribution (OOD) vs. In-Distribution (ID) generalization performance of LLaMA-3.2-11B and Qwen-2.5-7B during the fine-tuning (full-parameter, rather than LoRA) process, and conduct fine-grained analysis. Besides the simple forgetting issue of SFT, we have other interesting findings: (1) The subsequent RL stage does not generate fundamentally new capabilities, instead it plays a memory restoration role, recovering most of the OOD performance which is lost during SFT; (2) The memory recovery ability has a limit, i.e., if SFT trains for too long, RL cannot recover the lost OOD ability, and the ID test loss cannot indicate the limit; (3) To uncover the underlying mechanisms behind the forgetting and restoration process, we employ SVD analysis of the parameter matrices. Unlike the common belief that the shift of model capacity mainly result from the changes of singular values, we find that they are actually quite stable throughout fine-tuning. Instead, the OOD behavior strongly correlates with the rotation of singular vectors. In a nutshell, SFT performs hard alignment of the crucial parameter directions to the target tasks, leading to rapid and greedy adjustment, but also quick forgetting; RL then softly and slowly re-aligns singular vectors towards a more robust configuration, healing the forgetting and learning the downstream tasks simultaneously. We again validate the role of singular vectors by manually editing the model parameters. Our findings re-identify the role of RL in the two-stage fine-tuning and discover the rotation of singular vectors as the key mechanism.}
 }
 
 @article{Asawa_60_Train,
@@ -174,7 +195,8 @@
   author = {Parth Asawa and Alan Zhu and Matei Zaharia and Alex Dimakis and Joseph E. Gonzalez},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=gAzXUglTR6},
-  pdf = {https://openreview.net/pdf?id=gAzXUglTR6}
+  pdf = {https://openreview.net/pdf?id=gAzXUglTR6},
+  abstract = {Foundation models are increasingly deployed as black-box services, where model weights cannot be modified and customization is limited to prompting. While static prompt optimization has shown promise, it produces a single fixed prompt that fails to adapt to different inputs, users, or environments. We introduce Advisor Models, lightweight parametric policies trained with reinforcement learning to reactively issue natural language steering instructions in-context to black-box models. The advisor is a second small model that sits between the input and the model, shaping behavior on a per-instance basis using reward signals from the environment. Across multiple domains involving reasoning and personalization, we show that Advisor Models outperform static prompt optimizers, discovering environment dynamics and improving downstream task performance. We also demonstrate the generalizability of advisors by transferring them across black-box models, as well as the framework's ability to achieve specialization while retaining robustness to out-of-distribution inputs. Viewed more broadly, Advisor Models provide a learnable interface to black-box systems where the advisor acts as a parametric, environment-specific memory. We argue that dynamic optimization of black-box models via Advisor Models is a promising direction for enabling personalization and environment-adaptable AI with frontier-level capabilities.}
 }
 
 @article{Feifei_66_Benchmarking,
@@ -182,7 +204,8 @@
   author = {SUN Feifei and Ziyi Tong and Houjing WEI and Cheng Peng and Teeradaj Racharak and Le-Minh Nguyen},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=jogKc4OluB},
-  pdf = {https://openreview.net/pdf?id=jogKc4OluB}
+  pdf = {https://openreview.net/pdf?id=jogKc4OluB},
+  abstract = {Temporal reasoning remains a challenging task for Large Language Models (LLMs), particularly when confronted with nonlinear narratives and mixed time systems, where events are presented out of chronological order. While human cognition effortlessly reconstructs temporal sequences in such narratives, LLMs often exhibit inconsistent reasoning and fail to infer the correct event order. In this paper, we present a comprehensive study on sentence-level event ordering to evaluate emerging frontier LLMs in temporal reasoning tasks. We contribute (i) a novel dataset derived from historical records, blending absolute and relative time expressions across varied granularities; (ii) a benchmark covering emerging frontier LLMs including GPT family, DeepSeek series, Qwen models, and open-source models; and (iii) an absolute-relative time conversion table to support future research on mixed time systems. Our experiments reveal substantial limitations across current models, with a consistent performance decline when relative time disrupts chronological signals. We further provide a detailed benchmark analysis across multiple dimensions, including model types, sentence length, temporal granularity, and format violations. Our findings offer key insights and valuable resources to advance temporal reasoning research in LLMs.}
 }
 
 @article{Zhu_69_Think,
@@ -190,7 +213,8 @@
   author = {Zihao Zhu and Hongbao ZHANG and Ruotong Wang and Ke Xu and Siwei Lyu and Baoyuan Wu},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=h6c1R08NVv},
-  pdf = {https://openreview.net/pdf?id=h6c1R08NVv}
+  pdf = {https://openreview.net/pdf?id=h6c1R08NVv},
+  abstract = {Large Reasoning Models (LRMs) are designed to solve complex tasks by generating explicit reasoning traces before producing final answers. However, we reveal a critical vulnerability in LRMs -- termed Unthinking Vulnerability -- wherein the thinking process can be bypassed by manipulating special delimiter tokens. It is empirically demonstrated to be widespread across mainstream LRMs, posing both a significant risk and potential utility, depending on how it is exploited. In this paper, we systematically investigate this vulnerability from both malicious and beneficial perspectives. On the malicious side, we introduce Breaking of Thought (BoT), a novel attack that enables adversaries to bypass the thinking process of LRMs, thereby compromising their reliability and availability. We present two variants of BoT: a training-based version that injects backdoor during the fine-tuning stage, and a training-free version based on adversarial attack during the inference stage. As a potential defense, we propose thinking recovery alignment to partially mitigate the vulnerability. On the beneficial side, we introduce Monitoring of Thought (MoT), a plug-and-play framework that allows model owners to enhance efficiency and safety. It is implemented by leveraging the same vulnerability to dynamically terminate redundant or risky reasoning through external monitoring. Extensive experiments show that BoT poses a significant threat to reasoning reliability, while MoT provides a practical solution for preventing overthinking and jailbreaking. Our findings expose an inherent flaw in current LRM architectures and underscore the need for more robust reasoning systems in the future. Code is available at https://anonymous.4open.science/r/unthinking\_vulnerability.}
 }
 
 @article{Gopalakrishnan_70_Decoupling,
@@ -198,7 +222,8 @@
   author = {Anand Gopalakrishnan and Róbert Csordás and Jürgen Schmidhuber and Michael Curtis Mozer},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=0PFWEgiQoD},
-  pdf = {https://openreview.net/pdf?id=0PFWEgiQoD}
+  pdf = {https://openreview.net/pdf?id=0PFWEgiQoD},
+  abstract = {The attention mechanism in a Transformer matches query and key based on both content---the what---and position in a sequence---the where. We present an analysis indicating that what and where are entangled in the popular rotary position embedding (RoPE), which can impair performance particularly when decision making requires independent matches on these two factors. We propose an improvement to RoPE, we call Polar Coordinate Position Embedding or PoPE, that eliminates the what-where confound. PoPE is far superior on a diagnostic task requiring indexing solely by position or by content. On autoregressive sequence modeling in music, genomic, and natural language domains, Transformers using PoPE as the positional encoding scheme outperform baselines using RoPE with respect to training loss (perplexity) and downstream task performance. On language modeling, these gains persist across model scale, from 124M to 774M parameters. Crucially, PoPE shows strong zero-shot length extrapolation capabilities, whereas RoPE's performance degrades significantly on longer sequences at test time without fine tuning or the use of position-interpolation methods.}
 }
 
 @article{CodaForno_73_Exploring,
@@ -206,7 +231,8 @@
   author = {Julian Coda-Forno and Zhuokai Zhao and Qiang Zhang and Dipesh Tamboli and WEIWEI LI and Xiangjun Fan and Lizhu Zhang and Eric Schulz and Hsiao-Ping Tseng},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=xhXOFRp10k},
-  pdf = {https://openreview.net/pdf?id=xhXOFRp10k}
+  pdf = {https://openreview.net/pdf?id=xhXOFRp10k},
+  abstract = {Should LLM reasoning live in a separate coprocessor, or within a single model that uses the same forward pass and representational space? We study dual-architecture latent reasoning, where a fluent Base exchanges latent messages with a Coprocessor, and test two hypotheses aimed at improving latent communication over Liu et al. (2024b): (H1) increase channel capacity; (H2) learn communication via joint finetuning. Under matched latent-token budgets on GPT-2 and Qwen-3, H2 is consistently strongest while H1 yields modest gains. A unified soft-embedding baseline---a single model with the same forward pass and shared representations, using the same latent-token budget---nearly matches H2 and surpasses H1, suggesting current dual designs mostly add compute rather than qualitatively improving reasoning. Across GSM8K, ProsQA, and a Countdown stress test with increasing branching factor, scaling the latent-token budget beyond small values fails to improve robustness. Latent analyses show overlapping subspaces with limited specialization, consistent with weak reasoning gains. We conclude dual-model latent reasoning remains promising in principle, but likely requires objectives and communication mechanisms that explicitly shape latent spaces for algorithmic planning.}
 }
 
 @article{Zhou_75_Landscape,
@@ -214,7 +240,8 @@
   author = {Zhanke Zhou and Zhaocheng Zhu and Xuan Li and Mikhail Galkin and Xiao Feng and Sanmi Koyejo and Jian Tang and Bo Han},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=FK39iaYrUi},
-  pdf = {https://openreview.net/pdf?id=FK39iaYrUi}
+  pdf = {https://openreview.net/pdf?id=FK39iaYrUi},
+  abstract = {Numerous applications of large language models (LLMs) rely on their ability to perform step-by-step reasoning. However, the reasoning behavior of LLMs remains poorly understood, posing challenges to research, development, and safety. To address this gap, we introduce landscape of thoughts-the first visualization tool for users to inspect the reasoning paths of chain-of-thought and its derivatives on any multi-choice dataset. Specifically, we represent the states in a reasoning path as feature vectors that quantify their distances to all answer choices. These features are then visualized in two-dimensional plots using t-SNE. Qualitative and quantitative analysis with the landscape of thoughts effectively distinguishes between strong and weak models, correct and incorrect answers, as well as different reasoning tasks. It also uncovers undesirable reasoning patterns, such as low consistency and high uncertainty. Additionally, users can adapt our tool to a model that predicts the property they observe. We showcase this advantage by adapting our tool to a lightweight verifier that evaluates the correctness of reasoning paths. Empirically, this verifier boosts the accuracy of reasoning as well as the test-time scaling effect. The code is publicly available at https://github.com/tmlr-group/landscape-of-thoughts.}
 }
 
 @article{Sun_79_ReFIne,
@@ -222,7 +249,8 @@
   author = {Chung-En Sun},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=uNB99P4qpI},
-  pdf = {https://openreview.net/pdf?id=uNB99P4qpI}
+  pdf = {https://openreview.net/pdf?id=uNB99P4qpI},
+  abstract = {Recent advances in long chain-of-thought (CoT) reasoning have largely prioritized answer accuracy and token efficiency, while overlooking aspects critical to trustworthiness. We argue that usable reasoning systems must be trustworthy, characterized by three properties: interpretability, faithfulness, and reliability. To this end, we propose ReFIne, a new training framework that integrates supervised fine-tuning with GRPO to encourage models to: (i) improve interpretability by producing structured, tag-based traces with high-level planning that are easier for humans to follow; (ii) enhance faithfulness by explicitly disclosing the decisive information guiding each solution, with consistent cross-section references; and (iii) promote reliability by providing self-assessments of both the derivation's soundness and the confidence of the final answer. We apply ReFIne to the Qwen3 models at multiple scales (1.7B/4B/8B) and evaluate across mathematical benchmarks of varying difficulty. Our experimental results show that ReFIne models generate clearer and better-structured reasoning traces (interpretability +44.0\%), more faithfully expose their underlying decision process (faithfulness +18.8\%), and offer informative confidence estimates (reliability +42.4\%). These findings highlight an overlooked but important direction: reasoning models should be optimized not only for accuracy, but also for broader dimensions of trustworthiness.}
 }
 
 @article{Ghazanfari_80_Chain,
@@ -230,7 +258,8 @@
   author = {Sara Ghazanfari and Francesco Croce and Nicolas Flammarion and Prashanth Krishnamurthy and Farshad Khorrami and Siddharth Garg},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=8oGG6c0WFd},
-  pdf = {https://openreview.net/pdf?id=8oGG6c0WFd}
+  pdf = {https://openreview.net/pdf?id=8oGG6c0WFd},
+  abstract = {Recent work has shown that eliciting Large Language Models (LLMs) to generate reasoning traces in natural language before answering the user's request can significantly improve their performance across tasks. This approach has been extended to multimodal LLMs, where the models can produce chain-of-thoughts (CoT) about the content of input images and videos. In this work, we propose to obtain video LLMs whose reasoning steps are grounded in, and explicitly refer to, the relevant video frames. For this, we first create CoF-Data, a large dataset of diverse questions, answers, and corresponding frame-grounded reasoning traces about both natural and synthetic videos, spanning various topics and tasks. Then, we fine-tune existing video LLMs on this chain-of-frames (CoF) data. Our approach is simple and self-contained, and, unlike existing approaches for video CoT, does not require auxiliary networks to select or caption relevant frames. We show that our models based on CoF are able to generate chain-of-thoughts that accurately refer to the key frames to answer the given question. This, in turn, leads to improved performance across multiple video understanding benchmarks.}
 }
 
 @article{Fu_81_Efficient,
@@ -238,7 +267,8 @@
   author = {Wanzhen Fu and Haocheng Yang and Fengxiang Cheng and Fenrong Liu},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=s4LxPA2FQE},
-  pdf = {https://openreview.net/pdf?id=s4LxPA2FQE}
+  pdf = {https://openreview.net/pdf?id=s4LxPA2FQE},
+  abstract = {Large language models (LLMs) struggle with complex logical reasoning. Previous work has primarily explored single-agent methods, with their performance remaining fundamentally limited by the capabilities of a single model. To our knowledge, this paper is the first to introduce a multi-agent approach specifically to enhance the logical reasoning abilities of LLMs. Considering the prohibitive communication and token costs of multi-turn interactions, we propose an adaptive sparse communication strategy to ensure efficiency. Specifically, our method prunes unnecessary communication by assessing agent confidence and information gain, allowing each agent to selectively update its memory with other agents' most valuable outputs to help generate answers. Extensive experiments demonstrate that our sparse communication approach outperforms fully connected communication while reducing token costs by 25\%, improving both effectiveness and efficiency.}
 }
 
 @article{Helff_82_ActivationReasoning,
@@ -246,7 +276,8 @@
   author = {Lukas Helff and Ruben Härle and Wolfgang Stammer and Felix Friedrich and Manuel Brack and Antonia Wüst and Hikaru Shindo and Patrick Schramowski and Kristian Kersting},
   abbr = {Poster session 1},
   html = {https://openreview.net/forum?id=nle1S4ZgSv},
-  pdf = {https://openreview.net/pdf?id=nle1S4ZgSv}
+  pdf = {https://openreview.net/pdf?id=nle1S4ZgSv},
+  abstract = {Large language models (LLMs) excel at generating fluent text, but their internal reasoning remains opaque and difficult to control. Sparse autoencoders (SAEs) make hidden activations more interpretable by exposing latent features that often align with human concepts. Yet, these features are fragile and passive, offering no mechanism for systematic reasoning or model control. To address this, we introduce ActivationReasoning (AR), a framework that embeds explicit logical reasoning into the latent space of LLMs. It proceeds in three stages: (1) Finding latent representations, first latent concept representations are identified (e.g., via SAEs) and organized into a dictionary; (2) Activating propositions, at inference time AR detects activating concepts and maps them to logical propositions; and (3)Logical reasoning, applying logical rules over these propositions to infer higher-order structures, compose new concepts, and steer model behavior. We evaluate AR on multi-hop reasoning (PrOntoQA), abstraction and robustness to indirect concept cues (Rail2Country), reasoning over natural and diverse language (ProverQA), and context-sensitive safety (BeaverTails). Across all tasks, AR scales robustly with reasoning complexity, generalizes to abstract and context-sensitive tasks, and transfers across model backbones. These results demonstrate that grounding logical structure in latent activations not only improves transparency but also enables structured reasoning, reliable control, and alignment with desired behaviors, providing a path toward more reliable and auditable AI.}
 }
 
 @article{Yang_87_Beyond,
@@ -254,7 +285,8 @@
   author = {Diji Yang and Linda Zeng and Kezhen Chen and Yi Zhang},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=pz1K64TFe0},
-  pdf = {https://openreview.net/pdf?id=pz1K64TFe0}
+  pdf = {https://openreview.net/pdf?id=pz1K64TFe0},
+  abstract = {While inference-time thinking allows Large Language Models (LLMs) to address complex problems, the extended thinking process can be unreliable or inconsistent because of the model's probabilistic nature, especially near its knowledge boundaries. Existing approaches attempt to mitigate this by having the model critique its own reasoning to make corrections. However, such self-critique inherits the same biases of the original output, known as the introspection illusion. Moving beyond such introspection and inspired by core methodologies in ethology, we propose an externalist three-step framework Distillation-Reinforcement-Reasoning (DRR). Rather than relying on a model's introspection, DRR evaluates its observable behaviors to provide corrective feedback. DRR first distills the reasoner's behavioral traces, then trains a lightweight, external Discriminative Model (DM). At inference time, this DM acts as a critic, identifying and rejecting suspicious reasoning steps. This external feedback compels the LLM to discard flawed pathways and explore alternatives, thereby enhancing reasoning quality without altering the base model. Experiments on multiple reasoning benchmarks show that our framework significantly outperforms prominent self-critique methods. Benefiting from a lightweight and annotation-free design, DRR offers a scalable and adaptable solution for improving the reliability of reasoning in a wide range of LLMs.}
 }
 
 @article{Hu_89_Beyond,
@@ -262,7 +294,8 @@
   author = {Zhiyuan Hu and Yibo Wang and Hanze Dong and Yuhui Xu and Amrita Saha and Caiming Xiong and Bryan Hooi and Junnan Li},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=7BEH8hsWb6},
-  pdf = {https://openreview.net/pdf?id=7BEH8hsWb6}
+  pdf = {https://openreview.net/pdf?id=7BEH8hsWb6},
+  abstract = {Large reasoning models (LRMs) already possess a latent capacity for long chain-of-thought reasoning. Prior work has shown that outcome-based reinforcement learning (RL) can incidentally elicit advanced reasoning behaviors such as self-correction, backtracking, and verification. These phenomena often referred to as the model’s aha moment. However, the timing and consistency of these emergent behaviors remain unpredictable and uncontrollable, limiting the scalability and reliability of LRMs' reasoning capabilities. To address these limitations, we move beyond reliance on prompts and unpredictable aha moments. Instead, we explicitly align models with three meta-abilities: \deduction, induction, and abduction, using automatically generated, self-verifiable tasks. Our three-stage pipeline (individual alignment, parameter-space merging, domain-specific reinforcement learning) boosts performance by over 10\% relative to instruction-tuned baselines. Furthermore, domain-specific RL from the aligned checkpoint yields an additional gain in performance ceiling for both 7B and 32B models across math, coding, and science benchmarks, showing that explicit meta-ability alignment offers a scalable and dependable foundation for reasoning. Code and data can be found in Software and Data part in submission page.}
 }
 
 @article{Dong_90_Random,
@@ -270,7 +303,8 @@
   author = {Yihe Dong and Lorenzo Noci and Mikhail Khodak and Mufan Li},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=ja17bFS8Z3},
-  pdf = {https://openreview.net/pdf?id=ja17bFS8Z3}
+  pdf = {https://openreview.net/pdf?id=ja17bFS8Z3},
+  abstract = {The transformer architecture is central to the success of modern Large Language Models (LLMs), in part due to its surprising ability to perform a wide range of tasks - including mathematical reasoning, memorization, and retrieval - using only gradient-based learning on next-token prediction. While the core component of a transformer is the self-attention mechanism, we question how much, and which aspects, of the performance gains can be attributed to it. To this end, we compare standard transformers to variants in which either the MLP layers or the attention weights are frozen at initialization. Surprisingly, we find that attention with frozen key and query weights is not only able to form induction heads, but can also perform competitively on language modeling. We formalize this by proving a new expressivity result for transformer models with frozen key and query weights. To further isolate the contribution of attention, we design MixiT, an architecture with entirely random attention scores, with provably stable signal propagation that overcomes prior depth-wise scaling challenges in random transformers. We use the successes and failures of MixiT to understand the role each transformer component plays, such as attention being largely responsible for in-context reasoning, and MLPs being responsible for, but collaborates with attention, on knowledge storage. Our results suggest that the transformer architecture has a built-in inductive bias towards forming specialized circuits, as it does even without learnable attention weights.}
 }
 
 @article{Bhaskar_91_Language,
@@ -278,7 +312,8 @@
   author = {Adithya Bhaskar and Xi Ye and Danqi Chen},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=pOyM0enJhX},
-  pdf = {https://openreview.net/pdf?id=pOyM0enJhX}
+  pdf = {https://openreview.net/pdf?id=pOyM0enJhX},
+  abstract = {Reinforcement learning with verifiable rewards (RLVR) improves language model reasoning by using rule-based rewards in verifiable domains such as mathemat- ics and code. However, RLVR leads to limited generalization for open-ended tasks---such as writing essay outlines or making meal plans---where humans reason routinely. This paper shows that the RLVR paradigm is effective beyond verifiable domains, and introduces RL with Model-rewarded Thinking (RLMT) for general- purpose chat capabilities. Using diverse real-world prompts, RLMT requires LMs to generate long CoT reasoning before responding, and optimizes them with online RL against a preference-based reward model used in RLHF. Across 40 training runs on Llama-3.1-8B and Qwen-2.5-7B (both base and instruct) and multiple optimization algorithms (DPO, PPO, and GRPO), RLMT consistently outperforms standard RLHF pipelines. This includes substantial gains of 3--7 points on three chat benchmarks (AlpacaEval2, WildBench, and ArenaHardV2), along with 1--3 point improvements on other tasks like creative writing and general knowledge. Our best 8B model surpasses GPT-4o in chat and creative writing and rivals Claude- 3.7-Sonnet (Thinking). RLMT can also be applied directly to base models without an SFT stage, akin to DeepSeek-R1-Zero training. Remarkably, with only 7K prompts, Llama-3.1-8B base trained with our RLMT recipe outperforms Llama-3.1-8B-Instruct post-trained with a complex multi-staged pipeline with 25M+ examples. We close with qualitative and quantitative analyses of how trained models plan their responses. Our results rethink the post-training pipeline and call upon future work to understand and employ thinking more broadly.}
 }
 
 @article{Nie_92_UQ,
@@ -286,7 +321,8 @@
   author = {Fan Nie and Ken Liu and Zihao Wang and Rui Sun and Wei Liu and Weijia Shi and Huaxiu Yao and Linjun Zhang and Andrew Y. Ng and James Zou and Sanmi Koyejo and Yejin Choi and Percy Liang and Niklas Muennighoff},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=Ft4cileh4o},
-  pdf = {https://openreview.net/pdf?id=Ft4cileh4o}
+  pdf = {https://openreview.net/pdf?id=Ft4cileh4o},
+  abstract = {Benchmarks shape progress in AI research. A useful benchmark should be both difficult and realistic: questions should challenge frontier models while also reflecting real-world usage. Yet, current paradigms face a difficulty-realism tension: exam-style benchmarks are often made artificially difficult with limited real-world value, while benchmarks based on real user interaction often skew toward easy, high-frequency problems. In this work, we explore a radically different paradigm: assessing models on unsolved questions. Rather than a static benchmark scored once, we curate unsolved questions and evaluate models asynchronously over time with validator-assisted screening and community verification. We introduce UQ, a testbed of 500 challenging, diverse questions sourced from Stack Exchange, spanning topics from CS theory and math to sci-fi and history, probing capabilities including reasoning, factuality, and browsing. UQ is difficult and realistic by construction: unsolved questions are often hard and naturally arise when humans seek answers, thus solving them yields direct real-world value. Our contributions are threefold: (1) UQ-Dataset and its collection pipeline combining rule-based filters, LLM judges, and human review to ensure question quality (e.g., well-defined and difficult); (2) UQ-Validators, compound validation strategies that leverage the generator-validator gap to provide evaluation signals and pre-screen candidate solutions for human review; and (3) UQ-Platform, an open platform where experts collectively verify questions and solutions, enabling ongoing, asynchronous, and community-driven evaluation. The top-performing model passes UQ-validation on only 15\% of questions, and preliminary human verification has already identified correct answers among those that passed. UQ charts a path for evaluating frontier models on real-world, open-ended challenges, where success pushes the frontier of human knowledge.}
 }
 
 @article{Joshi_93_Precise,
@@ -294,7 +330,8 @@
   author = {Nirmit Joshi and Gene Li and Siddharth Bhandari and Shiva Kasiviswanathan and Cong Ma and Nathan Srebro},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=pRwt3J0YsX},
-  pdf = {https://openreview.net/pdf?id=pRwt3J0YsX}
+  pdf = {https://openreview.net/pdf?id=pRwt3J0YsX},
+  abstract = {The most predominant use case of language models is to generate a good response to a prompt. We formalize this problem as learning to generate a good completion, solely from such good demonstrations, without relying on additional feedback. Our results show that while such demonstrations may contain enough statistical information to allow for directly generating good responses on unseen prompts, Maximum Likelihood Estimation (MLE)---the standard training approach for LLMs---overfits to the conditional distribution of seen responses and fails to generalize. We design a new learning algorithm that is sample-optimal (in a certain sense) for the good completion problem, while MLE only achieves overlap with good responses at this limit.}
 }
 
 @article{An_94_Representational,
@@ -302,7 +339,8 @@
   author = {Zhiyu An and Wan Du},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=IziLZhMqql},
-  pdf = {https://openreview.net/pdf?id=IziLZhMqql}
+  pdf = {https://openreview.net/pdf?id=IziLZhMqql},
+  abstract = {Compositional generalization---the ability to understand novel combinations of familiar components---remains a significant challenge for neural networks despite their success in many language tasks. Current evaluation methods focus on behavioral measures that reveal when models fail to generalize compositionally, but provide limited insight into why these failures occur at the representational level. We introduce Homomorphism Error (HE), a structural metric that quantifies how well neural network representations preserve compositional operations by measuring deviations from approximate homomorphisms between expression spaces and their internal representations. Through controlled experiments on SCAN-style synthetic compositional tasks and small-scale Transformers, we demonstrate that HE serves as a strong predictor of out-of-distribution generalization performance, achieving $R^2 = 0.73$ correlation with OOD compositional generalization accuracy. Furthermore, our analysis reveals that model architecture has minimal impact on compositional structure, training data coverage exhibits threshold effects, but noise injection systematically degrades compositional representations in predictable ways. Importantly, we find that different aspects of compositionality---unary operations (modifiers) versus binary operations (sequence composition)---exhibit distinct sensitivities to distributional shifts, with modifier representations being particularly vulnerable to spurious correlations. These findings provide new mechanistic insights into compositional learning and establish homomorphism error as a valuable diagnostic tool for developing more robust neural architectures training methods. Code and data will be made publicaly available.}
 }
 
 @article{Wang_95_EAT,
@@ -310,7 +348,8 @@
   author = {Xi Wang and Lequn Wang and James McInerney and Nathan Kallus},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=f776uOweU8},
-  pdf = {https://openreview.net/pdf?id=f776uOweU8}
+  pdf = {https://openreview.net/pdf?id=f776uOweU8},
+  abstract = {Large reasoning models show improved performance with longer chains of thought. However, recent work has highlighted (qualitatively) their tendency to overthink, continuing to revise answers even after reaching the correct solution. We quantitatively confirm this inefficiency by tracking Pass@1 for answers averaged over a large number of rollouts and find that the model often begins to always produce the correct answer early in the reasoning, making extra reasoning a waste of tokens. To detect and prevent overthinking, we propose a simple and inexpensive novel signal---Entropy After `</Think>` (EAT)---for monitoring and deciding whether to exit reasoning early. By appending a stop thinking token (`</think>`) and monitoring the entropy of the following token as the model reasons, we obtain a trajectory that decreases and stabilizes when Pass@1 plateaus; thresholding its variance under an exponential moving average yields a practical stopping rule. Importantly, our approach enables adaptively allocating compute based on the EAT trajectory, allowing us to spend compute in a more efficient way compared with fixing the token budget for all questions. Empirically, on MATH-500 and AIME-2025, EAT reduces token usage by 13--21\% without harming accuracy, and it remains effective in black-box settings where logits from the reasoning model are not accessible, and EAT is computed with proxy models.}
 }
 
 @article{Fauchard_96_Reasoning,
@@ -318,7 +357,8 @@
   author = {Marylou Fauchard and Florian Carichon and Margarida Carvalho and Golnoosh Farnadi},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=iAIZJxWJ6c},
-  pdf = {https://openreview.net/pdf?id=iAIZJxWJ6c}
+  pdf = {https://openreview.net/pdf?id=iAIZJxWJ6c},
+  abstract = {Recent advances in reasoning with large language models (LLMs) have demonstrated strong performance on complex mathematical tasks, including combinatorial optimization. Techniques such as Chain-of-Thought and In-Context Learning have further enhanced this capability, making LLMs both powerful and accessible tools for a wide range of users, including non-experts. However, applying LLMs to matching problems, which require reasoning under preferential and structural constraints, remains underexplored. To address this gap, we introduce a novel benchmark of 369 instances of the College Admission Problem, a canonical example of a matching problem with preferences, to evaluate LLMs across key dimensions: feasibility, stability, and optimality. We employ this benchmark to assess the performance of several open-weight LLMs. Our results first reveal that while LLMs can satisfy certain constraints, they struggle to meet all evaluation criteria consistently. They also show that reasoning LLMs, like QwQ and GPT-oss, significantly outperform traditional models such as Llama, Qwen or Mistral, defined here as models used without any dedicated reasoning mechanisms. Moreover, we observed that LLMs reacted differently to the various prompting strategies tested, which include Chain-of-Thought, In-Context Learning and role-based prompting, with no prompt consistently offering the best performance. Finally, we report the performances from iterative prompting with auto-generated feedback and show that they are not monotonic; they can peak early and then significantly decline in later attempts. Overall, this work offers a new perspective on model reasoning performance and the effectiveness of prompting strategies in combinatorial optimization problems with preferential constraints.}
 }
 
 @article{Swaroop_97_FRIT,
@@ -326,7 +366,8 @@
   author = {Anand Swaroop and Akshat Nallani and Saksham Uboweja and Adiliia Uzdenova and Michael Nguyen and Kevin Zhu and Sunishchal Dev and Ashwinee Panda and Vasu Sharma and Maheep Chaudhary},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=eRXq4ButeP},
-  pdf = {https://openreview.net/pdf?id=eRXq4ButeP}
+  pdf = {https://openreview.net/pdf?id=eRXq4ButeP},
+  abstract = {Chain-of-thought (CoT) reasoning has emerged as a powerful tool for improving large language model performance on complex tasks, but recent work shows that generated rationales often contain unfaithful steps that are disconnected from the final answer. Prior approaches focus primarily on measuring faithfulness, while methods for improving it are lacking. We introduce Faithful Reasoning via Intervention Training (FRIT), a scalable alignment method that enforces causal consistency between reasoning steps and outcomes. FRIT constructs synthetic counterfactual training data by systematically intervening on individual steps in generated CoTs, producing faithful/unfaithful pairs without human supervision. Using this data, we apply Direct Preference Optimization to improve reasoning reliability in Qwen3-8B and Mistral-7B-v0.1 across both factual and symbolic domains. Experiments show that FRIT substantially reduces unfaithful reasoning on both models while also increasing accuracy. Our results highlight FRIT as the first scalable intervention-based framework for training language models to produce more trustworthy and interpretable rationales.}
 }
 
 @article{Chan_98_We,
@@ -334,7 +375,8 @@
   author = {Yik Siu Chan and Zheng Xin Yong and Stephen Bach},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=fBsJkmkJIG},
-  pdf = {https://openreview.net/pdf?id=fBsJkmkJIG}
+  pdf = {https://openreview.net/pdf?id=fBsJkmkJIG},
+  abstract = {Open-weight reasoning language models generate long chains-of-thought (CoTs) before producing a final response, which improves performance but introduces additional alignment risks, with harmful content often appearing in both the CoTs and the final outputs. In this work, we investigate if we can use CoTs to predict final response misalignment. We evaluate a range of monitoring approaches, including humans, highly-capable large language models, and text classifiers, using either CoT text or activations. First, we find that a simple linear probe trained on CoT activations can significantly outperform all text-based methods in predicting whether a final response will be safe or unsafe. CoT texts are often unfaithful and can mislead humans and classifiers, while model latents (i.e., CoT activations) offer a more reliable predictive signal. Second, the probe makes accurate predictions before reasoning completes, achieving strong performance even when applied to early CoT segments. These findings generalize across model sizes, families, and safety benchmarks, suggesting that lightweight probes could enable real-time safety monitoring and early intervention during generation.}
 }
 
 @article{Yadav_99_Hop,
@@ -342,7 +384,8 @@
   author = {Anushka Yadav and Isha Nalawade and Srujana Pillarichety and Yashwanth Babu Vunnam and Samyadeep Basu and Reshmi Ghosh and Wenlong Zhao and Ali Naseh and Sriram Balasubramanian and Soundararajan Srinivasan},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=IaN0EXoIpi},
-  pdf = {https://openreview.net/pdf?id=IaN0EXoIpi}
+  pdf = {https://openreview.net/pdf?id=IaN0EXoIpi},
+  abstract = {The emergence of reasoning models and their integration into practical AI chat bots has led to breakthroughs in solving advanced math, deep search, and extractive question answering problems that requires a complex and multi-step thought process. Yet, a complete understanding of why these models hallucinate more than general purpose language models is missing. In this investigative study, we systematically explore reasoning failures of contemporary language models on multi-hop question answering tasks. We introduce a novel, nuanced error categorization framework that examines failures across three critical dimensions: the diversity and uniqueness of source documents involved ("hops"), completeness in capturing relevant information ("coverage"), and cognitive inefficiency ("overthinking"). Through rigorous human annotation, supported by complementary automated metrics, our exploration uncovers intricate error patterns often hidden by accuracy-centric evaluations. This investigative approach provides deeper insights into the cognitive limitations of current models and offers actionable guidance toward enhancing reasoning fidelity, transparency, and robustness in future language modeling efforts.}
 }
 
 @article{Li_102_Steering,
@@ -350,7 +393,8 @@
   author = {Ian Li and Philip Chen and Max Huang and Andrew Park and Loris D'Antoni and Rose Yu},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=HCG7UGGRqz},
-  pdf = {https://openreview.net/pdf?id=HCG7UGGRqz}
+  pdf = {https://openreview.net/pdf?id=HCG7UGGRqz},
+  abstract = {Fine-tuning Large Language Models (LLMs) for specialized skills often comes at a steep cost: catastrophic forgetting of their broad general abilities. Activation steering offers a promising alternative, but existing methods are typically stateless, applying a constant intervention that fails to capture the dynamic, history-dependent nature of a reasoning process. We introduce the Activation State Machine (ASM), a lightweight dynamic steering mechanism inspired by state-space models from control theory. The ASM learns the latent dynamics of an ideal reasoning trajectory from a set of examples and, at inference time, applies real-time corrective interventions to the LLM’s hidden states. We demonstrate that ASM steering improves zero-shot accuracy across multiple domains, enhancing performance on both mathematical reasoning and physical reasoning. In addition, we show that while supervised fine-tuning incurs a significant performance drop on an unrelated creative writing tasks, our method preserves over 95\% of the base model’s fluency measured in perplexity. Our work presents a new paradigm for modular skill injection, enabling the enhancement of specialized capabilities in LLMs without compromising their foundational generality.}
 }
 
 @article{Wang_103_R1,
@@ -358,7 +402,8 @@
   author = {Yibo Wang and Haotian Luo and Huanjin Yao and Tiansheng Huang and Haiying He and Rui Liu and Naiqiang Tan and Jiaxing Huang and Xiaochun Cao and Dacheng Tao and Li Shen},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=H4UTzUhspV},
-  pdf = {https://openreview.net/pdf?id=H4UTzUhspV}
+  pdf = {https://openreview.net/pdf?id=H4UTzUhspV},
+  abstract = {Chain-of-Thought (CoT) reasoning enhances large language models (LLMs) by enabling step-by-step problem-solving, yet its extension to Long-CoT introduces substantial computational overhead due to increased token length. Existing compression approaches -- instance-level and token-level -- either sacrifice essential local reasoning signals like reflection or yield incoherent outputs. To address these limitations, we propose R1-Compress, a two-stage chunk-level compression framework that preserves both local information and coherence. Our method segments Long-CoT into manageable chunks, applies LLM-driven inner-chunk compression, and employs an inter-chunk search mechanism to select the short and coherent sequence. Experiments on Qwen2.5-Instruct models across MATH500, AIME24, and GPQA-Diamond demonstrate that R1-Compress significantly reduces token usage while maintaining comparable reasoning accuracy. On MATH500, R1-Compress achieves an accuracy of 92.4\%, with only a 0.6\% drop compared to the Long-CoT baseline, while reducing token usage by about 20\%.}
 }
 
 @article{Havaldar_104_T,
@@ -366,7 +411,8 @@
   author = {Shreya Havaldar and Helen Jin and Chaehyeon Kim and Anton Xue and Weiqiu You and Gary E. Weissman and Rajat Deo and Sameed Ahmed M. Khatana and Helen Qu and Marco Gatti and Daniel A Hashimoto and Amin Madani and Masao Sako and Bhuvnesh Jain and Lyle Ungar and Eric Wong},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=Zc0I7Rn3Ib},
-  pdf = {https://openreview.net/pdf?id=Zc0I7Rn3Ib}
+  pdf = {https://openreview.net/pdf?id=Zc0I7Rn3Ib},
+  abstract = {As LLMs are deployed in knowledge-intensive settings (e.g., surgery, astronomy, therapy), users expect not just answers, but also meaningful explanations for those answers. In these settings, users are often domain experts (e.g., doctors, astrophysicists, psychologists) who require confidence that a model’s explanation reflects expert-level reasoning. However, current evaluation schemes primarily emphasize plausibility or internal faithfulness of the explanation, often neglecting whether the content of the explanation truly aligns with expert intuition. We formalize expert alignment as a criterion for evaluating explanations with T-FIX, a benchmark spanning seven knowledge-intensive domains. T-FIX includes datasets and novel alignment metrics developed in collaboration with domain experts, so an LLM’s explanations can be scored directly against expert judgment.}
 }
 
 @article{Zhang_108_Label,
@@ -374,7 +420,8 @@
   author = {Hongyang R. Zhang and Zhenshuo Zhang and Jerry Weihong Liu and Christopher Re},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=l1zQWY6LPd},
-  pdf = {https://openreview.net/pdf?id=l1zQWY6LPd}
+  pdf = {https://openreview.net/pdf?id=l1zQWY6LPd},
+  abstract = {Mathematical reasoning is a central aspect in the evaluation of language models. For many modular arithmetic tasks, prior work has observed the phenomenon of grokking, where the training accuracy converges to nearly 100\%, whereas the test performance lags behind for an extended number of epochs until finally reaching perfect accuracy. In this paper, we find that by injecting invariant structures into modular arithmetic tasks, we can significantly speed up the number of training steps. Specifically, let $g$ denote a label-invariant transformation and $x$ denote an input. In the case of modular addition, $a$ plus $b$, if we transform the input into $a + i$ (mod $p$) and $b - i$ (mod $p$), the outcome remains the same. Given a math reasoning task and a set of invariant transformation rules, our approach works by applying one of the transformations $g$ to the input $x$ (similar to data augmentation). Then, we interpolate the transformed input $g(x)$ with the original input $x$. Finally, we also add noise to the weights before computing the gradient to reduce the sharpness of the loss surface. When evaluated on three modular arithmetic tasks, we find that this approach reduces the number of grokking steps by more than $60$\% compared to existing sharpness-reduction and acceleration methods. In addition, this new approach can also be used for out-of-domain samples. When evaluated on six text-based arithmetic and graph-algorithmic tasks, our approach improves the test accuracy of LLMs by $16.5$\% and by $69$\%. Lastly, we provide a generalization bound that depends on a Hessian distance measure for learning invariant function classes to further validate our approach.}
 }
 
 @article{Zhang_109_Reinforcement,
@@ -382,7 +429,8 @@
   author = {Renfei Zhang and Manasa Kaniselvan and Niloofar Mireshghallah},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=jVh8Rhnjm1},
-  pdf = {https://openreview.net/pdf?id=jVh8Rhnjm1}
+  pdf = {https://openreview.net/pdf?id=jVh8Rhnjm1},
+  abstract = {Reinforcement learning (RL) is often credited with improving language model reasoning and generalization at the expense of degrading memorized knowledge. We challenge this narrative by observing that RL-enhanced models consistently outperform their base and supervised fine-tuned (SFT) counterparts on pure knowledge recall tasks, particularly those requiring traversal of hierarchical, structured knowledge (e.g., medical codes). We hypothesize these gains stem not from newly acquired data, but from improved procedural skills in navigating and searching existing knowledge hierarchies within the model parameters. To support this hypothesis, we show that structured prompting---which explicitly guides SFTed models through hierarchical traversal---recovers most of the performance gap (reducing 24pp to 7pp on MedConceptsQA for DeepSeek-V3/R1). We further find that while prompting improves final-answer accuracy, RL-enhanced models retain superior ability to recall correct procedural paths on deep-retrieval tasks. Finally our layer-wise internal activation analysis reveals that while factual representations (e.g., activations for the statement "code 57.95 refers to urinary infection") maintain high cosine similarity between SFT and RL models, query representations (e.g., "what is code 57.95") diverge noticeably, indicating that RL primarily transforms how models traverse knowledge rather than the knowledge representation itself.}
 }
 
 @article{Ye_110_Weak,
@@ -390,7 +438,8 @@
   author = {Ruimeng Ye and Zihan Wang and Yang Xiao and Zinan Ling and Manling Li and Bo Hui},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=D7Rou70hqS},
-  pdf = {https://openreview.net/pdf?id=D7Rou70hqS}
+  pdf = {https://openreview.net/pdf?id=D7Rou70hqS},
+  abstract = {Weak-to-Strong generalization (W2SG) is a new trend to elicit the full capabilities of a strong model with supervision from a weak model. While existing W2SG studies focus on simple tasks like binary classification, we extend this paradigm to complex interactive decision-making environments. Specifically, we fine-tune a strong model with trajectories of intermediate actions generated by a weak model. Motivated by the human learning process, we propose to generalize not only success knowledge but also failure experiences so that the strong model can learn from the failed trajectories accumulated by weak models. To effectively and efficiently elicit the potential of strong agents, we further construct ``trajectory trees," a hierarchical representation that organizes weak model-generated action trajectories, coupled with Monte Carlo Tree Search (MCTS) to optimize the strong model. Through theoretical analysis, we provide formal guarantees for the effectiveness of our method in improving W2SG performance. Our empirical evaluations demonstrate substantial improvements in reasoning and decision-making capabilities across diverse task domains, validating the scalability and robustness of our proposed framework. Our code is available at https://github.com/yeruimeng/TraTree.}
 }
 
 @article{Wu_111_MagiC,
@@ -398,7 +447,8 @@
   author = {Chengfei Wu and Ronald Seoh and Bingxuan Li and Liqiang Zhang and Fengrong Han and Dan Goldwasser},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=KEsG8QinOm},
-  pdf = {https://openreview.net/pdf?id=KEsG8QinOm}
+  pdf = {https://openreview.net/pdf?id=KEsG8QinOm},
+  abstract = {Recent advances in large vision-language models have led to impressive performance in visual question answering and multimodal reasoning. However, it remains unclear whether these models genuinely perform grounded visual reasoning or rely on superficial patterns and dataset biases. In this work, we introduce MagiC, a comprehensive benchmark designed to evaluate grounded multimodal cognition---assessing not only answer accuracy but also the quality of step-by-step reasoning and its alignment with relevant visual evidence. Our benchmark includes approximately 5,500 weakly supervised QA examples generated from strong model outputs and 900 human-curated examples with fine-grained annotations, including answers, rationales, and bounding box groundings. We also use these weakly supervised examples to perform SFT on one of the models, demonstrating its effectiveness. We evaluate 15 vision-language models ranging from 7B to 70B+ parameters across four dimensions: final answer correctness, reasoning validity, grounding fidelity, and self-correction ability. MagiC further includes diagnostic settings to probe model robustness under adversarial visual cues and assess their capacity for introspective error correction. We introduce new metrics such as MagiScore and StepSense, and provide comprehensive analyses that reveal key limitations and opportunities in current approaches to grounded visual reasoning.}
 }
 
 @article{Zhang_115_TokUR,
@@ -406,7 +456,8 @@
   author = {Tunyu Zhang and Haizhou Shi and Yibin Wang and Hengyi Wang and Xiaoxiao He and Zhuowei Li and Haoxian Chen and Ligong Han and Kai Xu and Huan Zhang and Dimitris N. Metaxas and Hao Wang},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=i10O7RFfdA},
-  pdf = {https://openreview.net/pdf?id=i10O7RFfdA}
+  pdf = {https://openreview.net/pdf?id=i10O7RFfdA},
+  abstract = {While Large Language Models (LLMs) have demonstrated impressive capabilities, their output quality remains inconsistent across various application scenarios, making it difficult to identify trustworthy responses, especially in complex tasks requiring multi-step reasoning. In this paper, we propose a Token-level Uncertainty estimation framework for Reasoning (TokUR) to enable LLMs to self-assess and self-improve their generation quality in mathematical reasoning. Specifically, we introduce low-rank random weight perturbation to LLM decoding, generating predictive distributions that we use to estimate token-level uncertainties. We then aggregate these uncertainties to reflect semantic uncertainty of the generated sequences. Experiments on mathematical reasoning datasets of varying difficulty demonstrate that our token-level uncertainty metrics strongly correlate with answer correctness and model robustness. Additionally, we explore using uncertainty to directly enhance the model's reasoning performance through multiple generations and the particle filtering algorithm. Our approach consistently outperforms existing uncertainty estimation methods, establishing effective uncertainty estimation as a valuable tool for both evaluating and improving reasoning generation in LLMs.}
 }
 
 @article{Peltonen_116_GraphARC,
@@ -414,7 +465,8 @@
   author = {Saku Peltonen and August Bøgh Rønberg and Andreas Plesner and Roger Wattenhofer},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=CULN1wh2tw},
-  pdf = {https://openreview.net/pdf?id=CULN1wh2tw}
+  pdf = {https://openreview.net/pdf?id=CULN1wh2tw},
+  abstract = {Relational reasoning lies at the heart of intelligence, but existing benchmarks are typically confined to formats such as grids or text. We introduce GraphARC, a benchmark for abstract reasoning on graph-structured data. GraphARC generalizes the few-shot transformation learning paradigm of the Abstraction and Reasoning Corpus (ARC). Each task requires inferring a transformation rule from a few input-output pairs and applying it to a new test graph, covering local, global, and hierarchical graph transformations. Unlike grid-based ARC, GraphARC instances can be generated at scale across diverse graph families and sizes, enabling systematic evaluation of generalization abilities. We evaluate state-of-the-art language models on GraphARC and observe clear limitations. Models can answer questions about graph properties but often fail to solve the full graph transformation task, revealing a comprehension-execution gap. Performance further degrades on larger instances, exposing scaling barriers. More broadly, by combining aspects of node classification, link prediction, and graph generation within a single framework, GraphARC provides a promising testbed for future graph foundation models.}
 }
 
 @article{Sharma_118_Think,
@@ -422,7 +474,8 @@
   author = {Aman Sharma and Paras Chopra},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=EgaMgj6ooN},
-  pdf = {https://openreview.net/pdf?id=EgaMgj6ooN}
+  pdf = {https://openreview.net/pdf?id=EgaMgj6ooN},
+  abstract = {We introduce a simple, yet novel entropy-based framework to drive token efficiency in large language models during reasoning tasks. Our approach uses Shannon entropy from token-level logprobs as a confidence signal to enable early stopping, achieving 25-50\% computational savings while maintaining task accuracy. We show that the entropy threshold to stop reasoning varies from model to model but can be calculated easily in one shot using only a few examples from existing reasoning datasets. Our results indicate that models often know that they've gotten a correct answer early on, and that knowledge can be used to save tokens and reduce latency for reasoning tasks.}
 }
 
 @article{Geuter_120_RoBoN,
@@ -430,7 +483,8 @@
   author = {Jonathan Geuter and Gregor Kornhardt},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=H3N6zBj60L},
-  pdf = {https://openreview.net/pdf?id=H3N6zBj60L}
+  pdf = {https://openreview.net/pdf?id=H3N6zBj60L},
+  abstract = {Best-of-$n$ is a widely used test-time scaling approach for LLM inference. Yet despite evidence that LLMs exhibit complementary strengths across tasks, traditionally best-of-$n$ relies on a single model to generate responses. We propose RoBoN (Routed Online Best-of-$n$), a sequential multi-LLM alternative to the prevailing single-model best-of-$n$. Given a suite of models, RoBoN sequentially routes generations one-by-one across models, based on scores computed using a reward model and an agreement signal on the predicted responses. This online routing requires no additional training, keeps compute parity, and works with any plug-in reward model. Across three math benchmarks (MATH500, OlympiadBench, MinervaMath), RoBoN consistently outperforms standard best-of-$n$ applied to each individual model, with gains up to 5\% absolute accuracy, and also improves over a uniform multi-model portfolio baseline. Our results indicate that diversity across models can be exploited sequentially at inference to realize better best-of-$n$ performance than any constituent model alone, providing a simple, training-free path to test-time scaling with multiple LLMs.}
 }
 
 @article{Heyman_123_Reasoning,
@@ -438,7 +492,8 @@
   author = {Alex Heyman and Joel Zylberberg},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=iLqlSqlFha},
-  pdf = {https://openreview.net/pdf?id=iLqlSqlFha}
+  pdf = {https://openreview.net/pdf?id=iLqlSqlFha},
+  abstract = {Large language models have recently made great strides in reasoning task performance through chain-of-thought (CoT) strategies trained via reinforcement learning; however, these "reasoning large language models" (RLLMs) remain imperfect reasoners, and understanding the frequencies and causes of their failure modes is important for both users and developers. We test o1-mini, o3-mini, DeepSeek-R1, Claude 3.7 Sonnet, Gemini 2.5 Pro Preview, and Grok 3 Mini Beta on graph coloring as a variable-complexity constraint-satisfaction logic problem, and find evidence from both error rate comparisons and CoT/explanation text analysis that RLLMs are prone to hallucinate graph edges not specified in the prompt. This phenomenon persists across multiple problem complexity levels and semantic frames, and it appears to account for a significant fraction of the incorrect answers from every tested model, and the vast majority of them for some models. We also validate the generalizability of this input-conflicting hallucination phenomenon with smaller-scale experiments on a type of stable matching problem. Our results indicate that RLLMs may possess broader issues with misrepresentation of problem specifics, and we offer suggestions for design choices to mitigate this weakness.}
 }
 
 @article{Zhang_125_Beyond,
@@ -446,7 +501,8 @@
   author = {Terry Jingchen Zhang and Gopal Dev and Ning Wang and Nicole Ni and Wenyuan Jiang and Yinya Huang and Bernhard Schölkopf and Mrinmaya Sachan and Zhijing Jin},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=vZIKOhWGNG},
-  pdf = {https://openreview.net/pdf?id=vZIKOhWGNG}
+  pdf = {https://openreview.net/pdf?id=vZIKOhWGNG},
+  abstract = {Capability evaluation of large language models (LLMs) is increasingly shadowed by rising concerns of data contamination that cast doubts on whether static benchmarks measure genuine reasoning or mere memorization. We present an empirical study using an infinitely scalable framework to synthesize research-level QA directly from arXiv papers, harnessing the natural temporal structure of research publications where performance decay after knowledge cutoffs may indicate potential contamination. We evaluated 4 frontier model represented by 2 models of different knowledge cutoff dates per family on 1,643 multi-step reasoning questions synthesized from 20,277 arXiv papers stratified over 26 months, covering at least 6 months before and after all cutoff dates. Our results consistently showed a lack of significant performance decay near knowledge cutoff dates for models of various sizes, developers, and release dates. By comparative analysis with other longitudinal studies using public questions and observed significant post-cutoff performance decay, we hypothesize that the multi-step reasoning required by our synthesis pipeline goes deeper than shallow pattern-matching that enables memorization, which effectively serves a mitigation strategy against benchmark contamination. We plan to fully open source our code and datasets after peer review to aid reproducibility and promote the adoption of contamination-resistant evaluation paradigms.}
 }
 
 @article{RizviMartel_128_Benefits,
@@ -454,7 +510,8 @@
   author = {Michael Rizvi-Martel and Satwik Bhattamishra and Neil Rathi and Guillaume Rabusseau and Michael Hahn},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=pu4pBwEfXV},
-  pdf = {https://openreview.net/pdf?id=pu4pBwEfXV}
+  pdf = {https://openreview.net/pdf?id=pu4pBwEfXV},
+  abstract = {Chain-of-thought prompting has popularized step-by-step reasoning in large language models, yet model performance still degrades as problem complexity and context length grow. By decomposing difficult tasks with long contexts into shorter, manageable ones, recent multi-agent paradigms offer a promising near-term solution to this problem. However, the fundamental capacities of such systems are poorly understood. In this work, we propose a theoretical framework to analyze the expressivity of multi-agent systems. We apply our framework to three algorithmic families: state tracking, recall and multi-hop reasoning. We derive bounds on (i) the number of agents required, (ii) the quantity and structure of inter-agent communication, and (iii) the achievable speedups as problem size and context scale. Our results identify regimes where communication is provably beneficial, delineate tradeoffs between agent count and bandwidth, and expose intrinsic limitations when either resource is constrained. We complement our theoretical analysis with a set of experiments on pretrained LLMs using controlled synthetic benchmarks. Empirical outcomes confirm the tradeoffs between key quantities predicted by our theory. Collectively, our analysis offers principled guidance for designing scalable multi-agent reasoning systems.}
 }
 
 @article{Amayuelas_131_Grounding,
@@ -462,7 +519,8 @@
   author = {Alfonso Amayuelas and Joy Prakash Sain and Simerjot Kaur and Charese Smiley},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=2OPS6uhnw6},
-  pdf = {https://openreview.net/pdf?id=2OPS6uhnw6}
+  pdf = {https://openreview.net/pdf?id=2OPS6uhnw6},
+  abstract = {Large Language Models (LLMs) excel at generating natural language answers, yet their outputs often remain unverifiable and difficult to trace. Knowledge Graphs (KGs) offer a complementary strength by representing entities and their relationships in structured form, providing a foundation for more reliable reasoning. We propose a novel framework that integrates LLM reasoning with KGs by linking each step of the reasoning process to graph-structured data. This grounding turns intermediate ``thoughts'' into interpretable traces that remain consistent with external knowledge. Our approach incorporates multiple reasoning strategies, Chain-of-Thought (CoT), Tree-of-Thought (ToT), and Graph-of-Thought (GoT), and is evaluated on GRBench, a benchmark for domain-specific graph reasoning. Our experiments show state-of-the-art (SOTA) performance, with at least 26.5\% improvement over CoT baselines. Beyond accuracy, we analyze how step depth, branching structure, and model size influence reasoning quality, offering insights into the conditions that support effective reasoning. Together, these contributions highlight how grounding LLMs in structured knowledge enables both higher accuracy and greater interpretability in complex reasoning tasks.}
 }
 
 @article{Zheng_133_ARS,
@@ -470,7 +528,8 @@
   author = {Dongqi Zheng},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=6TU1UDIiem},
-  pdf = {https://openreview.net/pdf?id=6TU1UDIiem}
+  pdf = {https://openreview.net/pdf?id=6TU1UDIiem},
+  abstract = {Large Reasoning Language Models (LRLMs or LRMs) demonstrate remarkable capabilities in complex reasoning tasks, but suffer from significant computational inefficiencies due to overthinking phenomena. Existing efficient reasoning methods face the challenge of balancing reasoning quality with inference cost reduction. We propose Adaptive Reasoning Suppression (ARS), a novel training-free approach that dynamically suppresses redundant reasoning steps while preserving accuracy through adaptive certainty monitoring. ARS introduces a multi-checkpoint certainty estimation mechanism with progressive suppression thresholds, achieving superior efficiency compared to static suppression methods. Our extensive evaluation across mathematical reasoning benchmarks using multiple model architectures demonstrates that ARS achieves up to 53\%, 46.1\%, and 57.9\% in token, letency and energy reduction, while maintaining or improving accuracy. ARS outperforms state-of-the-art efficient reasoning methods including Vanilla, TALE, and CGRS, establishing a new standard for efficient reasoning in LRMs.}
 }
 
 @article{Guha_134_OpenThoughts,
@@ -478,7 +537,8 @@
   author = {Etash Kumar Guha and Ryan Marten and Sedrick Keh and Negin Raoof and Georgios Smyrnis and Hritik Bansal and Marianna Nezhurina and Jean Mercat and Trung Vu and Zayne Rea Sprague and Ashima Suvarna and Benjamin Feuer and Leon Liangyu Chen and Zaid Khan and Eric Frankel and Sachin Grover and Caroline Choi and Niklas Muennighoff and Shiye Su and Wanjia Zhao and John Yang and Shreyas Pimpalgaonkar and Kartik sharma and Charlie Cheng-Jie Ji and Yichuan Deng and Sarah M Pratt and Vivek Ramanujan and Jon Saad-Falcon and Jeffrey Li and Achal Dave and Alon Albalak and Kushal Arora and Blake Wulfe and Chinmay Hegde and Greg Durrett and Sewoong Oh and Mohit Bansal and Saadia Gabriel and Aditya Grover and Kai-Wei Chang and Vaishaal Shankar and Aaron Gokaslan and Mike A Merrill and Tatsunori Hashimoto and Yejin Choi and Jenia Jitsev and Reinhard Heckel and Maheswaran Sathiamoorthy and Alex Dimakis and Ludwig Schmidt},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=mbqvBA12Dx},
-  pdf = {https://openreview.net/pdf?id=mbqvBA12Dx}
+  pdf = {https://openreview.net/pdf?id=mbqvBA12Dx},
+  abstract = {Reasoning models have made rapid progress on many benchmarks involving math, code, and science. Yet, there are still many open questions about the best training recipes for reasoning since state-of-the-art models often rely on proprietary datasets with little to no public information available. To address this, the goal of the OpenThoughts project is to create open-source datasets for training reasoning models. After initial explorations, our OpenThoughts2-1M dataset led to OpenThinker2-32B, the first model trained on public reasoning data to match DeepSeek-R1-Distill-32B on standard reasoning benchmarks such as AIME and LiveCodeBench. We then improve our dataset further by systematically investigating each step of our data generation pipeline with 1,000+ controlled experiments, which led to OpenThoughts3. Scaling the pipeline to 1.2M examples and using QwQ-32B as teacher yields our OpenThinker3-7B model, which achieves state-ofthe-art results: 53\% on AIME 2025, 51\% on LiveCodeBench 06/24-01/25, and 54\% on GPQA Diamond -- improvements of 15.3, 17.2, and 20.5 percentage points compared to the DeepSeek-R1-Distill-Qwen-7B. All of our datasets and models are available on REDACTED.}
 }
 
 @article{Li_135_Demystifying,
@@ -486,7 +546,8 @@
   author = {Alan Li and Yixin Liu and Arpan Sarkar and Doug Downey and Arman Cohan},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=B8a3UW5VHf},
-  pdf = {https://openreview.net/pdf?id=B8a3UW5VHf}
+  pdf = {https://openreview.net/pdf?id=B8a3UW5VHf},
+  abstract = {Scientific reasoning tasks pose unique challenges for LLMs, requiring both deep domain knowledge and the ability to apply such knowledge through complex reasoning. While automated scientific reasoners hold great promise for assisting human scientists, currently there is neither a holistic dataset for evaluating scientific reasoning nor are there methods for disentangling the distinct roles of reasoning and knowledge in these tasks. To address these gaps, we introduce SciReas, a diverse suite of existing benchmarks for scientific reasoning tasks, and SciReas-Pro, a selective subset that requires more complex reasoning. We then propose KRUX, an evaluation framework that probes the distinct roles of reasoning and knowledge in scientific tasks. Combining the two, we conduct in-depth analysis that yields several key findings: (1) Retrieving task-relevant knowledge from parameters is a critical bottleneck for LLMs when carrying out scientific reasoning; (2) Stronger reasoning models consistently benefit from external knowledge added in-context; and, (3) Enhancing verbalized reasoning improves LLMs' ability to recall task-relevant knowledge.}
 }
 
 @article{GXChen_136_Reverse,
@@ -494,7 +555,8 @@
   author = {Anthony GX-Chen and Jatin Prakash and Rob Fergus and Rajesh Ranganath},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=8BZXdSBpQg},
-  pdf = {https://openreview.net/pdf?id=8BZXdSBpQg}
+  pdf = {https://openreview.net/pdf?id=8BZXdSBpQg},
+  abstract = {It is commonly believed that optimizing the reverse KL divergence result in "mode seeking", while optimizing forward KL result in "mass covering", with the latter being preferred if the goal is to sample from multiple diverse modes. We show---mathematically and empirically---that this intuition does not necessarily transfer well to doing reinforcement learning with reverse/forward KL regularization (as used with verifiable rewards, human feedback, and reasoning tasks). Instead, the choice of reverse/forward KL determines the family of target distributions which maximizes the objective, while mode coverage depends primarily on other factors, such as regularization strength. Further, we show commonly used settings such as low regularization strength and equal verifiable rewards tend to specify uni-modal target distributions, meaning the optimization objective is by construction non-diverse. Finally, we leverage these insights to construct a simple, theoretically principled algorithm which explicitly optimizes for a multi-modal target distribution that puts high probability over all high quality samples. We show this works to post-train LLMs to have high solution diversity with both forward and reverse KL, when using either the forward or reverse KL naively fails.}
 }
 
 @article{Jain_138_Towards,
@@ -502,7 +564,8 @@
   author = {Samyak Jain and Ayush Agrawal and Navin Goyal},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=DSX0b1Ds0j},
-  pdf = {https://openreview.net/pdf?id=DSX0b1Ds0j}
+  pdf = {https://openreview.net/pdf?id=DSX0b1Ds0j},
+  abstract = {GRPO has achieved impressive success in the landscape of reasoning models. However, the motivation behind its origins along with the reasons for its effectiveness remain elusive. In this work, we fill some of the gaps and demonstrate that in on-policy setting, GRPO's optimization can be viewed as a weighted combination of maximization of likelihood for correct rollouts and minimization for the incorrect ones. This finding gives a different perspective about the optimization landscape of GRPO. Motivated by this, we analyze the positive and negative part of GRPO's objective function independently, and find that their global minima correspond to undesired solutions. While optimization of the positive term leads to entropy minimization and length collapse, optimizing for the negative term leads to entropy maximization and length explosion. Using this lens, we show the presence of instability in on-policy training of some recent algorithmic advances trying to simplify GRPO's objective. However, despite the presence of bad global minima in GRPO's objective function, it doesn't converge to either of them. We identify design choices in GRPO's advantages that aid convergence of GRPO to good minima. We also demonstrate the effectiveness of using clipping in stabilizing the optimization process, thereby preventing training instabilities even when training only for minimizing the likelihood of incorrect rollouts.}
 }
 
 @article{Helff_139_SLR,
@@ -510,7 +573,8 @@
   author = {Lukas Helff and Ahmad Omar and Felix Friedrich and Antonia Wüst and Hikaru Shindo and Tim Woydt and Rupert Mitchell and Patrick Schramowski and Wolfgang Stammer and Kristian Kersting},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=dO8pgZaWzN},
-  pdf = {https://openreview.net/pdf?id=dO8pgZaWzN}
+  pdf = {https://openreview.net/pdf?id=dO8pgZaWzN},
+  abstract = {We introduce SLR, an end-to-end framework for systematic evaluation and training of Large Language Models (LLMs) via Scalable Logical Reasoning. Given a user's task specification, SLR automatically synthesizes (i) an instruction prompt for an inductive reasoning task, (ii) a validation program, executable on model outputs to provide verifiable rewards, and (iii) the latent ground-truth rule. This process is fully automated, scalable, requires no human annotations, and offers precise control over task difficulty. Using SLR, we create SLR-Bench, a benchmark comprising 19k prompts organized into 20 curriculum levels that progressively increase in relational, arithmetic, and recursive complexity. Large-scale evaluation reveals that contemporary LLMs readily produce syntactically valid rules, yet often fail at correct logical inference. Recent reasoning LLMs demonstrate improved performance but incur very high test-time computation, with costs exceeding $300 for just 1,000 prompts. Finally, curriculum learning via SLR doubles Llama-3-8B accuracy on SLR-Bench, achieving parity with Gemini-Flash-Thinking at a fraction of computational cost. Moreover, these reasoning capabilities generalize to a wide range of established benchmarks, underscoring the effectiveness of SLR for downstream reasoning.}
 }
 
 @article{Singh_142_Fathom,
@@ -518,7 +582,8 @@
   author = {Shreyas Singh and Pradeep Moturi and Kunal Singh},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=X2oH64LWHO},
-  pdf = {https://openreview.net/pdf?id=X2oH64LWHO}
+  pdf = {https://openreview.net/pdf?id=X2oH64LWHO},
+  abstract = {We present Fathom-Search-4B, tool-using LLM specialized in evidence-based DeepSearch. Our approach combines three advances. First, DUETQA, a ~5K-sample training dataset generated via our novel multi-agent self-play framework that can be used to synthesize question--answer pairs with strict live-web-search dependence, post model cut-off date bias, and heterogeneity of web sources beyond Wikipedia. Second, we introduce RAPO, a zero-overhead extension of GRPO that stabilizes multi-turn Reinforcement Learning with Verifiable Rewards (RLVR) via three upgrades: (i) curriculum-inspired pruning of saturated prompts; (ii) reward-aware advantage scaling that preserves gradient magnitude under sparse rewards; and (iii) a per-prompt replay buffer that injects the latest successful rollout into failed groups, restoring reward variance and stabilizing relative-advantage estimates. Third, we design a steerable step-level reward that classifies each tool call by cognitive behaviour and marginal utility (e.g., exploration, verification, redundancy), enabling explicit control over search breadth, cross-source verification depth, and overall tool-use horizon; this reliably extends effective trajectories beyond 20 tool calls when warranted. The agent operates with a goal-conditioned web-search stack (live web search via a search engine + targeted web-page querying via an LLM). Evaluated on DeepSearch benchmarks (e.g., SimpleQA, FRAMES, WebWalker, Seal0, MuSiQue) and out-of-domain reasoning suites (HLE, AIME-25, GPQA-Diamond, MedQA), Fathom-Search-4B attains state-of-the-art results in the open-weights category across all DeepSearch benchmarks, and achieves significant improvements in general reasoning tasks via tool-integrated reasoning.}
 }
 
 @article{Agrawal_146_GEPA,
@@ -526,7 +591,8 @@
   author = {Lakshya A Agrawal and Shangyin Tan and Dilara Soylu and Noah Ziems and Rishi Khare and Krista Opsahl-Ong and Arnav Singhvi and Herumb Shandilya and Michael J Ryan and Meng Jiang and Christopher Potts and Koushik Sen and Alex Dimakis and Ion Stoica and Dan Klein and Matei Zaharia and Omar Khattab},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=4oo6XTL6Oj},
-  pdf = {https://openreview.net/pdf?id=4oo6XTL6Oj}
+  pdf = {https://openreview.net/pdf?id=4oo6XTL6Oj},
+  abstract = {Large language models (LLMs) are increasingly adapted to downstream tasks via reinforcement learning (RL) methods like Group Relative Policy Optimization (GRPO), which often require thousands of rollouts to learn new tasks. We argue that the interpretable nature of language often provide a much richer learning medium for LLMs, compared with policy gradients derived from sparse, scalar rewards. To test this, we introduce GEPA (Genetic-Pareto), a prompt optimizer that thoroughly incorporates natural language reflection to learn high-level rules from trial and error. Given any AI system containing one or more LLM prompts, GEPA samples system-level trajectories (e.g., reasoning, tool calls, and tool outputs) and reflects on them in natural language to diagnose problems, propose and test prompt updates, and combine complementary lessons from the Pareto frontier of its own attempts. As a result of GEPA's design, it can often turn even just a few rollouts into a large quality gain. Across four tasks, GEPA outperforms GRPO by 10\% on average and by up to 20\%, while using up to 35x fewer rollouts. GEPA also outperforms the leading prompt optimizer, MIPROv2, by over 10\% across two LLMs, and demonstrates promise as an agent discovery and inference-time search strategy for complex tasks including code optimization and abstract reasoning (ARC). We release our code at https://github.com/gepa-ai/gepa.}
 }
 
 @article{Tang_147_Not,
@@ -534,7 +600,8 @@
   author = {Hao Tang and Guoqing Zheng and Kanishk Gandhi and Harkirat Behl and Vaishnavi Shrivastava and Mojan Javaheripi and Kevin Ellis and Shivam Garg and Dimitris Papailiopoulos},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=FkUE0aKsG9},
-  pdf = {https://openreview.net/pdf?id=FkUE0aKsG9}
+  pdf = {https://openreview.net/pdf?id=FkUE0aKsG9},
+  abstract = {Reasoning-optimized language models increasingly rely on test-time compute (TTC)---long chains of thought before final answers---to boost accuracy, but this raises cost because causal self-attention scales quadratically in time and linearly in memory with sequence length. We observe that many intermediate thoughts are redundant: the model rarely needs to attend to all past tokens to generate effective next tokens and reach correct solutions. We propose RollingWindowReasoner, a simple yet effective inference-time technique that maintains only the first window (preserving critical problem context) and the last window (recent reasoning steps) of the key-value cache. Experiments across two model families and three reasoning domains---math reasoning, code generation, and academic QA---demonstrate that RollingWindowReasoner achieves similar accuracy with only 50\% of the KV-cache budget, corresponding to 2$\times$ memory savings and 4$\times$ compute reduction.}
 }
 
 @article{Kolasani_151_LLM,
@@ -542,7 +609,8 @@
   author = {Sai Kolasani and Maxim Saplin and Nicholas Crispino and Kyle Montgomery and Jared Quincy Davis and Matei Zaharia and Chi Wang and Chenguang Wang},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=i0UHrCKEXZ},
-  pdf = {https://openreview.net/pdf?id=i0UHrCKEXZ}
+  pdf = {https://openreview.net/pdf?id=i0UHrCKEXZ},
+  abstract = {We introduce LLM CHESS, an evaluation framework designed to probe the generalization of reasoning and instruction-following abilities in large language models (LLMs) through extended agentic interaction in the domain of chess. We rank over 50 open and closed source models by playing against a random opponent using a range of behavioral metrics, including win and loss rates, move quality, move legality, hallucinated actions, and game duration. For a subset of top reasoning models, we derive an Elo estimate by playing against a chess engine with variably configured skill, which allows for comparisons between models in an easily understandable way. Despite the simplicity of the instruction-following task and the weakness of the opponent, many state-of-the-art models struggle to complete games or achieve consistent wins. Similar to other benchmarks on complex reasoning tasks, our experiments reveal a clear separation between reasoning and non-reasoning models. However, unlike existing static benchmarks, the stochastic and dynamic nature of LLM CHESS uniquely reduces overfitting and memorization while preventing benchmark saturation, proving difficult even for top reasoning models. To support future work on evaluating reasoning and instruction-following in LLMs, we release our experimental framework, a public leaderboard, and a dataset of associated games.}
 }
 
 @article{Zheng_152_Reasoning,
@@ -550,7 +618,8 @@
   author = {Zishuo Zheng and Vidhisha Balachandran and Chan Young Park and Faeze Brahman and Sachin Kumar},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=cLDh6C1vrL},
-  pdf = {https://openreview.net/pdf?id=cLDh6C1vrL}
+  pdf = {https://openreview.net/pdf?id=cLDh6C1vrL},
+  abstract = {As large language model (LLM) based systems take on high-stakes roles in real-world decision-making, they must reconcile competing instructions from multiple sources (e.g., model developers, users, and tools) within a single prompt context. Thus, enforcing an instruction hierarchy (IH) in LLMs, where higher-level directives override lower-priority requests, is critical for the reliability and controllability of LLMs. In this work, we reframe instruction hierarchy resolution as a reasoning task. Specifically, the model must first "think" about the relationship between a given user prompt and higher-priority (system) instructions before generating a response. To enable this capability via training, we construct VerIH, an instruction hierarchy dataset of constraint-following tasks with verifiable answers. This dataset comprises $\sim$7K aligned and conflicting system--user instructions. We show that lightweight reinforcement learning with VerIH effectively transfers general reasoning capabilities of models to instruction prioritization. Our finetuned models achieve consistent improvements on instruction following and instruction hierarchy benchmarks, achieving roughly a 20\% improvement on the IHEval conflict setup. This reasoning ability also generalizes to safety-critical settings beyond the training distribution. By treating safety issues as resolving conflicts between adversarial user inputs and predefined higher-priority policies, our trained model enhances robustness against jailbreak and prompt injection attacks, providing up to a 20\% reduction in attack success rate. These results demonstrate that reasoning over instruction hierarchies provides a practical path to reliable LLMs, where updates to system prompts yield controllable and robust changes in model behavior.}
 }
 
 @article{Zhou_155_Variation,
@@ -558,7 +627,8 @@
   author = {Yefan Zhou and Austin Xu and Yilun Zhou and Janvijay Singh and Jiang Gui and Shafiq Joty},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=jVuLJuQlyx},
-  pdf = {https://openreview.net/pdf?id=jVuLJuQlyx}
+  pdf = {https://openreview.net/pdf?id=jVuLJuQlyx},
+  abstract = {Recent advances in large language models (LLMs) have produced increasingly capable generators that can solve complex problems across diverse domains. Evaluating these generators' outputs has shifted from human assessment to automated verification using LLMs as verifiers. In this paradigm, verifier models assess the correctness of solutions produced by generator models, a framework now central to applications such as test-time scaling (TTS). In this study, we study generative verifiers, which perform verification as a next-token prediction task by generating chain-of-thought (CoT) reasoning followed by a binary verdict. We systematically analyze verification dynamics across three dimensions: problem difficulty, generator capability, and verifier generation capability, conducting empirical studies on 2.3k mathematical problems using 14 open-source models (2B to 72B parameter range) and GPT-4o. Our experiments reveal three key findings about verification effectiveness: (1) Problem difficulty affects recognizing correct responses; (2) Weak generators produce errors that are easier to detect than strong generators; (3) Verification ability is generally correlated with verifier generation ability, but correlation relationship varies with problem difficulty. These findings enable cost-effective strategies in TTS applications. Specifically, we identify two patterns that weak models can substitute for strong ones. First, given the same verifier, weak generators can nearly match stronger generators in post-verification TTS performance (e.g., a 9B model matches a 27B model). Second, weak verifiers can approximate strong verifiers in regimes where both achieve similar verification performance.}
 }
 
 @article{He_157_Skill,
@@ -566,7 +636,8 @@
   author = {Yinghui He and Abhishek Panigrahi and Yong Lin and Sanjeev Arora},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=zRds8uPCIZ},
-  pdf = {https://openreview.net/pdf?id=zRds8uPCIZ}
+  pdf = {https://openreview.net/pdf?id=zRds8uPCIZ},
+  abstract = {Language models often show little to no improvement (i.e., "saturation") when trained via vanilla supervised fine-tuning (SFT) on data similar to what they saw in their training set (e.g., MATH). We introduce a new fine-tuning strategy, STAT, to train such a student model by using the metacognition ability of a stronger large language model (LLM) as the teacher. The teacher uses the task dataset to create a list of skills needed for the task, and then labels each data point with its required skills (Didolkar et al., 2024). By monitoring the student's answers, the teacher creates a Missing-Skill-Profile for the student, tracking how often they failed to apply each skill in their responses. We use this idea to build a modified training set in one of two ways. In STAT-Sel, the teacher uses an existing set of training examples but adaptively reweights them according to the Missing-Skill-Profile. In STAT-Syn, the teacher synthesizes additional examples involving missing skills. Across extensive experiments on Llama and Qwen models, our methods yield improvements of up to 7.5\% on MATH, whereas SFT provides only limited gains. Furthermore, STAT enhances performance on out-of-distribution benchmarks (e.g., AIME24/25, AMC23, etc.) by an average of 4.6\%. Crucially, we find that STAT is complementary to RL via GRPO (Shao et al., 2024): after the model is improved using STAT to address skill gaps, GRPO continues to add further gains. We conclude that skill-targeted adaptive training should broadly improve current training pipelines.}
 }
 
 @article{Oh_159_Monitor,
@@ -574,7 +645,8 @@
   author = {Nick Oh and Fernand Gobet},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=ZqycPxO7rm},
-  pdf = {https://openreview.net/pdf?id=ZqycPxO7rm}
+  pdf = {https://openreview.net/pdf?id=ZqycPxO7rm},
+  abstract = {Test-time reasoning architectures such as those following the Generate--Verify paradigm -- where a model iteratively refines or verifies its own generated outputs -- prioritise generation and verification, but exclude the monitoring processes that determine when and how reasoning should begin. This omission may contribute to the prefix dominance trap, in which models commit early to suboptimal reasoning paths and seldom recover, yielding roughly 20\% accuracy loss. We address this architectural gap by proposing the Monitor--Generate--Verify (MGV) framework, a computational translation of Flavell's and Nelson and Narens' metacognitive theories that preserves their psychological detail. MGV extends the Generate--Verify paradigm by adding explicit monitoring that captures metacognitive experiences (from difficulty assessments to confidence judgements) before generation begins and refines future monitoring through verification feedback. Though we present no empirical validation, MGV provides a vocabulary for diagnosing component-level failures in reasoning systems and suggests specific architectural interventions for future designs.}
 }
 
 @article{Dong_162_CARE,
@@ -582,7 +654,8 @@
   author = {Juncheng Dong and Yiling Liu and Ahmed Aloui and Vahid Tarokh and David Carlson},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=EC7B1nlK9j},
-  pdf = {https://openreview.net/pdf?id=EC7B1nlK9j}
+  pdf = {https://openreview.net/pdf?id=EC7B1nlK9j},
+  abstract = {Large language models (LLMs) have recently demonstrated impressive capabilities across a range of reasoning and generation tasks. However, research studies have shown that LLMs lack the ability to identify causal relationships, a fundamental cornerstone of human intelligence. We first conduct an exploratory investigation of LLMs’ behavior when asked to perform a causal-discovery task and find that they mostly rely on the semantic meaning of variable names, ignoring the observation data. This is unsurprising, given that LLMs were never trained to process structural datasets. To first tackle this challenge, we prompt the LLMs with the outputs of established causal discovery algorithms designed for observational datasets. These algorithm outputs effectively serve as the sufficient statistics of the observation data. However, quite surprisingly, we find that prompting the LLMs with these sufficient statistics decreases the LLMs' performance in causal discovery. To address this current limitation, we propose CARE, a framework that enhances LLMs’ causal-reasoning ability by teaching them to effectively utilize the outputs of established causal-discovery algorithms through supervised fine-tuning. Experimental results show that a finetuned Qwen2.5-1.5B model produced by CARE significantly outperforms both traditional causal-discovery algorithms and state-of-the-art LLMs with over a thousand times more parameters, demonstrating effective utilization of its own knowledge and the external algorithmic clues.}
 }
 
 @article{Ekbote_164_Murphy,
@@ -590,7 +663,8 @@
   author = {Chanakya Ekbote and Vijay Lingam and Behrooz Omidvar Tehrani and Jun Huan and sujay sanghavi and Anoop Deoras and Stefano Soatto},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=x0Ir7cWEiA},
-  pdf = {https://openreview.net/pdf?id=x0Ir7cWEiA}
+  pdf = {https://openreview.net/pdf?id=x0Ir7cWEiA},
+  abstract = {Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a powerful framework for enhancing the reasoning capabilities of large language models (LLMs). However, existing approaches such as Group Relative Policy Optimization (GRPO) and its variants, while effective on reasoning benchmarks, struggle with agentic tasks that require iterative decision-making. We introduce Murphy, a multi-turn reflective optimization framework that extends GRPO by incorporating iterative self-correction during training. By leveraging both quantitative and qualitative execution feedback, Murphy enables models to progressively refine their reasoning across multiple turns. Evaluations on code generation benchmarks with model families such as Qwen and OLMo show that Murphy consistently improves performance, achieving up to a $8$\% relative gain in pass@1 over GRPO, on similar compute budgets.}
 }
 
 @article{Liu_167_TS,
@@ -598,7 +672,8 @@
   author = {Penghang Liu and Elizabeth Fons and Svitlana Vyetrenko and Daniel Borrajo and Vamsi K. Potluru and Manuela Veloso},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=XSVaGp9yX1},
-  pdf = {https://openreview.net/pdf?id=XSVaGp9yX1}
+  pdf = {https://openreview.net/pdf?id=XSVaGp9yX1},
+  abstract = {Large language models (LLMs) have shown strong abilities in reasoning and problem solving, but recent studies reveal that they still struggle with time series reasoning tasks, where outputs are often affected by hallucination or knowledge leakage. In this work we propose TS-Agent, a time series reasoning agent that leverages LLMs strictly for what they excel at, i.e., gathering evidence and synthesizing it into conclusions through step-by-step reasoning, while delegating the extraction of statistical and structural information to time series analytical tools. Instead of mapping time series into text tokens, images, or embeddings, our agent interacts with raw numeric sequences through atomic operators, records outputs in an explicit evidence log, and iteratively refines its reasoning under the guidance of a self-critic and a final quality gate. This design avoids multi-modal alignment training, preserves the native form of time series, ensures interpretability and verifiability, and mitigates knowledge leakage or hallucination. Empirically, we evaluate the agent on established benchmarks. Our experiments show that TS-Agent achieves performance comparable to state-of-the-art LLMs on understanding benchmarks, and delivers significant improvements on reasoning tasks, where existing models often rely on memorization and fail in zero-shot settings.}
 }
 
 @article{Zhu_168_Diagnosing,
@@ -606,7 +681,8 @@
   author = {Andrew Zhu},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=5R9JZw7hVs},
-  pdf = {https://openreview.net/pdf?id=5R9JZw7hVs}
+  pdf = {https://openreview.net/pdf?id=5R9JZw7hVs},
+  abstract = {Despite their impressive task generalization, the logical robustness of large language models (LLMs) in complex reasoning domains remains poorly understood. We introduce a novel benchmark to evaluate a critical facet of reasoning: ethical consistency. Our framework probes models with moral dilemmas augmented by clarifying and contradictory follow-ups, extracting concrete yes/no responses to enable rigorous analysis. We propose two diagnostic metrics: an Ethical Consistency Index (ECI) to quantify logical contradictions across scenarios, and an entropy-based score to measure response stochasticity. Evaluating state-of-the-art models against human baselines, we find that LLMs exhibit significant reasoning deficits, achieving only middling consistency. Furthermore, we demonstrate that ethical stance is highly steerable and context-dependent, revealing a lack of robust principles. These results highlight urgent risks for high-stakes deployment and underscore the need for benchmarks that move beyond capability checking to diagnose reasoning processes. We open-source our benchmark to advance the development of more logically consistent and reliable models. (https://anonymous.4open.science/r/TrolleyBench-FD46/README.md)}
 }
 
 @article{Dokmeci_172_Data,
@@ -614,7 +690,8 @@
   author = {Berkan Dokmeci and Qingyang Wu and Ben Athiwaratkun and Ce Zhang and Shuaiwen Leon Song and James Zou},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=4d9o0RpzCL},
-  pdf = {https://openreview.net/pdf?id=4d9o0RpzCL}
+  pdf = {https://openreview.net/pdf?id=4d9o0RpzCL},
+  abstract = {While recent advances in preference learning have enhanced alignment in human feedback, mathematical reasoning remains a persistent challenge. We investigate how data diversification strategies in preference optimization can improve the mathematical reasoning abilities of large language models (LLMs). We evaluate three common data generation methods---temperature sampling, Chain-of-Thought prompting, Monte Carlo Tree Search (MCTS), and introduce Diversified-ThinkSolve (DTS), a novel structured approach that systematically decomposes problems into diverse reasoning paths. Our results show that with strategically diversified preference data, models can substantially improve mathematical reasoning performance, with the best approach yielding gains of 7.1\% on GSM8K and 4.2\% on MATH over the base model. Despite its strong performance, DTS incurs only a marginal computational overhead (1.03×) compared to the baseline, while MCTS is nearly five times more costly with lower returns. These findings demonstrate that structured exploration of diverse problem-solving methods creates more effective preference data for mathematical alignment than traditional approaches.}
 }
 
 @article{Vashishtha_174_Executable,
@@ -622,7 +699,8 @@
   author = {Aniket Vashishtha and Qirun Dai and Hongyuan Mei and Chenhao Tan and Amit Sharma and Hao Peng},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=yU7FA4DiQF},
-  pdf = {https://openreview.net/pdf?id=yU7FA4DiQF}
+  pdf = {https://openreview.net/pdf?id=yU7FA4DiQF},
+  abstract = {Counterfactual reasoning, a hallmark of intelligence, consists of three steps: inferring latent variables from observations (abduction), constructing alternative situations (interventions), and predicting the outcomes of the alternatives (prediction). This skill is essential for advancing LLMs' causal understanding and expanding their applications in high-stakes domains such as scientific research and healthcare. However, existing efforts in assessing LLM's counterfactual reasoning capabilities tend to skip the abduction step, effectively reducing to interventional reasoning and leading to over-estimated LLM performance. To address this, we introduce executable counterfactuals, a novel framework that operationalizes causal reasoning through code and math problems. Our framework explicitly requires all three steps of counterfactual reasoning and enables scalable synthetic data creation with varying difficulty, creating a new frontier for evaluating and improving LLM's reasoning. Our results reveal substantial drop in accuracy (25-40\%) from interventional to counterfactual reasoning for state-of-the-art models such as o4-mini and Claude-4-Sonnet. To address this gap, we construct a training set comprising counterfactual code problems having if-condition and test on out-of-domain code structures (e.g., having while-loop); we also test whether a model trained on code would generalize to counterfactual math word problems. While Supervised Finetuning (SFT) on stronger models' reasoning traces improves in-domain performance of Qwen models, it leads to a decrease in accuracy on out-of-domain tasks such as counterfactual math problems. In contrast, reinforcement learning (RL) induces the core cognitive behaviors and generalizes to new domains, yielding substantial accuracy gains over the base model on both code (improvement of 1.5x-2x) and counterfactual math problems. Analysis of the reasoning traces further reinforces these findings and highlights the promise of RL with scalable data generation for improving LLMs' counterfactual reasoning.}
 }
 
 @article{Zou_175_TATTO,
@@ -630,7 +708,8 @@
   author = {Jiaru Zou and Soumya Roy and Vinay Kumar Verma and Ziyi Wang and David Wipf and Pan Lu and Jingrui He and Sumit Negi},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=ZsiN1ytDuj},
-  pdf = {https://openreview.net/pdf?id=ZsiN1ytDuj}
+  pdf = {https://openreview.net/pdf?id=ZsiN1ytDuj},
+  abstract = {Test-time scaling has emerged as a promising paradigm to enhance reasoning in large reasoning models by allocating additional inference-time compute. However, its potential for tabular reasoning remains underexplored. We identify that existing process reward models, widely used to supervise reasoning steps, struggle with table-specific operations such as table retrieval and schema interaction, leading to bottlenecked performance under TTS. To address this gap, we propose TATTO, the first table-grounded PRM framework that leverages tool use for accurate verification. We develop a scalable data curation pipeline producing over 60k high-quality step-level annotations that combine expert rationales with programmatic tool executions, and train our tabular PRM via supervised fine-tuning followed by reinforcement learning with tool-grounded reward shaping. We provide both theoretical analyses and empirical evaluations on the efficacy of our method. Across five challenging tabular reasoning benchmarks, our TATTO-8B PRM achieves an average 30.9\% relative gain over the base LRM, consistently surpasses strong baselines such as Qwen-2.5-Math-PRM-72B with up to 9× parameter efficiency, and generalizes robustly across multiple TTS strategies.}
 }
 
 @article{Cao_176_Asking,
@@ -638,7 +717,8 @@
   author = {Zongwan Cao and Bingbing Wen and Lucy Lu Wang},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=VBmxXLvQYM},
-  pdf = {https://openreview.net/pdf?id=VBmxXLvQYM}
+  pdf = {https://openreview.net/pdf?id=VBmxXLvQYM},
+  abstract = {Visual Question Answering (VQA) can suffer from under-specification, where the same image-question pair may have multiple plausible answers depending on missing external context. Existing research highlights this limitation, but does not provide methods for teaching models to proactively seek for context. In this work, we study the task of open-ended clarification question generation for underspecified VQA. We curate a dataset of ambiguous VQA pairs annotated with human-verified clarification questions that capture cultural, temporal, spatial, or attribute-based uncertainty. To address this task, we develop a reinforcement learning framework, Grounded Reasoning Preference Optimization--Clarification Reasoning (GRPO-CR), which integrates tailored reward functions to ensure generated clarifications are effective at resolving ambiguity. Experimental results show that GRPO-CR enables VLMs to ask clarification questions that more reliably reduce uncertainty. Our work establishes open-ended, context-seeking clarification as a principled pathway toward interactive, trustworthy multimodal systems that know when and what to ask before answering.}
 }
 
 @article{Gupta_178_POLYMATH,
@@ -646,7 +726,8 @@
   author = {Himanshu Gupta and Shreyas Verma and Ujjwala Anantheswaran and Kevin Scaria and Mihir Parmar and Swaroop Mishra and Chitta Baral},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=Lo3rfMg19d},
-  pdf = {https://openreview.net/pdf?id=Lo3rfMg19d}
+  pdf = {https://openreview.net/pdf?id=Lo3rfMg19d},
+  abstract = {Multi-modal Large Language Models (MLLMs) exhibit impressive problem-solving abilities in various domains, but their visual comprehension and abstract reasoning skills remain under-evaluated. To this end, we present PolyMATH, a challenging benchmark aimed at evaluating the general cognitive reasoning abilities of MLLMs. PolyMATH comprises 5,000 manually collected high-quality images of cognitive textual and visual challenges across 10 distinct categories, including pattern recognition, spatial reasoning, and relative reasoning. We conducted a comprehensive, and quantitative evaluation of 12 MLLMs using four diverse prompting strategies, including Chain-of-Thought and Step-Back. The best scores achieved on PolyMATH are $\sim$ 54\%, $\sim$ 36\%, and $\sim$ 57\%, obtained by Claude-3.7 Sonnet, GPT-4o and Gemini-2.5 Flash respectively - highlighting the logical and visual complexity of these questions. A further fine-grained error analysis reveals that these models struggle to understand spatial relations and perform drawn-out, high-level reasoning. This is further strengthened by our ablation study estimating MLLM performance when given textual descriptions in place of diagrams. As evidenced by $\sim$ 4\% improvement over textual descriptions as opposed to actual images, we discover that models do not truly comprehend visual diagrams and the spatial information therein, and are thus prone to logical errors. The results on PolyMATH highlight the room for improvement in multi-modal reasoning and provide unique insights to guide the development of future MLLMs .}
 }
 
 @article{Su_181_Limits,
@@ -654,7 +735,8 @@
   author = {Chris Su and Harrison Li and Matheus Marques and George Flint},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=UWXyZfcUMg},
-  pdf = {https://openreview.net/pdf?id=UWXyZfcUMg}
+  pdf = {https://openreview.net/pdf?id=UWXyZfcUMg},
+  abstract = {Recent work reports that Large Reasoning Models (LRMs) undergo a collapse in performance on solving puzzles beyond certain perplexity thresholds. In subsequent discourse, questions have arisen as to whether the nature of the task muddles an evaluation of true reasoning. One potential confound is the requirement that the model keep track of the state space on its own. We provide a large language model (LLM) with an environment interface for Tower of Hanoi problems, allowing it to make a move with a tool call, provide written justification, observe the resulting state space, and reprompt itself for the next move. We observe that access to an environment interface does not delay or eradicate performance collapse. Furthermore, LLM-parameterized policy analysis reveals increasing divergence from both optimal policies and uniformly random policies, suggesting that the model exhibits mode-like collapse at each level of complexity, and that performance is dependent upon whether the mode reflects the correct solution for the problem. We suggest that a similar phenomena might take place in LRMs.}
 }
 
 @article{Shrivastava_182_Sample,
@@ -662,7 +744,8 @@
   author = {Vaishnavi Shrivastava and Ahmed Hassan Awadallah and Vidhisha Balachandran and Shivam Garg and Harkirat Behl and Dimitris Papailiopoulos},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=D1cu7CXxe9},
-  pdf = {https://openreview.net/pdf?id=D1cu7CXxe9}
+  pdf = {https://openreview.net/pdf?id=D1cu7CXxe9},
+  abstract = {Large language models trained with reinforcement learning on verifiable rewards often inflate response length---trading brevity for accuracy. While longer reasoning can help on hard problems, many extra tokens are filler: verbose text making little progress. We introduce GFPO (Group Filtered Policy Optimization), which curbs this length explosion by sampling larger groups per problem and only training on responses filtered by (1) length and (2) token efficiency (reward per token). By sampling more during training-time, GFPO teaches models to think less at inference-time. On Phi-4-reasoning, GFPO cuts GRPO’s length inflation by up to 85\% across STEM and coding benchmarks (AIME 24/25, GPQA, Omni-MATH, LiveCodeBench) while preserving accuracy. We further propose Adaptive Difficulty GFPO, which allocates more training exploration to harder problems using real-time difficulty estimates, yielding better efficiency-accuracy trade-offs on challenging questions. GFPO demonstrates that modest extra training compute can deliver substantial test-time savings---an effective recipe for efficient reasoning.}
 }
 
 @article{Venkatraman_183_Deep,
@@ -670,7 +753,8 @@
   author = {Siddarth Venkatraman and Vineet Jain and Sarthak Mittal and Moksh Jain and Vedant Shah and Johan Obando-Ceron and Yoshua Bengio and Brian R. Bartoldson and Bhavya Kailkhura and Guillaume Lajoie and Glen Berseth and Nikolay Malkin},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=J2f5D2Rqug},
-  pdf = {https://openreview.net/pdf?id=J2f5D2Rqug}
+  pdf = {https://openreview.net/pdf?id=J2f5D2Rqug},
+  abstract = {Large language models (LLMs) exhibit strong reasoning capabilities through chain-of-thought (CoT) prompting, but their outputs remain unreliable due to high variability across reasoning trajectories. Parallel scaling methods like majority voting improve accuracy, but cannot "think deeper". On the other hand, sequential refinement risks locking the model into an incorrect reasoning path, from which it cannot escape. In this work, we show that LLMs can serve as aggregators over multiple CoTs, cross-referencing trajectories to identify errors and synthesize higher-quality responses. We propose Recursive Self-Aggregation (RSA), an evolutionary framework for deep thinking with increased test-time compute: aggregated CoTs are reintroduced as candidate proposals in subsequent rounds, allowing the model to progressively refine answers through iterative reasoning. This recursive aggregation, a hybrid-scaling strategy, yields monotonically improving performance with increasing token budgets. We also demonstrate that reinforcement learning (RL) finetuning can be made aggregation-aware, yielding policies that achieve superior inference-time performance under recursive aggregation compared to those trained solely for direct solution generation. On math reasoning tasks and countdown, RSA significantly outperforms baseline approaches including purely parallel and sequential strategies, with RL-trained aggregation providing additional gains.}
 }
 
 @article{Groeneveld_184_Smaller,
@@ -678,7 +762,8 @@
   author = {Jan Niklas Groeneveld and Xi Qin and Alexander Schaefer and Yaad Oren},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=jgbK7mZsjX},
-  pdf = {https://openreview.net/pdf?id=jgbK7mZsjX}
+  pdf = {https://openreview.net/pdf?id=jgbK7mZsjX},
+  abstract = {Generating high-quality code remains a challenge for Large Language Models (LLMs). For the evolution of reasoning models on this task, reward models are a necessary intermediate step. These models judge outcomes or intermediate steps. Decoder-only transformer models can be turned into reward models by introducing a regression layer and supervised fine-tuning. While it is known that reflection capabilities generally increase with the size of a model, we want to investigate whether state-of-the-art small language models like the Phi-4 family can be turned into usable reward models blending the consideration of process rewards and outcome rewards. Targeting this goal, we construct a dataset of code samples with correctness labels derived from the APPS coding challenge benchmark. We then train a value-head model to estimate the success probability of intermediate outputs. Our evaluation shows that small LLMs are capable of serving as effective reward models or code evaluation critics, successfully identifying correct solutions among multiple candidates. Using this critic, we achieve over a 20\% improvement in the search capability of the most accurate code out of multiple generations.}
 }
 
 @article{Xing_186_Reasoning,
@@ -686,7 +771,8 @@
   author = {Wen Xing and Artur Zolkowski},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=WEA5zpScOm},
-  pdf = {https://openreview.net/pdf?id=WEA5zpScOm}
+  pdf = {https://openreview.net/pdf?id=WEA5zpScOm},
+  abstract = {Recent findings suggest that misaligned models may exhibit deceptive behavior, raising concerns about output trustworthiness. Chain-of-thought (CoT) is a promising tool for alignment monitoring: when models articulate their reasoning faithfully, monitors can detect and mitigate harmful behaviors before undesirable outcomes occur. However, a key uncertainty is: $Can current models obfuscate their CoT in order to pursue hidden adversarial objectives while evading detection?$ To answer this question and thus stress test CoT monitorability, we develop a composable and quantifiable taxonomy of prompt-level obfuscation cues to systematically elicit CoT obfuscation. We evaluate both internal CoT (reasoning traces) and external CoT (prompted reasoning in outputs) using toy tasks and more realistic environments in SHADE-Arena. We show that: (i) CoT monitoring performs accurately and efficiently without obfuscation pressure. (ii) Under strong obfuscation pressure, some models successfully complete adversarial tasks while evading detection, though this effect is model-dependent. (iii) Internal CoT is more resilient to obfuscation pressure than external CoT. These results suggest that while CoT provides valuable oversight in benign settings, robust deployment requires model-specific stress-testing of monitorability.}
 }
 
 @article{Howe_188_Ends,
@@ -694,7 +780,8 @@
   author = {Nikolaus Howe and Micah Carroll},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=iparDeTKII},
-  pdf = {https://openreview.net/pdf?id=iparDeTKII}
+  pdf = {https://openreview.net/pdf?id=iparDeTKII},
+  abstract = {The use of reinforcement learning (RL) with chain-of-thought (CoT) reasoning has unlocked a new level of performance in frontier language models. In turn, a new optimism has emerged among AI safety researchers: on the one hand, that spending test-time compute can improve alignment, and on the other, that CoT monitoring can help detect harmful behaviors such as scheming or reward hacking. In this paper, we showcase a failure mode of CoT trustworthiness. Specifically, we show that training reasoning models with RL on misaligned human preferences can lead them to downplay or ignore safety risks in their CoT, and focus instead on finding reasons to justify their dangerous behavior. We find similar effects with models trained with RL but without CoT reasoning, as well as with models trained to reason with reference to a constitution. We hope that these findings provide a useful warning for reasoning model training: namely, that RL finetuning on human feedback without successfully filtering harmful conversations may greatly amplify unfaithful reasoning in the CoT, which in turn may make harmful model behaviors harder to detect when using CoT monitoring. All code for this paper will be made available. WARNING: some examples in this paper may be upsetting.}
 }
 
 @article{Wu_189_Role,
@@ -702,7 +789,8 @@
   author = {Yuheng Wu and Thierry Tambe},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=tFM27F0HWu},
-  pdf = {https://openreview.net/pdf?id=tFM27F0HWu}
+  pdf = {https://openreview.net/pdf?id=tFM27F0HWu},
+  abstract = {Large language models (LLMs) can improve reasoning at inference time through test-time scaling (TTS), where multiple reasoning traces are generated and the best one is selected. Prior work shows that increasing the number of samples K steadily improves accuracy. In this paper, we demonstrate that this trend does not hold indefinitely: at large K, further scaling yields no gains, and certain hard questions remain unsolved regardless of the number of traces. Interestingly, we find that different sampling temperatures solve different subsets of problems, implying that single-temperature scaling explores only part of a model’s potential. We therefore propose scaling along the temperature dimension, which enlarges the reasoning boundary of LLMs. Averaged over Qwen3 (0.6B, 1.7B, 4B, 8B) and five representative reasoning benchmarks (AIME 2024/2025, MATH500, LiveCodeBench, Hi-ToM), temperature scaling yields an additional 7.3 points over single-temperature TTS. Temperature scaling also enables base models to reach performance comparable to reinforcement learning (RL)-trained counterparts, without additional post-training. We further provide a comprehensive analysis of this phenomenon and design a multi-temperature voting method that reduces the overhead of temperature scaling. Overall, our findings suggest that TTS is more powerful than previously thought, and that temperature scaling offers a simple and effective way to unlock the latent potential of base models.}
 }
 
 @article{Vilas_191_Tracing,
@@ -710,7 +798,8 @@
   author = {Martina G. Vilas and Safoora Yousefi and Besmira Nushi and Eric Horvitz and Vidhisha Balachandran},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=91ahUuuoWG},
-  pdf = {https://openreview.net/pdf?id=91ahUuuoWG}
+  pdf = {https://openreview.net/pdf?id=91ahUuuoWG},
+  abstract = {Reasoning models rely on inference-time scaling, allocating more compute via longer token budgets to improve problem-solving. Identifying traces that reliably lead to correct answers is a key step toward improving the reliability and efficiency of these models. In this work, we propose Latent-Space Metrics that track the shifts in internal representations during the generation of intermediate reasoning tokens. We introduce a set of trajectory metrics that quantify both the magnitude of hidden-state changes and the geometry of their trajectories along the reasoning trace. We show that metrics tracking the model’s internal states, rather than its output tokens, can serve as strong predictors of final answer accuracy. Our results demonstrate that they consistently distinguish correct from incorrect traces across models and reasoning domains. Moreover, we show that they enable more effective and efficient test-time scaling strategies, reducing token usage by up to 70\% while preserving and even improving accuracy by 2.6\% on average.}
 }
 
 @article{Suk_192_Optimization,
@@ -718,7 +807,8 @@
   author = {Joe Suk and Yaqi Duan},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=w6tCUh2b7d},
-  pdf = {https://openreview.net/pdf?id=w6tCUh2b7d}
+  pdf = {https://openreview.net/pdf?id=w6tCUh2b7d},
+  abstract = {Reinforcement Learning with Verifiable Rewards (RLVR), which uses simple binary feedback to post-train large language models, has shown significant empirical success. However, a principled understanding of why it works has been lacking. This paper builds a theoretical foundation for RLVR by analyzing its training process at both the full-response (trajectory) and token levels. Central to our analysis is a quantity called the Gradient Gap, which formalizes the direction of improvement from low-reward to high-reward regions of the response space. We prove that convergence critically depends on aligning the update direction with this Gradient Gap. Moreover, we derive a sharp step-size threshold based on the magnitude of the Gradient Gap: below it, learning converges, whereas above it, performance collapses. Our theory also predicts the proper scaling of the step size with respect to response length and the success rate. This finding explains the effectiveness of practical heuristics like length normalization and allows us to predict failure modes on challenging tasks. We support these insights with an illustrative simulation.}
 }
 
 @article{Noroozizadeh_199_Deep,
@@ -726,7 +816,8 @@
   author = {Shahriar Noroozizadeh and Vaishnavh Nagarajan and Elan Rosenfeld and Sanjiv Kumar},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=2NuCrYf8Ap},
-  pdf = {https://openreview.net/pdf?id=2NuCrYf8Ap}
+  pdf = {https://openreview.net/pdf?id=2NuCrYf8Ap},
+  abstract = {n sequence modeling, the parametric memory of atomic facts has been predom- inantly abstracted as a brute-force lookup of co-occurrences between entities. We contrast this associative view against a geometric view of how memory is stored. We begin by isolating a clean and analyzable instance of Transformer reasoning that is incompatible with memory as strictly a storage of the local co-occurrences specified during training. Instead, the model must have somehow synthesized its own geometry of atomic facts, encoding global relationships between all entities, including non-co-occurring ones. This in turn has simplified a hard reasoning task involving an ℓ-fold composition into an easy-to-learn 1-step geometric task. From this phenomenon, we extract fundamental aspects of neural embedding geometries that are hard to explain. We argue that the rise of such a geometry, despite optimizing over mere local associations, cannot be straightforwardly attributed to typical architectural or optimizational pressures. Counterintuitively, an elegant geometry is learned even when it is not more succinct than a brute-force lookup of associations. Then, by analyzing a connection to Node2Vec, we demonstrate how the geometry stems from a spectral bias that---in contrast to prevailing theories---indeed arises naturally despite the lack of various pressures. This analysis also points to practitioners a visible headroom to make Transformer memory more strongly geometric. We hope the geometric view of parametric memory encourages revisiting the default intuitions that guide researchers in areas like knowledge acquisition, capacity, discovery and unlearning.}
 }
 
 @article{Chaturvedi_201_Peek,
@@ -734,7 +825,8 @@
   author = {Isha Chaturvedi and Anjana Nair and Yushen Li and Adhitya Rajendra Kumar and Kevin Zhu and Sunishchal Dev and Ashwinee Panda and Vasu Sharma},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=Wj7xzxMCV4},
-  pdf = {https://openreview.net/pdf?id=Wj7xzxMCV4}
+  pdf = {https://openreview.net/pdf?id=Wj7xzxMCV4},
+  abstract = {We present Contrastive Region Masking (CRM), a training-free diagnostic that reveals how multimodal large language models (MLLMs) depend on specific visual regions at each step of chain-of-thought (CoT) reasoning. Unlike prior approaches limited to final answers or attention maps, CRM delivers causal, step-level attribution by systematically masking annotated regions and contrasting the resulting reasoning traces with unmasked baselines. Applied to datasets such as VisArgs, CRM exposes distinct failure modes: some models preserve reasoning structure, but hallucinate when evidence is missing, while others ground tightly to visual cues yet collapse under perturbations. By shifting the evaluation from correctness of answers to faithfulness of reasoning, CRM reframes visual benchmarks as diagnostic tools---highlighting the need for multimodal evaluation frameworks that measure not just performance, but also robustness and fidelity of reasoning.}
 }
 
 @article{Herrmann_202_Multiple,
@@ -742,7 +834,8 @@
   author = {Vincent Herrmann and Eric Alcaide and Jürgen Schmidhuber},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=jNJwgg0opm},
-  pdf = {https://openreview.net/pdf?id=jNJwgg0opm}
+  pdf = {https://openreview.net/pdf?id=jNJwgg0opm},
+  abstract = {Measuring the in-context computational effort of language models is a key challenge, as standard metrics like next-token loss fail to capture the complexity of the underlying reasoning. Prior work based on latent state compression is promising but can be invasive and unstable to train. In this paper, we propose Multiple Token Divergence (MTD), a simple and direct measure of computational effort that quantifies the KL divergence between the full model's output distribution and that of a shallow, auxiliary prediction head. An MTD module can easily be inserted into a language model. Alternatively, pre-trained multiple token prediction heads that are included in some state-of-the-art models can be used directly, requiring no further training. We empirically show that MTD is more effective than prior methods at distinguishing complex tasks from simple ones. On mathematical reasoning benchmarks, we find that MTD correlates positively with problem difficulty---in direct contrast to next-token loss---and that lower MTD is associated with more accurate self-generated reasoning. MTD provides a practical, lightweight tool for analyzing and understanding the computational dynamics of language models.}
 }
 
 @article{Panigrahi_204_Characterizing,
@@ -750,7 +843,8 @@
   author = {Abhishek Panigrahi and Bingbin Liu and Sadhika Malladi and Sham M. Kakade and Surbhi Goel},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=XuFrRAJGMK},
-  pdf = {https://openreview.net/pdf?id=XuFrRAJGMK}
+  pdf = {https://openreview.net/pdf?id=XuFrRAJGMK},
+  abstract = {Knowledge distillation is a primary strategy to produce powerful small models, where a “student” learns to mimic the generations of powerful “teacher” models. It is of high practical value to understand what makes a teacher suitable for distillation, so that one can efficiently identify the teacher that leads to the best student from a possibly large set of candidates. In this work, we show that good teachers should both align with the students and provide diverse training signals. Combining both leads to a single metric, GradCV, that strongly correlates with the student’s post-distillation performance. We demonstrate the effectiveness of GradCV on GSM8k and MATH with LLaMA and OLMo student models.}
 }
 
 @article{Wang_206_Test,
@@ -758,7 +852,8 @@
   author = {Kuang-Da Wang and Teng-Ruei Chen and Yu Heng Hung and Guo-Xun Ko and Shuoyang Ding and Yueh-Hua Wu and Yu-Chiang Frank Wang and Chao-Han Huck Yang and Wen-Chih Peng and Ping-Chun Hsieh},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=4ggip0IOgC},
-  pdf = {https://openreview.net/pdf?id=4ggip0IOgC}
+  pdf = {https://openreview.net/pdf?id=4ggip0IOgC},
+  abstract = {Aligning Large Language Models (LLMs) with human preferences through fine-tuning is resource-intensive, motivating lightweight alternatives at test time. We address test-time alignment through the lens of sequential decision making, a perspective that reveals two fundamental challenges. When actions are defined at the token level, as in guided decoding, alignment suffers from the curse of horizon. Conversely, when actions are at the response level, as in traditional iterative refinement, the curse of dimensionality emerges. To resolve this trade-off, we draw inspiration from Model Predictive Control (MPC) in control theory to propose Textual Model Predictive Control (TMPC), a novel predictive planning framework adapted for aligning LLMs at inference time. A key limitation of standard MPC is its reliance on predefined, hard segment boundaries, which are often absent in text generation. TMPC overcomes this by introducing two principles inspired by hierarchical reinforcement learning: (1) Hindsight Subgoal Identification, where TMPC analyzes generation subgoals to retrospectively identify high-reward intermediate outputs as subgoals. This allows the framework to discover meaningful, task-specific planning steps (e.g., a sentence in machine translation or a bug fix in code generation.). (2) Subgoal-Conditioned Re-Generation, where these identified subgoals are used to guide subsequent planning iterations. By conditioning on these proven, high-quality subgoals, TMPC ensures stable improvement by building upon previously validated successes. TMPC is evaluated on three tasks with distinct segmentation properties: discourse-level translation, long-form response generation, and program synthesis. The results demonstrate that TMPC consistently improves performance, highlighting the generality.}
 }
 
 @article{Chen_207_Understanding,
@@ -766,7 +861,8 @@
   author = {Xingwu Chen and Miao Lu and Beining Wu and Difan Zou},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=gDaBRp1FEL},
-  pdf = {https://openreview.net/pdf?id=gDaBRp1FEL}
+  pdf = {https://openreview.net/pdf?id=gDaBRp1FEL},
+  abstract = {Using more test-time computation during language model inference, such as generating more intermediate thoughts or sampling multiple candidate answers, has proven effective in significantly improving model performance. This paper takes an initial step toward bridging the gap between practical language model inference and theoretical transformer analysis by incorporating randomness and sampling. We focus on in-context linear regression with continuous/binary coefficients, where our framework simulates language model decoding through noise injection and binary coefficient sampling. Through this framework, we provide detailed analyses of widely adopted inference techniques. Supported by empirical results, our theoretical framework and analysis demonstrate the potential for offering new insights into understanding inference behaviors in real-world language models.}
 }
 
 @article{Rahim_208_Dormant,
@@ -774,7 +870,8 @@
   author = {Noor Rahim and Ali Abdul Rahim},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=mTjGBrkdtz},
-  pdf = {https://openreview.net/pdf?id=mTjGBrkdtz}
+  pdf = {https://openreview.net/pdf?id=mTjGBrkdtz},
+  abstract = {We investigate why reasoning improvements from reinforcement learning on chain-of-thought (RL-CoT) often fail to transfer across superficially different problem presentations. Using parallel datasets where identical logical problems are expressed as formal statements versus natural language narratives (n=200 problem pairs), we find that DeepSeek-R1-Distill-Qwen3-8B solves formal variants reliably but fails on isomorphic narrative versions. Through causal intervention experiments, we show this performance gap reflects failed invocation and not necessarily missing competence. Patching MLP activations (layers 12-18) from the final token of successful formal-problem runs into failed narrative-problem runs yields 20\% absolute accuracy improvement (Cohen's d=0.57), emergence of self-correction behaviors (increased occurrence of "wait," "alternatively" tokens), and longer but more productive chains-of-thought. Crucially, patching rescues problem-solving without introducing any new information, only activations from the same underlying problem in a different surface form. These results provide evidence that RL-CoT training produces reasoning computations that exist within the model but fail to activate consistently across problem framings. The narrow layer band (12-18) where patching succeeds, combined with degenerate behaviors when patching earlier layers, suggests these computations occupy specific neural localities rather than being distributed throughout the network, demonstrating that current RL methods produce reasoning capabilities keyed to training distribution surface features rather than abstract problem structure.}
 }
 
 @article{Dragoi_209_Beyond,
@@ -782,7 +879,8 @@
   author = {Marius Dragoi and Ioana Pintilie and Florin Gogianu and Florin Brad},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=49pjTbyu7d},
-  pdf = {https://openreview.net/pdf?id=49pjTbyu7d}
+  pdf = {https://openreview.net/pdf?id=49pjTbyu7d},
+  abstract = {Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a powerful paradigm to improve Large Language Models on reasoning tasks such as coding, math or logic. To assess the reasoning boundary (the fraction of problems a model can solve) researchers often report pass@k at large sampling budgets. Recent results reveal a crossover phenomenon: while RLVR models outperform the base model at small k values, the base model usually outperforms them when sampling a very large number of completions. This has been interpreted as evidence that base models have a larger reasoning boundary. We argue that on tasks with discrete answer spaces, such as math with numeric outputs, pass@k at large k reflects the increasingly higher chance of success in the limit of the number of trials rather than genuine reasoning, and can therefore be misleading. We propose cover@tau, which measures the fraction of problems that a model can solve for which at least a tau proportion of completions are correct. Unlike pass@k, cover@tau captures reasoning under a minimal reliability threshold: models that rely on random guessing degrade rapidly as tau increases. We evaluate several RLVR models using cover@tau-based metrics and illustrate how the relative rankings of popular algorithms change compared to pass@1, offering a different perspective on reasoning boundaries.}
 }
 
 @article{Gupta_210_COSMIR,
@@ -790,7 +888,8 @@
   author = {Naman Gupta and Shreeyash Gowaikar and Arun Iyer and Kirankumar Shiragur and Ramakrishna B Bairi and Rishikesh Maurya and Ritabrata Maiti and Sankarshan Damle and Shachee Mishra Gupta},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=rQ1hAQqrd4},
-  pdf = {https://openreview.net/pdf?id=rQ1hAQqrd4}
+  pdf = {https://openreview.net/pdf?id=rQ1hAQqrd4},
+  abstract = {Reasoning over very long inputs remains difficult for large language models (LLMs). Common workarounds either shrink the input via retrieval (risking missed evidence), enlarge the context window (straining selectivity), or stage multiple agents to read in pieces. In staged pipelines (e.g., Chain of Agents, CoA), free-form summaries passed between agents can discard crucial details and amplify early mistakes. We introduce COSMIR (Chain Orchestrated Structured Memory for Iterative Reasoning), a chain-style framework that replaces ad hoc messages with a structured memory. A Planner agent first turns a user query into concrete, checkable sub-questions. worker agents process chunks via a fixed micro-cycle: Extract, Infer, Refine, writing all updates to the shared memory. A Manager agent then Synthesizes the final answer directly from the memory. This preserves step-wise read-then-reason benefits while changing both the communication medium (structured memory) and the worker procedure (fixed micro-cycle), yielding higher faithfulness, better long-range aggregation, and auditability. On long-context QA from the HELMET suite, COSMIR reduces propagation-stage information loss and improves accuracy over a CoA baseline.}
 }
 
 @article{Humane_212_Influence,
@@ -798,7 +897,8 @@
   author = {Prateek Humane and Paolo Cudrano and Daniel Z Kaplan and Matteo Matteucci and Supriyo Chakraborty and Irina Rish},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=zpXDLJ463g},
-  pdf = {https://openreview.net/pdf?id=zpXDLJ463g}
+  pdf = {https://openreview.net/pdf?id=zpXDLJ463g},
+  abstract = {Fine-tuning large language models (LLMs) on chain-of-thought (CoT) data shows that a small amount of high-quality data can outperform massive datasets. Yet, what constitutes “quality” remains ill-defined. Existing reasoning methods rely on indirect heuristics such as problem difficulty or trace length, while instruction-tuning has explored a broader range of automated selection strategies---but rarely in the context of reasoning. We propose to define reasoning data quality using influence functions, which measure the causal effect of individual CoT examples on downstream accuracy, and introduce influence-based pruning, which consistently outperforms perplexity and embedding-based baselines on math reasoning within a model family.}
 }
 
 @article{Lompo_213_Visual,
@@ -806,7 +906,8 @@
   author = {Boammani Aser Lompo},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=fvJRsGwhPf},
-  pdf = {https://openreview.net/pdf?id=fvJRsGwhPf}
+  pdf = {https://openreview.net/pdf?id=fvJRsGwhPf},
+  abstract = {Visual reasoning over structured data such as tables is a critical capability for modern vision-language models (VLMs), yet current benchmarks remain limited in scale, diversity, or reasoning depth, especially when it comes to rendered table images. Addressing this gap, we introduce Visual-TableQA, a large-scale, open-domain multimodal dataset specifically designed to evaluate and enhance visual reasoning over complex tabular data. Our generation pipeline is modular, scalable, and fully autonomous, involving multiple reasoning LLMs collaborating across distinct roles: generation, validation, and inspiration. Visual-TableQA comprises 2.5k richly structured LaTeX-rendered tables and 6k reasoning-intensive QA pairs, all produced at a cost of under \$100. To promote diversity and creativity, our pipeline performs multi-model collaborative data generation via cross-model prompting (‘inspiration’) and LLM-jury filtering. Stronger models seed layouts and topics that weaker models elaborate, collectively distilling diverse reasoning patterns and visual structures into the dataset. Empirical results show that models fine-tuned on Visual-TableQA generalize robustly to external benchmarks, outperforming several proprietary models despite the dataset’s synthetic nature. The full pipeline and resources are publicly available in our GitHub repository.}
 }
 
 @article{Qin_214_FlagEval,
@@ -814,5 +915,6 @@
   author = {Bowen Qin and Chen Yue and Jin-Ge Yao and Jing-Shu Zheng and Miguel Hu Chen and richeng xuan and Shibei Meng and Tong-Shuai Ren and Xi Yang and Xuejing Li and Yesheng Liu and Yonghua Lin and Zheqi He and Zhongyuan Wang},
   abbr = {Poster session 2},
   html = {https://openreview.net/forum?id=7tb8aZsDNV},
-  pdf = {https://openreview.net/pdf?id=7tb8aZsDNV}
+  pdf = {https://openreview.net/pdf?id=7tb8aZsDNV},
+  abstract = {We conduct a moderate-scale contamination-free (to some extent) evaluation of current large reasoning models (LRMs) with some preliminary findings. We also release ROME, our evaluation benchmark for vision language models.}
 }
